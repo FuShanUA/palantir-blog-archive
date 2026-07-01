@@ -1,0 +1,2612 @@
+[
+  {
+    "slug": "10-things-to-consider-when-introducing-ai-in-healthcare-3030afbcc2e8",
+    "title": "10 Things to Consider When Introducing AI in Healthcare",
+    "date": "",
+    "url": "https://blog.palantir.com/10-things-to-consider-when-introducing-ai-in-healthcare-3030afbcc2e8",
+    "html_size": 139562,
+    "image_count": 8,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "500-days-of-homes-for-ukraine-a-data-driven-humanitarian-operation-170ac4ed29c6",
+    "title": "500 Days of Homes for Ukraine",
+    "date": "",
+    "url": "https://blog.palantir.com/500-days-of-homes-for-ukraine-a-data-driven-humanitarian-operation-170ac4ed29c6",
+    "html_size": 148094,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "a-better-conversation-palantir-cse-1-8c6fb00ba5be",
+    "title": "A Better Conversation (Palantir CSE, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/a-better-conversation-palantir-cse-1-8c6fb00ba5be",
+    "html_size": 206975,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96",
+    "title": "A Day in the Life of a Palantir Deployment Strategist",
+    "date": "",
+    "url": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96",
+    "html_size": 164150,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1",
+    "title": "A Day in the Life of a Palantir Forward Deployed Software Engineer",
+    "date": "",
+    "url": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1",
+    "html_size": 147400,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "a-day-in-the-life-of-a-palantir-incident-management-engineer-591b830ed015",
+    "title": "A Day in the Life of a Palantir Incident Management Engineer",
+    "date": "",
+    "url": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-incident-management-engineer-591b830ed015",
+    "html_size": 162786,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "a-new-era-of-defense-innovation-80deaa8ba6c3",
+    "title": "A New Era of Defense Innovation",
+    "date": "",
+    "url": "https://blog.palantir.com/a-new-era-of-defense-innovation-80deaa8ba6c3",
+    "html_size": 157045,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "a-palantir-primer-on-the-eu-ai-act-f8fad2ec8f93",
+    "title": "A Palantir Primer on the EU AI Act",
+    "date": "",
+    "url": "https://blog.palantir.com/a-palantir-primer-on-the-eu-ai-act-f8fad2ec8f93",
+    "html_size": 225055,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "a-pyspark-style-guide-for-real-world-data-scientists-1727fda397e9",
+    "title": "A PySpark Style Guide for Real-world Data Scientists",
+    "date": "",
+    "url": "https://blog.palantir.com/a-pyspark-style-guide-for-real-world-data-scientists-1727fda397e9",
+    "html_size": 147071,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "about-palantir-ddddb78aec29",
+    "title": "About Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/about-palantir-ddddb78aec29",
+    "html_size": 214305,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "accelerating-patient-care-with-the-nhs-f784f44b5818",
+    "title": "Accelerating Patient Care with the NHS",
+    "date": "",
+    "url": "https://blog.palantir.com/accelerating-patient-care-with-the-nhs-f784f44b5818",
+    "html_size": 134808,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "acerca-de-palantir-37de15e04b38",
+    "title": "Acerca de Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/acerca-de-palantir-37de15e04b38",
+    "html_size": 225022,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "ai-automation-and-the-ethics-of-modern-warfare-df1f0b212397",
+    "title": "AI, Automation, and the Ethics of Modern Warfare (Defense AI Ethics, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/ai-automation-and-the-ethics-of-modern-warfare-df1f0b212397",
+    "html_size": 179064,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "ai-infrastructure-and-ontology-78b86f173ea6",
+    "title": "AI Infrastructure and Ontology",
+    "date": "",
+    "url": "https://blog.palantir.com/ai-infrastructure-and-ontology-78b86f173ea6",
+    "html_size": 139498,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "ai-systems-governance-through-the-palantir-platform-74e52d95bdb5",
+    "title": "AI Systems Governance through the Palantir Platform",
+    "date": "",
+    "url": "https://blog.palantir.com/ai-systems-governance-through-the-palantir-platform-74e52d95bdb5",
+    "html_size": 206824,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "aip-virtual-tables-5094b5e4b3bd",
+    "title": "AIP Virtual Tables",
+    "date": "",
+    "url": "https://blog.palantir.com/aip-virtual-tables-5094b5e4b3bd",
+    "html_size": 145414,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "ais-role-in-reimagining-the-classification-system-2d7878c71217",
+    "title": "AI’s Role in Reimagining the Classification System",
+    "date": "",
+    "url": "https://blog.palantir.com/ais-role-in-reimagining-the-classification-system-2d7878c71217",
+    "html_size": 149960,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "americas-ai-action-plan-dab1b8fb8046",
+    "title": "America’s AI Action Plan",
+    "date": "",
+    "url": "https://blog.palantir.com/americas-ai-action-plan-dab1b8fb8046",
+    "html_size": 132004,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "americas-game-what-this-partnership-means-to-palantir-97f86d1272a1",
+    "title": "America’s Game: What this partnership means to Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/americas-game-what-this-partnership-means-to-palantir-97f86d1272a1",
+    "html_size": 137946,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "announcing-open-source-for-palantir-government-web-services-a2dd2f821126",
+    "title": "Announcing Open Source for Palantir Government Web Services",
+    "date": "",
+    "url": "https://blog.palantir.com/announcing-open-source-for-palantir-government-web-services-a2dd2f821126",
+    "html_size": 146236,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "announcing-palantir-government-web-services-9fa1cdbbc6fc",
+    "title": "Technical Annex: Announcing Palantir Government Web Services",
+    "date": "",
+    "url": "https://blog.palantir.com/announcing-palantir-government-web-services-9fa1cdbbc6fc",
+    "html_size": 154247,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "appearance-at-uk-house-of-lords-committee-on-ai-in-weapon-systems-2354862a6641",
+    "title": "Appearance at UK House of Lords Committee on AI in Weapon Systems",
+    "date": "",
+    "url": "https://blog.palantir.com/appearance-at-uk-house-of-lords-committee-on-ai-in-weapon-systems-2354862a6641",
+    "html_size": 165212,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "are-you-ready-new-palantir-modules-help-enable-readiness-at-the-worlds-most-critical-institutions-d088caa12725",
+    "title": "Are You Ready? New Palantir modules help enable readiness at the world’s most critical institutions",
+    "date": "",
+    "url": "https://blog.palantir.com/are-you-ready-new-palantir-modules-help-enable-readiness-at-the-worlds-most-critical-institutions-d088caa12725",
+    "html_size": 142681,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "au-delà-de-lanonymisation-palantir-mode-d-emploi-no-3-b0af71e4c980",
+    "title": "Au-delà de l’anonymisation (Palantir Mode d’Emploi, No.3)",
+    "date": "",
+    "url": "https://blog.palantir.com/au-delà-de-lanonymisation-palantir-mode-d-emploi-no-3-b0af71e4c980",
+    "html_size": 161222,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "better-living-through-github-bots-dab5ccc20cac",
+    "title": "Better Living Through Github Bots",
+    "date": "",
+    "url": "https://blog.palantir.com/better-living-through-github-bots-dab5ccc20cac",
+    "html_size": 171941,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "beyond-anonymisation-palantir-explained-3-46d9924df953",
+    "title": "Beyond Anonymization (Palantir Explained, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/beyond-anonymisation-palantir-explained-3-46d9924df953",
+    "html_size": 159101,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "beyond-founder-mode-mission-mode-b81bfa5a8d82",
+    "title": "Beyond Founder Mode: Mission Mode",
+    "date": "",
+    "url": "https://blog.palantir.com/beyond-founder-mode-mission-mode-b81bfa5a8d82",
+    "html_size": 176496,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "biomanufacturing-of-tomorrow-requires-a-connected-company-today-5c0e81333a41",
+    "title": "Biomanufacturing of Tomorrow Requires a Connected Company Today",
+    "date": "",
+    "url": "https://blog.palantir.com/biomanufacturing-of-tomorrow-requires-a-connected-company-today-5c0e81333a41",
+    "html_size": 154001,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "break-the-machine-hack-week-2021-990164631be2",
+    "title": "Break the Machine: Hack Week 2021",
+    "date": "",
+    "url": "https://blog.palantir.com/break-the-machine-hack-week-2021-990164631be2",
+    "html_size": 148368,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a",
+    "title": "Broadening our Bug Bounty Program: Trust, Security, and Transparency",
+    "date": "",
+    "url": "https://blog.palantir.com/broadening-our-bug-bounty-program-trust-security-and-transparency-aa3bf82f3f9a",
+    "html_size": 120496,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "building-end-to-end-e3a8349aee70",
+    "title": "Building End-to-End",
+    "date": "",
+    "url": "https://blog.palantir.com/building-end-to-end-e3a8349aee70",
+    "html_size": 169303,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "building-software-for-a-zero-trust-world-61d440e5976e",
+    "title": "Building Software for a Zero Trust World",
+    "date": "",
+    "url": "https://blog.palantir.com/building-software-for-a-zero-trust-world-61d440e5976e",
+    "html_size": 204926,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "building-the-customer-centric-bank-drawing-up-a-tech-blueprint-e2d22a8dc341",
+    "title": "Building the Customer-Centric Bank: Drawing up a tech blueprint",
+    "date": "",
+    "url": "https://blog.palantir.com/building-the-customer-centric-bank-drawing-up-a-tech-blueprint-e2d22a8dc341",
+    "html_size": 148518,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "building-the-digital-grid-the-role-of-software-in-grid-resilience-729e219f568c",
+    "title": "Building the Digital Grid: The role of software in grid resilience",
+    "date": "",
+    "url": "https://blog.palantir.com/building-the-digital-grid-the-role-of-software-in-grid-resilience-729e219f568c",
+    "html_size": 145141,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "building-trust-at-scale-33f6e2f5f8f9",
+    "title": "Building Trust at Scale",
+    "date": "",
+    "url": "https://blog.palantir.com/building-trust-at-scale-33f6e2f5f8f9",
+    "html_size": 200124,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "building-with-palantir-aip-ai-powered-process-mining-a5e0d7f10922",
+    "title": "Building with Palantir AIP: AI-Powered Process Mining",
+    "date": "",
+    "url": "https://blog.palantir.com/building-with-palantir-aip-ai-powered-process-mining-a5e0d7f10922",
+    "html_size": 194843,
+    "image_count": 16,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "building-with-palantir-aip-data-tools-for-rag-oag-b3b509c8b0f3",
+    "title": "Building with Palantir AIP: Data Tools for RAG / OAG",
+    "date": "",
+    "url": "https://blog.palantir.com/building-with-palantir-aip-data-tools-for-rag-oag-b3b509c8b0f3",
+    "html_size": 170182,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "building-with-palantir-aip-logic-tools-for-rag-oag-fdaf8938d02e",
+    "title": "Building with Palantir AIP: Logic Tools for RAG/OAG",
+    "date": "",
+    "url": "https://blog.palantir.com/building-with-palantir-aip-logic-tools-for-rag-oag-fdaf8938d02e",
+    "html_size": 199741,
+    "image_count": 17,
+    "images_downloaded": 11
+  },
+  {
+    "slug": "building-with-palantir-aip-semantic-search-dc3adf40f6a6",
+    "title": "Building with Palantir AIP: Semantic Search",
+    "date": "",
+    "url": "https://blog.palantir.com/building-with-palantir-aip-semantic-search-dc3adf40f6a6",
+    "html_size": 171007,
+    "image_count": 14,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "building-with-palantir-aip-the-ontology-software-development-kit-823fe5ac7aae",
+    "title": "Building with Palantir AIP: The Ontology Software Development Kit",
+    "date": "",
+    "url": "https://blog.palantir.com/building-with-palantir-aip-the-ontology-software-development-kit-823fe5ac7aae",
+    "html_size": 190466,
+    "image_count": 16,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "complex-defense-missions-require-secure-collaboration-d00145461233",
+    "title": "Complex Defense Missions Require Secure Collaboration",
+    "date": "",
+    "url": "https://blog.palantir.com/complex-defense-missions-require-secure-collaboration-d00145461233",
+    "html_size": 179666,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "confianza-en-los-datos-explicando-palantir-4-17c1a05b34cd",
+    "title": "Confianza en los Datos (Explicando Palantir, #4)",
+    "date": "",
+    "url": "https://blog.palantir.com/confianza-en-los-datos-explicando-palantir-4-17c1a05b34cd",
+    "html_size": 177204,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "connected-health-systems-at-tampa-general-ece394f9c0f",
+    "title": "Connected Health Systems at Tampa General",
+    "date": "",
+    "url": "https://blog.palantir.com/connected-health-systems-at-tampa-general-ece394f9c0f",
+    "html_size": 154675,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "connected-utilities-the-path-to-a-circular-water-economy-5c7e88395f5a",
+    "title": "Connected Utilities: The path to a circular water economy",
+    "date": "",
+    "url": "https://blog.palantir.com/connected-utilities-the-path-to-a-circular-water-economy-5c7e88395f5a",
+    "html_size": 140639,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "connecting-agents-to-decisions-277dee8ddb40",
+    "title": "Connecting Agents to Decisions",
+    "date": "",
+    "url": "https://blog.palantir.com/connecting-agents-to-decisions-277dee8ddb40",
+    "html_size": 220726,
+    "image_count": 18,
+    "images_downloaded": 11
+  },
+  {
+    "slug": "connecting-ai-to-decisions-with-the-palantir-ontology-c73f7b0a1a72",
+    "title": "Connecting AI to Decisions with the Palantir Ontology",
+    "date": "",
+    "url": "https://blog.palantir.com/connecting-ai-to-decisions-with-the-palantir-ontology-c73f7b0a1a72",
+    "html_size": 209605,
+    "image_count": 17,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "controles-de-acceso-basados-en-propósito-explicando-palantir-2-7f9d5bc1ea63",
+    "title": "Controles de Acceso basados en propósito (Explicando Palantir, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/controles-de-acceso-basados-en-propósito-explicando-palantir-2-7f9d5bc1ea63",
+    "html_size": 138608,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "correcting-the-record-on-palantir-in-australia-e1d4184c0777",
+    "title": "Correcting the Record on Palantir in Australia",
+    "date": "",
+    "url": "https://blog.palantir.com/correcting-the-record-on-palantir-in-australia-e1d4184c0777",
+    "html_size": 154035,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "correcting-the-record-palantirs-support-to-the-us-government-is-not-a-political-football-688d9a037a21",
+    "title": "Correcting the Record: Palantir’s Support to the US Government is Not a Political Football",
+    "date": "",
+    "url": "https://blog.palantir.com/correcting-the-record-palantirs-support-to-the-us-government-is-not-a-political-football-688d9a037a21",
+    "html_size": 225434,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "correcting-the-record-response-to-the-eff-january-15-2026-report-on-palantir-4b3a12536cd2",
+    "title": "Correcting the Record: Response to the EFF January 15, 2026 Report on Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/correcting-the-record-response-to-the-eff-january-15-2026-report-on-palantir-4b3a12536cd2",
+    "html_size": 155536,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "correcting-the-record-response-to-the-recent-american-conservative-article-on-palantir-6b88f8ea6b65",
+    "title": "Correcting the Record: Response to the September 15, 2025 American Conservative Article on Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/correcting-the-record-response-to-the-recent-american-conservative-article-on-palantir-6b88f8ea6b65",
+    "html_size": 129705,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "correcting-the-record-responses-to-the-may-30-2025-new-york-times-article-on-palantir-55b60ae107da",
+    "title": "Correcting the Record: Responses to the May 30, 2025 New York Times Article on Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/correcting-the-record-responses-to-the-may-30-2025-new-york-times-article-on-palantir-55b60ae107da",
+    "html_size": 209970,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "customer-centric-transformation-at-a-european-bank-dabfa338a411",
+    "title": "Customer-Centric Transformation at a European Bank",
+    "date": "",
+    "url": "https://blog.palantir.com/customer-centric-transformation-at-a-european-bank-dabfa338a411",
+    "html_size": 151088,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "data-cataloging-bringing-order-to-chaos-9fa0db75f3f0",
+    "title": "Data Cataloging: Bringing order to chaos",
+    "date": "",
+    "url": "https://blog.palantir.com/data-cataloging-bringing-order-to-chaos-9fa0db75f3f0",
+    "html_size": 164690,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "data-connection-the-first-step-in-data-integration-palantir-rfx-blog-series-2-efd908a449bb",
+    "title": "Data Connection: The first step in data integration (Palantir RFx Blog Series, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/data-connection-the-first-step-in-data-integration-palantir-rfx-blog-series-2-efd908a449bb",
+    "html_size": 163014,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "data-pipeline-version-control-tracking-code-data-together-palantir-rfx-blog-series-3-4d1783d548a2",
+    "title": "Data Pipeline Version Control: Tracking code & data together (Palantir RFx Blog Series, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/data-pipeline-version-control-tracking-code-data-together-palantir-rfx-blog-series-3-4d1783d548a2",
+    "html_size": 166279,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "data-streaming-real-time-data-for-real-time-decisions-palantir-rfx-blog-series-8-58a68fbc5a72",
+    "title": "Data Streaming: Real-time data for real-time decisions (Palantir RFx Blog Series, #8)",
+    "date": "",
+    "url": "https://blog.palantir.com/data-streaming-real-time-data-for-real-time-decisions-palantir-rfx-blog-series-8-58a68fbc5a72",
+    "html_size": 189089,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "defensive-databases-optimizing-index-refresh-semantics-554ef3852ff1",
+    "title": "Defensive Databases: Optimizing Index-Refresh Semantics",
+    "date": "",
+    "url": "https://blog.palantir.com/defensive-databases-optimizing-index-refresh-semantics-554ef3852ff1",
+    "html_size": 247482,
+    "image_count": 17,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "democratizing-security-detection-71c689b667a5",
+    "title": "Democratizing Security Detection",
+    "date": "",
+    "url": "https://blog.palantir.com/democratizing-security-detection-71c689b667a5",
+    "html_size": 231692,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "deploying-across-security-domains-449c786d92c0",
+    "title": "Deploying Across Security Domains",
+    "date": "",
+    "url": "https://blog.palantir.com/deploying-across-security-domains-449c786d92c0",
+    "html_size": 161964,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "deploying-full-spectrum-ai-in-days-how-aip-bootcamps-work-21829ec8d560",
+    "title": "Deploying Full Spectrum AI in Days: How AIP Bootcamps Work",
+    "date": "",
+    "url": "https://blog.palantir.com/deploying-full-spectrum-ai-in-days-how-aip-bootcamps-work-21829ec8d560",
+    "html_size": 161575,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "design-in-action-responding-to-covid-19-f01439157fcd",
+    "title": "Design in Action: Responding to COVID-19",
+    "date": "",
+    "url": "https://blog.palantir.com/design-in-action-responding-to-covid-19-f01439157fcd",
+    "html_size": 131255,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "designing-for-deletion-palantir-explained-6-adfe25fda810",
+    "title": "Designing for Deletion (Palantir Explained, #6)",
+    "date": "",
+    "url": "https://blog.palantir.com/designing-for-deletion-palantir-explained-6-adfe25fda810",
+    "html_size": 156728,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "driving-social-change-sompo-and-palantir-37480ceb7e9b",
+    "title": "Driving Social Change: SOMPO and Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/driving-social-change-sompo-and-palantir-37480ceb7e9b",
+    "html_size": 155864,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "edge-ai-in-space-93d793433a1e",
+    "title": "Palantir Edge AI in Space",
+    "date": "",
+    "url": "https://blog.palantir.com/edge-ai-in-space-93d793433a1e",
+    "html_size": 181760,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "ein-tag-im-leben-eines-palantir-deployment-strategists-2be9703ec69f",
+    "title": "Ein Tag im Leben eines Palantir Deployment Strategists",
+    "date": "",
+    "url": "https://blog.palantir.com/ein-tag-im-leben-eines-palantir-deployment-strategists-2be9703ec69f",
+    "html_size": 155914,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "empowering-the-warfighter-palantirs-partnership-with-microsoft-820255fa04a5",
+    "title": "Empowering the Warfighter: Palantir’s Partnership with Microsoft",
+    "date": "",
+    "url": "https://blog.palantir.com/empowering-the-warfighter-palantirs-partnership-with-microsoft-820255fa04a5",
+    "html_size": 144319,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "empowering-workers-60a0bfd5cded",
+    "title": "Empowering Workers: Palantir on the future of work",
+    "date": "",
+    "url": "https://blog.palantir.com/empowering-workers-60a0bfd5cded",
+    "html_size": 144719,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "enabling-responsible-ai-in-palantir-foundry-ac23e3ad7500",
+    "title": "Enabling Responsible AI in Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/enabling-responsible-ai-in-palantir-foundry-ac23e3ad7500",
+    "html_size": 164164,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "engineering-for-impact-166065e35142",
+    "title": "Engineering for Impact",
+    "date": "",
+    "url": "https://blog.palantir.com/engineering-for-impact-166065e35142",
+    "html_size": 136127,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "ensuring-the-resettling-and-safeguarding-of-refugees-fleeing-the-war-in-ukraine-a5a5fcb306fa",
+    "title": "Ensuring the Resettling and Safeguarding of Refugees Fleeing the War in Ukraine",
+    "date": "",
+    "url": "https://blog.palantir.com/ensuring-the-resettling-and-safeguarding-of-refugees-fleeing-the-war-in-ukraine-a5a5fcb306fa",
+    "html_size": 130634,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "entendiendo-nuestro-trabajo-con-el-nhs-7b5b83ff5771",
+    "title": "Entendiendo nuestro trabajo con el NHS",
+    "date": "",
+    "url": "https://blog.palantir.com/entendiendo-nuestro-trabajo-con-el-nhs-7b5b83ff5771",
+    "html_size": 138956,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "enterprise-business-software-and-the-mixed-up-chameleon-problem-f16df333bc71",
+    "title": "Enterprise Business Software and the Mixed-Up Chameleon Problem",
+    "date": "",
+    "url": "https://blog.palantir.com/enterprise-business-software-and-the-mixed-up-chameleon-problem-f16df333bc71",
+    "html_size": 141929,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "escaping-the-cargo-cult-4953e65e9ee1",
+    "title": "Escaping the Cargo Cult: Exchanging blind faith for real-world outcomes",
+    "date": "",
+    "url": "https://blog.palantir.com/escaping-the-cargo-cult-4953e65e9ee1",
+    "html_size": 190690,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "ethical-ai-in-defense-decision-support-systems-e3d57505db4f",
+    "title": "Ethical AI in Defense Decision Support Systems (Defense AI Ethics, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/ethical-ai-in-defense-decision-support-systems-e3d57505db4f",
+    "html_size": 214812,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "evaluating-generative-ai-a-field-manual-0cdaf574a9e1",
+    "title": "Evaluating Generative AI (Engineering Responsible AI, #4)",
+    "date": "",
+    "url": "https://blog.palantir.com/evaluating-generative-ai-a-field-manual-0cdaf574a9e1",
+    "html_size": 234499,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "evaluating-software-palantir-rfx-blog-series-0-d40e95f39c6f",
+    "title": "Evaluating Software (Palantir RFx Blog Series, #0)",
+    "date": "",
+    "url": "https://blog.palantir.com/evaluating-software-palantir-rfx-blog-series-0-d40e95f39c6f",
+    "html_size": 138832,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "finding-a-growth-path-at-palantir-5b1556996946",
+    "title": "Finding a Growth Path at Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/finding-a-growth-path-at-palantir-5b1556996946",
+    "html_size": 141392,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "for-green-and-equitable-roadways-introducing-the-ev-infrastructure-os-f6fe2549f149",
+    "title": "For Green and Equitable Roadways: Introducing the EV Infrastructure OS",
+    "date": "",
+    "url": "https://blog.palantir.com/for-green-and-equitable-roadways-introducing-the-ev-infrastructure-os-f6fe2549f149",
+    "html_size": 133239,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "foundry-au-service-de-la-décentralisation-différenciation-déconcentration-de-la-donnée-bd56d8ce2d23",
+    "title": "Foundry au service de la décentralisation, différenciation, déconcentration de la donnée",
+    "date": "",
+    "url": "https://blog.palantir.com/foundry-au-service-de-la-décentralisation-différenciation-déconcentration-de-la-donnée-bd56d8ce2d23",
+    "html_size": 239246,
+    "image_count": 13,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "four-ways-healthcare-startups-use-palantir-foundry-180b5f3ef943",
+    "title": "Four Ways Healthcare Startups Use Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/four-ways-healthcare-startups-use-palantir-foundry-180b5f3ef943",
+    "html_size": 143732,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "from-customer-to-coder-f9e54ffbf4d9",
+    "title": "From Customer to Coder",
+    "date": "",
+    "url": "https://blog.palantir.com/from-customer-to-coder-f9e54ffbf4d9",
+    "html_size": 128306,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "from-human-defined-to-software-defined-data-integration-part-i-42a35c568731",
+    "title": "From Human-Defined to Software-Defined Data Integration — Part I",
+    "date": "",
+    "url": "https://blog.palantir.com/from-human-defined-to-software-defined-data-integration-part-i-42a35c568731",
+    "html_size": 133497,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "from-human-defined-to-software-defined-data-integration-part-ii-data-discovery-489ad40de902",
+    "title": "From Human-Defined to Software-Defined Data Integration — Part II, Data Discovery",
+    "date": "",
+    "url": "https://blog.palantir.com/from-human-defined-to-software-defined-data-integration-part-ii-data-discovery-489ad40de902",
+    "html_size": 131147,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "from-human-defined-to-software-defined-data-integration-part-iii-data-pipelines-a60b634bd8f7",
+    "title": "From Human-Defined to Software-Defined Data Integration — Part III, Data Pipelines",
+    "date": "",
+    "url": "https://blog.palantir.com/from-human-defined-to-software-defined-data-integration-part-iii-data-pipelines-a60b634bd8f7",
+    "html_size": 143416,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "from-human-defined-to-software-defined-data-integration-part-iv-impact-719ce3b0d4f3",
+    "title": "From Human-Defined to Software-Defined Data Integration — Part IV, Impact",
+    "date": "",
+    "url": "https://blog.palantir.com/from-human-defined-to-software-defined-data-integration-part-iv-impact-719ce3b0d4f3",
+    "html_size": 137359,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "from-last-supper-to-first-breakfast-cb971128b0bf",
+    "title": "From Last Supper to First Breakfast: The Defense Tech Ecosystem",
+    "date": "",
+    "url": "https://blog.palantir.com/from-last-supper-to-first-breakfast-cb971128b0bf",
+    "html_size": 155845,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "from-pipeline-to-prospect-inside-palantir-recruitment-438519c0b1b3",
+    "title": "From Pipeline to Prospect",
+    "date": "",
+    "url": "https://blog.palantir.com/from-pipeline-to-prospect-inside-palantir-recruitment-438519c0b1b3",
+    "html_size": 180765,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "from-prototype-to-production-engineering-responsible-ai-3-ea18818cd222",
+    "title": "From Prototype to Production (Engineering Responsible AI, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/from-prototype-to-production-engineering-responsible-ai-3-ea18818cd222",
+    "html_size": 226805,
+    "image_count": 24,
+    "images_downloaded": 17
+  },
+  {
+    "slug": "from-r-d-to-real-world-impact-ba0cf430b087",
+    "title": "From R&D to Real-World Impact",
+    "date": "",
+    "url": "https://blog.palantir.com/from-r-d-to-real-world-impact-ba0cf430b087",
+    "html_size": 140217,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-building-a-backend-less-cross-application-api-a40be7874ee5",
+    "title": "Frontend Engineering at Palantir: Building a Backend-less Cross-Application API",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-building-a-backend-less-cross-application-api-a40be7874ee5",
+    "html_size": 165149,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-drawing-circles-on-maps-237f8b455443",
+    "title": "Frontend Engineering at Palantir: Drawing Circles on Maps",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-drawing-circles-on-maps-237f8b455443",
+    "html_size": 195316,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-engineering-multilingual-collaboration-58217e196bed",
+    "title": "Frontend Engineering at Palantir: Building Multilingual Collaboration",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-engineering-multilingual-collaboration-58217e196bed",
+    "html_size": 182713,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-plotlines-in-three-js-c0c47f310715",
+    "title": "Frontend Engineering at Palantir: Plotlines in Three.js",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-plotlines-in-three-js-c0c47f310715",
+    "html_size": 220072,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-polar-scaled-tiles-in-zodiac-6cebb5948a1a",
+    "title": "Frontend Engineering at Palantir: Polar Scaled Tiles in Zodiac",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-polar-scaled-tiles-in-zodiac-6cebb5948a1a",
+    "html_size": 193770,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "frontend-engineering-at-palantir-redefining-real-time-map-collaboration-8845ebb928d1",
+    "title": "Frontend Engineering at Palantir: Redefining Real-Time Map Collaboration",
+    "date": "",
+    "url": "https://blog.palantir.com/frontend-engineering-at-palantir-redefining-real-time-map-collaboration-8845ebb928d1",
+    "html_size": 166256,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "gotham-online-migration-framework-1931fe103cd6",
+    "title": "Gotham Online Migration Framework",
+    "date": "",
+    "url": "https://blog.palantir.com/gotham-online-migration-framework-1931fe103cd6",
+    "html_size": 190103,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "hardening-palantirs-kubernetes-infrastructure-with-cilium-1c40d4c7ef0",
+    "title": "Hardening Palantir’s Kubernetes Infrastructure with Cilium",
+    "date": "",
+    "url": "https://blog.palantir.com/hardening-palantirs-kubernetes-infrastructure-with-cilium-1c40d4c7ef0",
+    "html_size": 164897,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "hardware-selection-and-logistics-passwordless-authentication-series-1-cef0a4550fab",
+    "title": "Hardware Selection and Logistics (Passwordless Authentication Series, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/hardware-selection-and-logistics-passwordless-authentication-series-1-cef0a4550fab",
+    "html_size": 189728,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "health-life-sciences-research-with-palantir-2023-in-review-9402595f304a",
+    "title": "Health & Life Sciences Research with Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/health-life-sciences-research-with-palantir-2023-in-review-9402595f304a",
+    "html_size": 177189,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-anyone-can-integrate-sap-data-in-hours-17f23d0bd2e8",
+    "title": "How Anyone Can Integrate SAP Data in Hours",
+    "date": "",
+    "url": "https://blog.palantir.com/how-anyone-can-integrate-sap-data-in-hours-17f23d0bd2e8",
+    "html_size": 227694,
+    "image_count": 23,
+    "images_downloaded": 16
+  },
+  {
+    "slug": "how-palantir-aip-accelerates-data-migration-4c6abdd1891c",
+    "title": "How Palantir AIP Accelerates Data Migration",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-aip-accelerates-data-migration-4c6abdd1891c",
+    "html_size": 170503,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "how-palantir-aip-supports-polaris-in-its-anti-human-trafficking-work-c604830bcb80",
+    "title": "How Palantir AIP Supports Polaris In Its Anti-Human-Trafficking Work",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-aip-supports-polaris-in-its-anti-human-trafficking-work-c604830bcb80",
+    "html_size": 166996,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantir-apollo-saves-developer-time-on-kubernetes-71d51a5d24df",
+    "title": "How Palantir Apollo Saves Developer Time on Kubernetes",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-apollo-saves-developer-time-on-kubernetes-71d51a5d24df",
+    "html_size": 171915,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "how-palantir-enables-a-secure-rapid-software-development-environment-2f918b021568",
+    "title": "How Palantir Enables a Secure, Rapid Software Development Environment (Software Supply Chain Security, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-enables-a-secure-rapid-software-development-environment-2f918b021568",
+    "html_size": 152152,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantir-foundry-extends-your-data-platforms-de0e2ad82ea7",
+    "title": "How Palantir Foundry Extends Your Data Platforms",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-foundry-extends-your-data-platforms-de0e2ad82ea7",
+    "html_size": 149775,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "how-palantir-foundry-fuels-your-data-platform-c65c15c30e70",
+    "title": "How Palantir Foundry Fuels Your Data Platform",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-foundry-fuels-your-data-platform-c65c15c30e70",
+    "html_size": 155059,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "how-palantir-foundry-helps-customers-build-and-deploy-ai-powered-decision-making-applications-dbfb5161279b",
+    "title": "How Palantir Foundry Helps Customers Build and Deploy AI-Powered Decision-Making Applications",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-foundry-helps-customers-build-and-deploy-ai-powered-decision-making-applications-dbfb5161279b",
+    "html_size": 198824,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "how-palantir-foundry-powers-bps-digital-transformation-in-reliability-4c644e36b6fc",
+    "title": "How Palantir Foundry Powers bp’s Digital Transformation in Reliability",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-foundry-powers-bps-digital-transformation-in-reliability-4c644e36b6fc",
+    "html_size": 130732,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantir-foundrys-ontology-deploys-data-science-to-the-front-line-7a9679bdfd01",
+    "title": "How Palantir Foundry’s Ontology Deploys Data Science to the Front Line",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-foundrys-ontology-deploys-data-science-to-the-front-line-7a9679bdfd01",
+    "html_size": 145201,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "how-palantir-integrates-threat-modeling-into-product-development-software-supply-chain-series-2-5193fb3be1b1",
+    "title": "How Palantir Integrates Threat Modeling Into Product Development (Software Supply Chain Security, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-integrates-threat-modeling-into-product-development-software-supply-chain-series-2-5193fb3be1b1",
+    "html_size": 146986,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantir-manages-continuous-vulnerability-scanning-at-scale-9fbe25039ff5",
+    "title": "How Palantir Manages Continuous Vulnerability Scanning at Scale",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-manages-continuous-vulnerability-scanning-at-scale-9fbe25039ff5",
+    "html_size": 180075,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "how-palantir-mastered-in-toto-b8a7107371bb",
+    "title": "How Palantir Mastered In-Toto",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-mastered-in-toto-b8a7107371bb",
+    "html_size": 224463,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantir-meets-il6-security-requirements-with-apollo-f6c3f0c51fe",
+    "title": "How Palantir Meets IL6 Security Requirements with Apollo",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-meets-il6-security-requirements-with-apollo-f6c3f0c51fe",
+    "html_size": 193987,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "how-palantir-secures-source-control-105c49079eae",
+    "title": "How Palantir Secures Source Control (Software Supply Chain Security Series, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantir-secures-source-control-105c49079eae",
+    "html_size": 161096,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "how-palantirs-automotive-solutions-will-revolutionize-quality-870051e0b11",
+    "title": "How Palantir’s Automotive Solutions Will Revolutionize Quality",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantirs-automotive-solutions-will-revolutionize-quality-870051e0b11",
+    "html_size": 170876,
+    "image_count": 17,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "how-palantirs-strategic-privacy-investments-enable-future-customer-success-21f5cb4c15ee",
+    "title": "Building for Tomorrow",
+    "date": "",
+    "url": "https://blog.palantir.com/how-palantirs-strategic-privacy-investments-enable-future-customer-success-21f5cb4c15ee",
+    "html_size": 184229,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "human-rights-and-technology-38580c5ac379",
+    "title": "Human Rights and Technology",
+    "date": "",
+    "url": "https://blog.palantir.com/human-rights-and-technology-38580c5ac379",
+    "html_size": 158218,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "implementing-mosa-with-software-defined-systems-integration-4882b12f74ce",
+    "title": "Implementing MOSA with Software Defined Systems Integration",
+    "date": "",
+    "url": "https://blog.palantir.com/implementing-mosa-with-software-defined-systems-integration-4882b12f74ce",
+    "html_size": 158563,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "in-pursuit-of-information-dominance-f8e452469d04",
+    "title": "In Pursuit of Information Dominance",
+    "date": "",
+    "url": "https://blog.palantir.com/in-pursuit-of-information-dominance-f8e452469d04",
+    "html_size": 132451,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "industry-ai-8cd003a81be1",
+    "title": "Industry AI",
+    "date": "",
+    "url": "https://blog.palantir.com/industry-ai-8cd003a81be1",
+    "html_size": 211680,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "inside-the-aipcon-8-demos-redefining-the-future-of-enterprise-ai-a0a740fe44ce",
+    "title": "Inside the AIPCon 8 Demos Redefining the Future of Enterprise AI",
+    "date": "",
+    "url": "https://blog.palantir.com/inside-the-aipcon-8-demos-redefining-the-future-of-enterprise-ai-a0a740fe44ce",
+    "html_size": 216568,
+    "image_count": 16,
+    "images_downloaded": 9
+  },
+  {
+    "slug": "inside-the-aipcon-8-demos-transforming-manufacturing-insurance-and-construction-2ef01d53ea96",
+    "title": "Inside the AIPCon 8 Demos Transforming Manufacturing, Insurance, and Construction",
+    "date": "",
+    "url": "https://blog.palantir.com/inside-the-aipcon-8-demos-transforming-manufacturing-insurance-and-construction-2ef01d53ea96",
+    "html_size": 237567,
+    "image_count": 17,
+    "images_downloaded": 10
+  },
+  {
+    "slug": "integrating-the-authentication-systems-of-ibm-cloud-pak-for-data-and-palantir-foundry-775c90c1e691",
+    "title": "Integrating the Authentication Systems of IBM Cloud Pak for Data and Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/integrating-the-authentication-systems-of-ibm-cloud-pak-for-data-and-palantir-foundry-775c90c1e691",
+    "html_size": 147442,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "internship-reflections-working-in-palantirs-d-c-hub-f370b9009e47",
+    "title": "Internship Reflections: Working in Palantir’s D.C. hub",
+    "date": "",
+    "url": "https://blog.palantir.com/internship-reflections-working-in-palantirs-d-c-hub-f370b9009e47",
+    "html_size": 153831,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "interoperability-the-ins-and-outs-of-sharing-data-palantir-rfx-blog-series-4-c984497ce42f",
+    "title": "Interoperability: The ins and outs of sharing data (Palantir RFx Blog Series, #4)",
+    "date": "",
+    "url": "https://blog.palantir.com/interoperability-the-ins-and-outs-of-sharing-data-palantir-rfx-blog-series-4-c984497ce42f",
+    "html_size": 164201,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "interviewing-at-palantir-advice-from-palantirians-88444a90e7c4",
+    "title": "Interviewing at Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/interviewing-at-palantir-advice-from-palantirians-88444a90e7c4",
+    "html_size": 165094,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "introducing-a-patients-guide-to-foundry-c5554b7f1313",
+    "title": "Introducing the Patients’ Guide to Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/introducing-a-patients-guide-to-foundry-c5554b7f1313",
+    "html_size": 146177,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "introducing-palantir-fedstart-cd5995d0dfaa",
+    "title": "Introducing Palantir FedStart: Helping SaaS companies do business with the Government",
+    "date": "",
+    "url": "https://blog.palantir.com/introducing-palantir-fedstart-cd5995d0dfaa",
+    "html_size": 139545,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "introducing-palantirs-next-gen-pipeline-builder-cc19cb48b47e",
+    "title": "Introducing Palantir’s Next-Gen Pipeline Builder",
+    "date": "",
+    "url": "https://blog.palantir.com/introducing-palantirs-next-gen-pipeline-builder-cc19cb48b47e",
+    "html_size": 151459,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "introducing-pfcs-forward-d8755d34c429",
+    "title": "Introducing PFCS Forward: Extending IL5/IL6 Authorization from Cloud to Edge",
+    "date": "",
+    "url": "https://blog.palantir.com/introducing-pfcs-forward-d8755d34c429",
+    "html_size": 184435,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "kontinuierliches-und-skalierbares-schwachstellenmanagement-bei-palantir-6a91d2586e06",
+    "title": "Kontinuierliches und skalierbares Schwachstellenmanagement bei Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/kontinuierliches-und-skalierbares-schwachstellenmanagement-bei-palantir-6a91d2586e06",
+    "html_size": 185483,
+    "image_count": 9,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "korrektur-wie-das-online-magazin-die-republik-einen-regierungsbericht-zu-palantir-verdrehte-9a1b399ae255",
+    "title": "Korrektur: Wie das Online-Magazin Die Republik einen Regierungsbericht zu Palantir verdrehte",
+    "date": "",
+    "url": "https://blog.palantir.com/korrektur-wie-das-online-magazin-die-republik-einen-regierungsbericht-zu-palantir-verdrehte-9a1b399ae255",
+    "html_size": 230206,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "la-donnée-nest-pas-notre-fonds-de-commerce-palantir-mode-d-emploi-no-1-a552aa52669e",
+    "title": "La donnée n’est PAS notre fonds de commerce (Palantir Mode d’Emploi, No.1)",
+    "date": "",
+    "url": "https://blog.palantir.com/la-donnée-nest-pas-notre-fonds-de-commerce-palantir-mode-d-emploi-no-1-a552aa52669e",
+    "html_size": 129973,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "la-eficacia-y-ética-de-la-inteligencia-artificial-deben-pasar-de-lo-fatuo-a-lo-operacional-d0079792a9ef",
+    "title": "La eficacia y ética de la Inteligencia Artificial deben pasar de lo fatuo a lo operacional",
+    "date": "",
+    "url": "https://blog.palantir.com/la-eficacia-y-ética-de-la-inteligencia-artificial-deben-pasar-de-lo-fatuo-a-lo-operacional-d0079792a9ef",
+    "html_size": 209032,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "la-neutralité-carbone-est-un-problème-dintégration-de-données-la-décarbonation-grâce-aux-données-9b9c772f0fe0",
+    "title": "La neutralité carbone est un problème d’intégration de données",
+    "date": "",
+    "url": "https://blog.palantir.com/la-neutralité-carbone-est-un-problème-dintégration-de-données-la-décarbonation-grâce-aux-données-9b9c772f0fe0",
+    "html_size": 160973,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "launching-erp-suite-to-deliver-cost-savings-for-aws-customers-ceed6e6dd927",
+    "title": "Launching ERP Suite to Deliver Cost Savings for AWS Customers",
+    "date": "",
+    "url": "https://blog.palantir.com/launching-erp-suite-to-deliver-cost-savings-for-aws-customers-ceed6e6dd927",
+    "html_size": 129488,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "le-contrôle-daccès-par-la-finalité-palantir-mode-d-emploi-no-2-7e6526eb4811",
+    "title": "Le contrôle d’accès par la finalité (Palantir Mode d’Emploi, No.2)",
+    "date": "",
+    "url": "https://blog.palantir.com/le-contrôle-daccès-par-la-finalité-palantir-mode-d-emploi-no-2-7e6526eb4811",
+    "html_size": 140176,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "leading-federal-it-innovation-63cc23254419",
+    "title": "Leading Federal IT Innovation",
+    "date": "",
+    "url": "https://blog.palantir.com/leading-federal-it-innovation-63cc23254419",
+    "html_size": 142433,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "leveraging-palantir-foundry-to-monitor-genetic-mutations-of-covid-19-56a2392d26d2",
+    "title": "Leveraging Palantir Foundry to Monitor COVID-19 Genetic Mutations",
+    "date": "",
+    "url": "https://blog.palantir.com/leveraging-palantir-foundry-to-monitor-genetic-mutations-of-covid-19-56a2392d26d2",
+    "html_size": 157141,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "making-ai-and-ml-operational-the-modeling-objective-b4024897a766",
+    "title": "Making AI and ML Operational: The Modeling Objective (Palantir RFx Blog Series, #7)",
+    "date": "",
+    "url": "https://blog.palantir.com/making-ai-and-ml-operational-the-modeling-objective-b4024897a766",
+    "html_size": 168806,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "making-iot-functional-today-learnings-from-the-field-83f4ab5eacaa",
+    "title": "Making IoT Functional Today — Learnings From The Field",
+    "date": "",
+    "url": "https://blog.palantir.com/making-iot-functional-today-learnings-from-the-field-83f4ab5eacaa",
+    "html_size": 142365,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "managing-and-automating-browser-extensions-at-scale-41adbadae552",
+    "title": "Managing and Automating Browser Extensions at Scale",
+    "date": "",
+    "url": "https://blog.palantir.com/managing-and-automating-browser-extensions-at-scale-41adbadae552",
+    "html_size": 204136,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "managing-and-securing-vs-code-extensions-at-scale-b75b2cf72b02",
+    "title": "Managing and Securing VS Code Extensions at Scale",
+    "date": "",
+    "url": "https://blog.palantir.com/managing-and-securing-vs-code-extensions-at-scale-b75b2cf72b02",
+    "html_size": 194411,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "managing-elasticsearch-reindex-at-scale-performance-reliability-and-observability-cf948d0efd47",
+    "title": "Managing Elasticsearch Reindex at Scale: Performance, Reliability, and Observability",
+    "date": "",
+    "url": "https://blog.palantir.com/managing-elasticsearch-reindex-at-scale-performance-reliability-and-observability-cf948d0efd47",
+    "html_size": 220788,
+    "image_count": 16,
+    "images_downloaded": 9
+  },
+  {
+    "slug": "manufacturing-with-the-connected-edge-f8d8871ec437",
+    "title": "Manufacturing with the Connected Edge",
+    "date": "",
+    "url": "https://blog.palantir.com/manufacturing-with-the-connected-edge-f8d8871ec437",
+    "html_size": 205052,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "mastering-tariffs-with-palantir-ec51e637aa1b",
+    "title": "Mastering Tariffs with Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/mastering-tariffs-with-palantir-ec51e637aa1b",
+    "html_size": 158308,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "maven-smart-system-innovating-for-the-alliance-5ebc31709eea",
+    "title": "Maven Smart System: Innovating for the Alliance",
+    "date": "",
+    "url": "https://blog.palantir.com/maven-smart-system-innovating-for-the-alliance-5ebc31709eea",
+    "html_size": 184873,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "metadata-management-for-data-protection-202852a8b33c",
+    "title": "Metadata Management for Data Protection",
+    "date": "",
+    "url": "https://blog.palantir.com/metadata-management-for-data-protection-202852a8b33c",
+    "html_size": 194464,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8",
+    "title": "Microsoft Defender Attack Surface Reduction Recommendations",
+    "date": "",
+    "url": "https://blog.palantir.com/microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8",
+    "html_size": 253276,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "mission-operations-engineering-at-palantir-a-software-engineers-perspective-f3f528b27564",
+    "title": "Mission Operations Engineering at Palantir: A software engineer’s perspective",
+    "date": "",
+    "url": "https://blog.palantir.com/mission-operations-engineering-at-palantir-a-software-engineers-perspective-f3f528b27564",
+    "html_size": 138173,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "mitigating-the-effects-of-sanctions-on-globalized-supply-chains-5e463c57308",
+    "title": "Mitigating the Effects of Sanctions on Globalized Supply Chains",
+    "date": "",
+    "url": "https://blog.palantir.com/mitigating-the-effects-of-sanctions-on-globalized-supply-chains-5e463c57308",
+    "html_size": 141187,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "más-que-anonimizar-explicando-palantir-3-1621c0fb98fd",
+    "title": "Más que anonimizar (Explicando Palantir, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/más-que-anonimizar-explicando-palantir-3-1621c0fb98fd",
+    "html_size": 161752,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "net-zero-is-a-data-integration-problem-1255a8853d38",
+    "title": "Net Zero is a Data Integration Problem: How Palantir enables data-driven decarbonization",
+    "date": "",
+    "url": "https://blog.palantir.com/net-zero-is-a-data-integration-problem-1255a8853d38",
+    "html_size": 147056,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "new-hires-lost-keys-lessons-learned-passwordless-authentication-series-3-dfdd79e89fb6",
+    "title": "New Hires, Lost Keys & Lessons Learned (Passwordless Authentication Series, #3)",
+    "date": "",
+    "url": "https://blog.palantir.com/new-hires-lost-keys-lessons-learned-passwordless-authentication-series-3-dfdd79e89fb6",
+    "html_size": 187164,
+    "image_count": 13,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "on-monotonicity-in-relational-databases-and-service-oriented-architecture-90b0a848dd3d",
+    "title": "On Monotonicity in Relational Databases and Service-oriented Architecture",
+    "date": "",
+    "url": "https://blog.palantir.com/on-monotonicity-in-relational-databases-and-service-oriented-architecture-90b0a848dd3d",
+    "html_size": 162622,
+    "image_count": 8,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "ontology-finding-meaning-in-data-palantir-rfx-blog-series-1-399bd1a5971b",
+    "title": "Ontology: Finding meaning in data (Palantir RFx Blog Series, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/ontology-finding-meaning-in-data-palantir-rfx-blog-series-1-399bd1a5971b",
+    "html_size": 152212,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "ontology-oriented-software-development-68d7353fdb12",
+    "title": "Ontology-Oriented Software Development",
+    "date": "",
+    "url": "https://blog.palantir.com/ontology-oriented-software-development-68d7353fdb12",
+    "html_size": 227370,
+    "image_count": 14,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "operational-responsibility-is-the-only-way-to-deliver-software-8331676a2163",
+    "title": "Operational Responsibility Is the Only Way to Deliver Software",
+    "date": "",
+    "url": "https://blog.palantir.com/operational-responsibility-is-the-only-way-to-deliver-software-8331676a2163",
+    "html_size": 156673,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "operational-security-enabling-transparency-collaboration-and-privacy-palantir-rfx-blog-series-28062c37bea6",
+    "title": "Operational Security: Enabling transparency, collaboration, and privacy (Palantir RFx Blog Series, #5)",
+    "date": "",
+    "url": "https://blog.palantir.com/operational-security-enabling-transparency-collaboration-and-privacy-palantir-rfx-blog-series-28062c37bea6",
+    "html_size": 176263,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-1-127ceb0ef2a1",
+    "title": "Optimizing Git’s Merge Machinery, #1",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-1-127ceb0ef2a1",
+    "html_size": 202391,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-2-d81391b97878",
+    "title": "Optimizing Git’s Merge Machinery, #2",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-2-d81391b97878",
+    "html_size": 168926,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-3-2dc7c7436978",
+    "title": "Optimizing Git’s Merge Machinery, #3",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-3-2dc7c7436978",
+    "html_size": 172304,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-6-7bf887a131d8",
+    "title": "Optimizing Git’s Merge Machinery, #6",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-6-7bf887a131d8",
+    "html_size": 202910,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-part-iv-5bbc4703d050",
+    "title": "Optimizing Git’s Merge Machinery, #4",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-part-iv-5bbc4703d050",
+    "html_size": 200553,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "optimizing-gits-merge-machinery-part-v-46ff3710633e",
+    "title": "Optimizing Git’s Merge Machinery, #5",
+    "date": "",
+    "url": "https://blog.palantir.com/optimizing-gits-merge-machinery-part-v-46ff3710633e",
+    "html_size": 164565,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "osdk-and-mobile-applications-building-with-the-embedded-ontology-668432da6572",
+    "title": "OSDK and Mobile Applications: Building with the Embedded Ontology",
+    "date": "",
+    "url": "https://blog.palantir.com/osdk-and-mobile-applications-building-with-the-embedded-ontology-668432da6572",
+    "html_size": 209635,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "our-comments-to-the-national-ai-research-resource-task-force-d992f7b95f39",
+    "title": "Our Comments to the National AI Research Resource Task Force",
+    "date": "",
+    "url": "https://blog.palantir.com/our-comments-to-the-national-ai-research-resource-task-force-d992f7b95f39",
+    "html_size": 134186,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "over-palantir-55b1dad01081",
+    "title": "Over Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/over-palantir-55b1dad01081",
+    "html_size": 198487,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-advocates-for-balanced-data-privacy-legislation-in-rfi-response-dc1d6f457710",
+    "title": "Palantir Advocates for Balanced Data Privacy Legislation in RFI Response",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-advocates-for-balanced-data-privacy-legislation-in-rfi-response-dc1d6f457710",
+    "html_size": 165617,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-and-gaia-x-85ab9845144d",
+    "title": "Palantir and GAIA-X",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-and-gaia-x-85ab9845144d",
+    "html_size": 159414,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-and-google-cloud-announce-strategic-partnership-549768568007",
+    "title": "Palantir and Google Cloud Announce Strategic Partnership",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-and-google-cloud-announce-strategic-partnership-549768568007",
+    "html_size": 135565,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-and-l3harris-b79b3e95dce7",
+    "title": "Palantir and L3Harris",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-and-l3harris-b79b3e95dce7",
+    "html_size": 132616,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-and-the-nhs-dd1362982fa9",
+    "title": "Palantir and the NHS",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-and-the-nhs-dd1362982fa9",
+    "html_size": 137259,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-and-the-world-food-programme-9d8b418dd94b",
+    "title": "Palantir and the World Food Programme",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-and-the-world-food-programme-9d8b418dd94b",
+    "html_size": 118659,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-announces-availability-of-foundry-on-microsoft-azure-9120311e2d1a",
+    "title": "Palantir Announces Availability of Foundry on Microsoft Azure",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-announces-availability-of-foundry-on-microsoft-azure-9120311e2d1a",
+    "html_size": 136915,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-apollo-innovations-in-software-deployment-to-the-edge-61711ef601c1",
+    "title": "Palantir Apollo: Innovations in software deployment to the Edge",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-apollo-innovations-in-software-deployment-to-the-edge-61711ef601c1",
+    "html_size": 143085,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantir-apollo-orchestration-constraint-based-continuous-deployment-for-modern-architectures-cdf42da19ba4",
+    "title": "Palantir Apollo Orchestration: Constraint-Based Continuous Deployment For Modern Architectures",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-apollo-orchestration-constraint-based-continuous-deployment-for-modern-architectures-cdf42da19ba4",
+    "html_size": 179714,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "palantir-apollo-powering-saas-where-no-saas-has-gone-before-7be3e565c379",
+    "title": "Palantir Apollo: Powering SaaS where no SaaS has gone before",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-apollo-powering-saas-where-no-saas-has-gone-before-7be3e565c379",
+    "html_size": 160010,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "palantir-developers-learn-to-build-in-palantir-foundry-83bcf0c4a861",
+    "title": "Palantir Developers: Learn to build in Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-developers-learn-to-build-in-palantir-foundry-83bcf0c4a861",
+    "html_size": 122363,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-et-la-souveraineté-numérique-en-france-préserver-lautonomie-dans-un-monde-en-mutation-c4805b5110a3",
+    "title": "Palantir et la Souveraineté Numérique en France",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-et-la-souveraineté-numérique-en-france-préserver-lautonomie-dans-un-monde-en-mutation-c4805b5110a3",
+    "html_size": 173621,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantir-foundry-and-accenture-expertise-powerful-results-fa886aae9210",
+    "title": "Palantir Foundry and Accenture Expertise: Powerful results",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-foundry-and-accenture-expertise-powerful-results-fa886aae9210",
+    "html_size": 126791,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-foundry-for-ai-governance-ethical-ai-in-action-d9c6c530beda",
+    "title": "Palantir Foundry for AI Governance",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-foundry-for-ai-governance-ethical-ai-in-action-d9c6c530beda",
+    "html_size": 180402,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "palantir-foundry-for-logistics-and-freight-93f9a56e15a2",
+    "title": "Palantir Foundry for Logistics and Freight",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-foundry-for-logistics-and-freight-93f9a56e15a2",
+    "html_size": 130869,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-foundry-for-positive-disruption-d6b02a79440c",
+    "title": "Palantir Foundry for Positive Disruption",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-foundry-for-positive-disruption-d6b02a79440c",
+    "html_size": 151617,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "palantir-fragen-und-antworten-b3cb77b5ed91",
+    "title": "Palantir: Fragen und Antworten",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-fragen-und-antworten-b3cb77b5ed91",
+    "html_size": 215749,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantir-hyperauto-not-just-an-etl-7ab19e081477",
+    "title": "Palantir HyperAuto — Not Just An ETL",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-hyperauto-not-just-an-etl-7ab19e081477",
+    "html_size": 138536,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "palantir-is-not-a-data-company-palantir-explained-1-a6fcf8b3e4cb",
+    "title": "Palantir is Not a Data Company (Palantir Explained, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-is-not-a-data-company-palantir-explained-1-a6fcf8b3e4cb",
+    "html_size": 130414,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-is-still-not-a-data-company-palantir-explained-7-8322d5b38cef",
+    "title": "Palantir Is Still Not a Data Company (Palantir Explained, #7)",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-is-still-not-a-data-company-palantir-explained-7-8322d5b38cef",
+    "html_size": 143737,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-japanで働く-広範なインパクトを生み出す-意義ある仕事-942dc844b276",
+    "title": "Palantir Japanで働くーここには、大きなインパクトを生み出す理由がある。",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-japanで働く-広範なインパクトを生み出す-意義ある仕事-942dc844b276",
+    "html_size": 205482,
+    "image_count": 9,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-joins-forces-with-u-s-army-for-project-convergence-capstone-19c79f3c748a",
+    "title": "Palantir Joins Forces with US Army for Project Convergence Capstone",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-joins-forces-with-u-s-army-for-project-convergence-capstone-19c79f3c748a",
+    "html_size": 132493,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-joins-weprotect-global-alliance-a22641c9670d",
+    "title": "Palantir Joins WePROTECT Global Alliance",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-joins-weprotect-global-alliance-a22641c9670d",
+    "html_size": 118003,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-mentors-help-college-students-tackle-climate-resiliency-challenge-7836fd7cd49c",
+    "title": "Palantir Mentors Help College Students Tackle Climate Resiliency Challenge",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-mentors-help-college-students-tackle-climate-resiliency-challenge-7836fd7cd49c",
+    "html_size": 136820,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-nederland-veelgestelde-vragen-4788de21c2a9",
+    "title": "Palantir Nederland: Veelgestelde Vragen",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-nederland-veelgestelde-vragen-4788de21c2a9",
+    "html_size": 250885,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantir-nie-jest-brokerem-danych-palantir-explained-1-cd3d2268b83a",
+    "title": "Palantir nie jest brokerem danych (Palantir Explained, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-nie-jest-brokerem-danych-palantir-explained-1-cd3d2268b83a",
+    "html_size": 129465,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-no-es-una-empresa-de-datos-explicando-palantir-1-cc21698a18a1",
+    "title": "Palantir no es una empresa de datos (Explicando Palantir, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-no-es-una-empresa-de-datos-explicando-palantir-1-cc21698a18a1",
+    "html_size": 132471,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-polska-często-zadawane-pytania-b9a25e7d5ece",
+    "title": "Palantir Polska: Często zadawane pytania",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-polska-często-zadawane-pytania-b9a25e7d5ece",
+    "html_size": 244499,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantir-spørsmål-og-svar-10d1a282c62c",
+    "title": "Palantir: spørsmål og svar",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-spørsmål-og-svar-10d1a282c62c",
+    "html_size": 159228,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantir-und-digitale-souveränität-bewahrung-der-handlungsfähigkeit-in-einer-welt-in-bewegung-dd110ca31edf",
+    "title": "Palantir und Digitale Souveränität",
+    "date": "",
+    "url": "https://blog.palantir.com/palantir-und-digitale-souveränität-bewahrung-der-handlungsfähigkeit-in-einer-welt-in-bewegung-dd110ca31edf",
+    "html_size": 154860,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantirs-blueprint-for-early-career-success-in-product-design-3b46b5cc466e",
+    "title": "Palantir’s Blueprint for Early Career Success in Product Design",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-blueprint-for-early-career-success-in-product-design-3b46b5cc466e",
+    "html_size": 154954,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-commitment-to-compliance-iso-9001-eaf900ecee8d",
+    "title": "Palantir’s Commitment to Compliance: ISO 9001",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-commitment-to-compliance-iso-9001-eaf900ecee8d",
+    "html_size": 126506,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-recommendations-to-the-nscai-f5d7d5dad344",
+    "title": "Our Recommendations to the NSCAI",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-recommendations-to-the-nscai-f5d7d5dad344",
+    "html_size": 162451,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "palantirs-recommendations-to-the-white-house-ostp-on-developing-an-ai-action-plan-80d2f1821e8b",
+    "title": "Palantir’s Response to the White House Office of Science and Technology Policy (OSTP) on Developing an AI Action Plan",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-recommendations-to-the-white-house-ostp-on-developing-an-ai-action-plan-80d2f1821e8b",
+    "html_size": 158718,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-nist-rfi-on-artificial-intelligence-633a35dae232",
+    "title": "Palantir’s Response to NIST RFI on Artificial Intelligence",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-nist-rfi-on-artificial-intelligence-633a35dae232",
+    "html_size": 135630,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-ntia-on-ai-accountability-policy-428ebb33698d",
+    "title": "Palantir’s Response to NTIA on AI Accountability Policy",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-ntia-on-ai-accountability-policy-428ebb33698d",
+    "html_size": 163132,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-ntia-on-privacy-equity-and-civil-rights-ee6eb0fbecc7",
+    "title": "Palantir’s Response to NTIA on Privacy, Equity, and Civil Rights",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-ntia-on-privacy-equity-and-civil-rights-ee6eb0fbecc7",
+    "html_size": 134757,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-omb-on-ai-governance-innovation-and-risk-management-1e2be610a6e9",
+    "title": "Palantir’s Response to OMB on AI Governance, Innovation, and Risk Management",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-omb-on-ai-governance-innovation-and-risk-management-1e2be610a6e9",
+    "html_size": 134943,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-omb-on-privacy-impact-assessments-81b37ed27ff7",
+    "title": "Palantir’s Response to OMB on Privacy Impact Assessments",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-omb-on-privacy-impact-assessments-81b37ed27ff7",
+    "html_size": 143693,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-omb-on-responsible-procurement-of-ai-in-government-39c390cedd30",
+    "title": "Palantir’s Response to OMB on Responsible Procurement of AI in Government",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-omb-on-responsible-procurement-of-ai-in-government-39c390cedd30",
+    "html_size": 178766,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-the-ftc-on-commercial-surveillance-and-data-security-rulemaking-33271bb83e6d",
+    "title": "Palantir’s Response to the FTC on ‘Commercial Surveillance and Data Security’ Rulemaking",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-the-ftc-on-commercial-surveillance-and-data-security-rulemaking-33271bb83e6d",
+    "html_size": 156305,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "palantirs-response-to-the-ostp-national-priorities-for-artificial-intelligence-rfi-205686ec41c0",
+    "title": "Palantir’s Response to the White House Office of Science and Technology Policy (OSTP) National Priorities for Artificial Intelligence Request for Information",
+    "date": "",
+    "url": "https://blog.palantir.com/palantirs-response-to-the-ostp-national-priorities-for-artificial-intelligence-rfi-205686ec41c0",
+    "html_size": 150001,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "phishcatch-detecting-password-reuse-from-the-inside-out-77aa93e3e6fb",
+    "title": "PhishCatch: Detecting password reuse from the inside out",
+    "date": "",
+    "url": "https://blog.palantir.com/phishcatch-detecting-password-reuse-from-the-inside-out-77aa93e3e6fb",
+    "html_size": 199370,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "powering-innovation-for-doosan-infracore-e6493203f075",
+    "title": "Powering Innovation for Doosan Infracore",
+    "date": "",
+    "url": "https://blog.palantir.com/powering-innovation-for-doosan-infracore-e6493203f075",
+    "html_size": 143308,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "powering-pandemic-response-in-colombia-20ee8347aad1",
+    "title": "Powering Pandemic Response in Colombia",
+    "date": "",
+    "url": "https://blog.palantir.com/powering-pandemic-response-in-colombia-20ee8347aad1",
+    "html_size": 133395,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "powering-pandemic-response-in-the-netherlands-9ecc608081c",
+    "title": "Powering Pandemic Response in the Netherlands",
+    "date": "",
+    "url": "https://blog.palantir.com/powering-pandemic-response-in-the-netherlands-9ecc608081c",
+    "html_size": 119798,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "privacy-civil-liberties-engineering-palantir-explained-5-4f027b207923",
+    "title": "Privacy & Civil Liberties Engineering (Palantir Explained, #5)",
+    "date": "",
+    "url": "https://blog.palantir.com/privacy-civil-liberties-engineering-palantir-explained-5-4f027b207923",
+    "html_size": 145993,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "privacy-enhancing-technologies-pets-an-adoption-guide-palantir-rfx-blog-series-6-b02dad56e9da",
+    "title": "Privacy-Enhancing Technologies (PETs): An adoption guide (Palantir RFx Blog Series, #6)",
+    "date": "",
+    "url": "https://blog.palantir.com/privacy-enhancing-technologies-pets-an-adoption-guide-palantir-rfx-blog-series-6-b02dad56e9da",
+    "html_size": 196568,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "product-design-at-palantir-q-a-with-the-team-e93a82e9c74",
+    "title": "Product Design at Palantir: Q&A with the team",
+    "date": "",
+    "url": "https://blog.palantir.com/product-design-at-palantir-q-a-with-the-team-e93a82e9c74",
+    "html_size": 167504,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "product-reliability-at-palantir-life-on-the-prx-team-19440fb5affc",
+    "title": "Product Reliability at Palantir: Life on the PRX team",
+    "date": "",
+    "url": "https://blog.palantir.com/product-reliability-at-palantir-life-on-the-prx-team-19440fb5affc",
+    "html_size": 156997,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "product-reliability-incident-management-at-palantir-66320301de7a",
+    "title": "Product Reliability Incident Management at Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/product-reliability-incident-management-at-palantir-66320301de7a",
+    "html_size": 155974,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "production-infrastructure-at-palantir-user-minded-api-design-714d6017122d",
+    "title": "Production Infrastructure at Palantir: User-minded API design",
+    "date": "",
+    "url": "https://blog.palantir.com/production-infrastructure-at-palantir-user-minded-api-design-714d6017122d",
+    "html_size": 149261,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "products-with-purpose-foundry-archetypes-27a8538df12a",
+    "title": "Products with Purpose: Foundry — Archetypes",
+    "date": "",
+    "url": "https://blog.palantir.com/products-with-purpose-foundry-archetypes-27a8538df12a",
+    "html_size": 151899,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "protección-de-datos-en-palantir-foundry-2cc04ac0a9c8",
+    "title": "Protección de Datos en Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/protección-de-datos-en-palantir-foundry-2cc04ac0a9c8",
+    "html_size": 142641,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "protecting-data-with-privacy-first-principles-f76f20d8e63",
+    "title": "Data Lifecycles: Protecting Data with Privacy First Principles",
+    "date": "",
+    "url": "https://blog.palantir.com/protecting-data-with-privacy-first-principles-f76f20d8e63",
+    "html_size": 214097,
+    "image_count": 17,
+    "images_downloaded": 9
+  },
+  {
+    "slug": "publikacja-fałszywych-twierdzeń-nt-a7aaa3baa42c",
+    "title": "Sprostowanie: Publikacja fałszywych twierdzeń nt. Palantira i Rządu Szwajcarskiego przez czasopismo ‘Die Republik’",
+    "date": "",
+    "url": "https://blog.palantir.com/publikacja-fałszywych-twierdzeń-nt-a7aaa3baa42c",
+    "html_size": 168946,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "purpose-based-access-controls-at-palantir-f419faa400b3",
+    "title": "Purpose-based Access Controls at Palantir (Palantir Explained, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/purpose-based-access-controls-at-palantir-f419faa400b3",
+    "html_size": 135286,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "raising-kids-while-raising-a-career-in-tech-69f333a7b0e7",
+    "title": "Raising Kids While Raising a Career in Tech",
+    "date": "",
+    "url": "https://blog.palantir.com/raising-kids-while-raising-a-career-in-tech-69f333a7b0e7",
+    "html_size": 144655,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "ready-set-build-with-the-nhs-federated-data-platform-41405fa4c226",
+    "title": "Ready, Set, Build with the NHS Federated Data Platform",
+    "date": "",
+    "url": "https://blog.palantir.com/ready-set-build-with-the-nhs-federated-data-platform-41405fa4c226",
+    "html_size": 163914,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "real-work-real-connections-learning-and-growing-as-a-palantir-intern-4907a1623cce",
+    "title": "Real Work, Real Connections: Learning and Growing as a Palantir Intern",
+    "date": "",
+    "url": "https://blog.palantir.com/real-work-real-connections-learning-and-growing-as-a-palantir-intern-4907a1623cce",
+    "html_size": 136606,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383",
+    "title": "Reducing Hallucinations with the Ontology in Palantir AIP (Engineering Responsible AI , #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383",
+    "html_size": 188409,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "reflections-and-lessons-from-the-covid-19-crisis-b406c03fbb4e",
+    "title": "Reflections and Lessons from the COVID-19 Crisis",
+    "date": "",
+    "url": "https://blog.palantir.com/reflections-and-lessons-from-the-covid-19-crisis-b406c03fbb4e",
+    "html_size": 187593,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "remote-life-at-palantir-65a4905c51cc",
+    "title": "Remote Life at Palantir: Intern and new grad perspective",
+    "date": "",
+    "url": "https://blog.palantir.com/remote-life-at-palantir-65a4905c51cc",
+    "html_size": 160675,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "requirements-for-ai-in-production-in-insurance-underwriting-04f7c1eed13d",
+    "title": "Requirements for AI in Production in Insurance Underwriting",
+    "date": "",
+    "url": "https://blog.palantir.com/requirements-for-ai-in-production-in-insurance-underwriting-04f7c1eed13d",
+    "html_size": 232478,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721",
+    "title": "Restricting SMB-based Lateral Movement in a Windows Environment",
+    "date": "",
+    "url": "https://blog.palantir.com/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721",
+    "html_size": 307975,
+    "image_count": 14,
+    "images_downloaded": 7
+  },
+  {
+    "slug": "rethinking-crud-for-rest-api-designs-a2a8287dc2af",
+    "title": "Rethinking CRUD For REST API Designs",
+    "date": "",
+    "url": "https://blog.palantir.com/rethinking-crud-for-rest-api-designs-a2a8287dc2af",
+    "html_size": 163596,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "revolutionizing-construction-e37cba735796",
+    "title": "Revolutionizing Construction",
+    "date": "",
+    "url": "https://blog.palantir.com/revolutionizing-construction-e37cba735796",
+    "html_size": 186753,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "revolutionizing-edge-ai-c94742175ce1",
+    "title": "Revolutionizing Edge AI",
+    "date": "",
+    "url": "https://blog.palantir.com/revolutionizing-edge-ai-c94742175ce1",
+    "html_size": 176334,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "safeguarding-freedom-87080c30a712",
+    "title": "Safeguarding Freedom",
+    "date": "",
+    "url": "https://blog.palantir.com/safeguarding-freedom-87080c30a712",
+    "html_size": 211997,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "safeguarding-privacy-in-healthcare-through-systematic-data-deletion-d3051f1c5b1a",
+    "title": "Safeguarding Privacy in Healthcare through Systematic Data Deletion",
+    "date": "",
+    "url": "https://blog.palantir.com/safeguarding-privacy-in-healthcare-through-systematic-data-deletion-d3051f1c5b1a",
+    "html_size": 131637,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "safely-modernize-legacy-systems-with-palantir-foundry-container-engine-fce-d8900464da7c",
+    "title": "Safely Modernize Legacy Systems with Palantir Foundry Container Engine (FCE)",
+    "date": "",
+    "url": "https://blog.palantir.com/safely-modernize-legacy-systems-with-palantir-foundry-container-engine-fce-d8900464da7c",
+    "html_size": 132660,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "sarcos-palantir-24a54593db51",
+    "title": "Sarcos & Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/sarcos-palantir-24a54593db51",
+    "html_size": 132930,
+    "image_count": 8,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "scalable-and-rapid-erp-analytics-with-palantir-hyperauto-on-aws-211b3d4cfce9",
+    "title": "Scalable and Rapid ERP Analytics with Palantir HyperAuto on AWS",
+    "date": "",
+    "url": "https://blog.palantir.com/scalable-and-rapid-erp-analytics-with-palantir-hyperauto-on-aws-211b3d4cfce9",
+    "html_size": 173885,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "scaling-on-prem-security-at-palantir-a333327d69a5",
+    "title": "Scaling On-Prem Security at Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/scaling-on-prem-security-at-palantir-a333327d69a5",
+    "html_size": 168391,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "scientific-research-with-palantir-6f53a6c2373a",
+    "title": "Scientific Research with Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/scientific-research-with-palantir-6f53a6c2373a",
+    "html_size": 174681,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "secure-data-sharing-charting-a-course-for-the-eus-digital-future-102f6f58f03a",
+    "title": "Secure Data Sharing",
+    "date": "",
+    "url": "https://blog.palantir.com/secure-data-sharing-charting-a-course-for-the-eus-digital-future-102f6f58f03a",
+    "html_size": 152381,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "securing-agents-in-production-agentic-runtime-1-5191a0715240",
+    "title": "Securing Agents in Production (Agentic Runtime, #1)",
+    "date": "",
+    "url": "https://blog.palantir.com/securing-agents-in-production-agentic-runtime-1-5191a0715240",
+    "html_size": 183819,
+    "image_count": 13,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "securing-americas-defense-industrial-base-a603ff39dc92",
+    "title": "Securing America’s Defense Industrial Base",
+    "date": "",
+    "url": "https://blog.palantir.com/securing-americas-defense-industrial-base-a603ff39dc92",
+    "html_size": 134307,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "slow-down-to-go-faster-56f1b5aa04ae",
+    "title": "Slow Down to Go Faster",
+    "date": "",
+    "url": "https://blog.palantir.com/slow-down-to-go-faster-56f1b5aa04ae",
+    "html_size": 192517,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "stopping-modern-financial-crimes-requires-a-modern-approach-216956397fd8",
+    "title": "Stopping Modern Financial Crimes Requires a Modern Approach",
+    "date": "",
+    "url": "https://blog.palantir.com/stopping-modern-financial-crimes-requires-a-modern-approach-216956397fd8",
+    "html_size": 132585,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "supercharging-your-bi-analytics-f360c0791935",
+    "title": "Palantir Foundry: Supercharge Your BI & Analytics",
+    "date": "",
+    "url": "https://blog.palantir.com/supercharging-your-bi-analytics-f360c0791935",
+    "html_size": 156808,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "swiss-re-palantir-scaling-data-operations-with-foundry-35d2e167de91",
+    "title": "Swiss Re & Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/swiss-re-palantir-scaling-data-operations-with-foundry-35d2e167de91",
+    "html_size": 189090,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "taking-your-data-science-models-to-the-next-level-149d9c4269ec",
+    "title": "Taking Your Data Science Models to the Next Level",
+    "date": "",
+    "url": "https://blog.palantir.com/taking-your-data-science-models-to-the-next-level-149d9c4269ec",
+    "html_size": 151061,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "technical-controls-rollout-and-edge-cases-passwordless-authentication-series-2-c9b6dcd349e",
+    "title": "Technical Controls, Rollout & Edge Cases (Passwordless Authentication Series, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/technical-controls-rollout-and-edge-cases-passwordless-authentication-series-2-c9b6dcd349e",
+    "html_size": 318018,
+    "image_count": 31,
+    "images_downloaded": 24
+  },
+  {
+    "slug": "technologie-données-transition-écologique-2cb5d645aeb3",
+    "title": "Technologie, données & transition écologique",
+    "date": "",
+    "url": "https://blog.palantir.com/technologie-données-transition-écologique-2cb5d645aeb3",
+    "html_size": 274154,
+    "image_count": 21,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "testing-in-depth-also-please-dont-use-undeclared-dependencies-1a46101a9e72",
+    "title": "Testing in Depth. (Also, please don’t use undeclared dependencies.)",
+    "date": "",
+    "url": "https://blog.palantir.com/testing-in-depth-also-please-dont-use-undeclared-dependencies-1a46101a9e72",
+    "html_size": 161799,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "the-baseline-team-and-forward-deployed-infrastructure-engineering-at-palantir-efd84e72e40b",
+    "title": "Inside Look: The Baseline Team and Forward-Deployed Infrastructure Engineering at Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/the-baseline-team-and-forward-deployed-infrastructure-engineering-at-palantir-efd84e72e40b",
+    "html_size": 139320,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53",
+    "title": "The Benefits of Remote Ephemeral Workspaces",
+    "date": "",
+    "url": "https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53",
+    "html_size": 186584,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "the-benefits-of-running-kubernetes-on-ephemeral-compute-436e5acf13fb",
+    "title": "The Benefits of Running Kubernetes on Ephemeral Compute",
+    "date": "",
+    "url": "https://blog.palantir.com/the-benefits-of-running-kubernetes-on-ephemeral-compute-436e5acf13fb",
+    "html_size": 176298,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "the-challenges-of-building-an-architecture-from-scratch-e4610acb908d",
+    "title": "The Challenges of Building an Architecture from Scratch",
+    "date": "",
+    "url": "https://blog.palantir.com/the-challenges-of-building-an-architecture-from-scratch-e4610acb908d",
+    "html_size": 148789,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "the-code-base-knowledge-singularity-3a5e2afe280d",
+    "title": "The Code Base Knowledge Singularity",
+    "date": "",
+    "url": "https://blog.palantir.com/the-code-base-knowledge-singularity-3a5e2afe280d",
+    "html_size": 159660,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "the-cybernetic-enterprise-62f2072c39fa",
+    "title": "The Cybernetic Enterprise",
+    "date": "",
+    "url": "https://blog.palantir.com/the-cybernetic-enterprise-62f2072c39fa",
+    "html_size": 179569,
+    "image_count": 16,
+    "images_downloaded": 9
+  },
+  {
+    "slug": "the-efficacy-and-ethics-of-ai-must-move-beyond-the-performative-to-the-operational-1792e933b34",
+    "title": "The Efficacy and Ethics of AI Must Move Beyond the Performative to the Operational",
+    "date": "",
+    "url": "https://blog.palantir.com/the-efficacy-and-ethics-of-ai-must-move-beyond-the-performative-to-the-operational-1792e933b34",
+    "html_size": 210761,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "the-future-of-drone-navigation-7236075fdedf",
+    "title": "The Future of Drone Navigation",
+    "date": "",
+    "url": "https://blog.palantir.com/the-future-of-drone-navigation-7236075fdedf",
+    "html_size": 164677,
+    "image_count": 14,
+    "images_downloaded": 6
+  },
+  {
+    "slug": "the-ontology-operating-at-optimum-complexity-as-simply-as-possible-39f4a9724fdf",
+    "title": "The Ontology: Operating at optimum complexity — as simply as possible",
+    "date": "",
+    "url": "https://blog.palantir.com/the-ontology-operating-at-optimum-complexity-as-simply-as-possible-39f4a9724fdf",
+    "html_size": 160413,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "the-ontology-resilience-in-crisis-7833bb5e15e7",
+    "title": "The Ontology: Resilience in crisis",
+    "date": "",
+    "url": "https://blog.palantir.com/the-ontology-resilience-in-crisis-7833bb5e15e7",
+    "html_size": 153044,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "the-open-standard-that-ensures-your-drone-is-a-major-player-on-the-battlefield-138e7e6158c4",
+    "title": "The Open Standard that Ensures Your Drone is a Major Player on the Battlefield",
+    "date": "",
+    "url": "https://blog.palantir.com/the-open-standard-that-ensures-your-drone-is-a-major-player-on-the-battlefield-138e7e6158c4",
+    "html_size": 161988,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "thinking-outside-the-black-box-24d0c87ec8a5",
+    "title": "Thinking Outside the (Black) Box (Engineering Responsible AI , #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/thinking-outside-the-black-box-24d0c87ec8a5",
+    "html_size": 183286,
+    "image_count": 15,
+    "images_downloaded": 8
+  },
+  {
+    "slug": "transfer-learning-5c9f9f9b076f",
+    "title": "Transfer Learning: Object Detection in Satellite Imagery",
+    "date": "",
+    "url": "https://blog.palantir.com/transfer-learning-5c9f9f9b076f",
+    "html_size": 169564,
+    "image_count": 16,
+    "images_downloaded": 9
+  },
+  {
+    "slug": "transforming-the-newsroom-ringier-and-palantir-7c0ded02315c",
+    "title": "Transforming the Newsroom: Ringier and Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/transforming-the-newsroom-ringier-and-palantir-7c0ded02315c",
+    "html_size": 126991,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "transforming-veteran-outreach-d129e0c23ca3",
+    "title": "Transforming Veteran Outreach",
+    "date": "",
+    "url": "https://blog.palantir.com/transforming-veteran-outreach-d129e0c23ca3",
+    "html_size": 144179,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "trust-in-data-palantir-explained-4-c2adcdc31325",
+    "title": "Trust in Data (Palantir Explained, #4)",
+    "date": "",
+    "url": "https://blog.palantir.com/trust-in-data-palantir-explained-4-c2adcdc31325",
+    "html_size": 173385,
+    "image_count": 12,
+    "images_downloaded": 5
+  },
+  {
+    "slug": "turning-conversation-into-action-c6bc4ed8c8be",
+    "title": "Turning Conversation Into Action (Palantir CSE, #2)",
+    "date": "",
+    "url": "https://blog.palantir.com/turning-conversation-into-action-c6bc4ed8c8be",
+    "html_size": 196346,
+    "image_count": 21,
+    "images_downloaded": 14
+  },
+  {
+    "slug": "understanding-our-work-with-the-nhs-6d451beea022",
+    "title": "Understanding our Work with the NHS",
+    "date": "",
+    "url": "https://blog.palantir.com/understanding-our-work-with-the-nhs-6d451beea022",
+    "html_size": 138068,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "understanding-roi-with-palantir-foundry-51cc53d77511",
+    "title": "Understanding ROI with Palantir Foundry",
+    "date": "",
+    "url": "https://blog.palantir.com/understanding-roi-with-palantir-foundry-51cc53d77511",
+    "html_size": 138051,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "updates-from-palantir-edge-ai-in-space-1b4d8b8f97a0",
+    "title": "Updates from Palantir Edge AI in Space",
+    "date": "",
+    "url": "https://blog.palantir.com/updates-from-palantir-edge-ai-in-space-1b4d8b8f97a0",
+    "html_size": 140849,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "user-centered-machine-learning-0514adb4c98b",
+    "title": "User-Centered Machine Learning",
+    "date": "",
+    "url": "https://blog.palantir.com/user-centered-machine-learning-0514adb4c98b",
+    "html_size": 153285,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "user-centered-machine-learning-for-visual-search-348f4eb696a1",
+    "title": "User-Centered Machine Learning for Visual Search",
+    "date": "",
+    "url": "https://blog.palantir.com/user-centered-machine-learning-for-visual-search-348f4eb696a1",
+    "html_size": 145197,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "using-envoy-for-egress-traffic-8524d10b5ee2",
+    "title": "Using Envoy for Egress Traffic",
+    "date": "",
+    "url": "https://blog.palantir.com/using-envoy-for-egress-traffic-8524d10b5ee2",
+    "html_size": 156936,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "using-static-analysis-to-prevent-java-class-initialization-deadlocks-c2f31ca967d6",
+    "title": "Using Static Analysis to Prevent Java Class Initialization Deadlocks",
+    "date": "",
+    "url": "https://blog.palantir.com/using-static-analysis-to-prevent-java-class-initialization-deadlocks-c2f31ca967d6",
+    "html_size": 144875,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "vernetzte-versorgungsunternehme-der-weg-zu-einer-nachhaltigen-wasserwirtschaft-71a8e5f33df1",
+    "title": "Vernetzte Versorgungsunternehme: Der Weg zu einer nachhaltigen Wasserwirtschaft",
+    "date": "",
+    "url": "https://blog.palantir.com/vernetzte-versorgungsunternehme-der-weg-zu-einer-nachhaltigen-wasserwirtschaft-71a8e5f33df1",
+    "html_size": 136798,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "veterans-affairs-palantir-b8637966e982",
+    "title": "Veterans Affairs & Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/veterans-affairs-palantir-b8637966e982",
+    "html_size": 154772,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "who-wants-to-be-a-delta-8d2ea948035",
+    "title": "Who Wants to be a Delta?",
+    "date": "",
+    "url": "https://blog.palantir.com/who-wants-to-be-a-delta-8d2ea948035",
+    "html_size": 154616,
+    "image_count": 10,
+    "images_downloaded": 3
+  },
+  {
+    "slug": "why-fast-and-effective-data-integration-is-essential-for-supply-chain-resilience-88c2a962b0eb",
+    "title": "Why Fast and Effective Data Integration is Essential for Supply Chain Resilience",
+    "date": "",
+    "url": "https://blog.palantir.com/why-fast-and-effective-data-integration-is-essential-for-supply-chain-resilience-88c2a962b0eb",
+    "html_size": 127333,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "why-palantir-is-the-health-tech-startup-youve-never-heard-of-eb3e1037d816",
+    "title": "Why Palantir Is the Health Tech Startup You’ve Never Heard Of",
+    "date": "",
+    "url": "https://blog.palantir.com/why-palantir-is-the-health-tech-startup-youve-never-heard-of-eb3e1037d816",
+    "html_size": 131419,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "why-traditional-approaches-to-continuous-deployment-dont-work-today-b5a6c33cc754",
+    "title": "Why Traditional Approaches to Continuous Deployment Don’t Work Today",
+    "date": "",
+    "url": "https://blog.palantir.com/why-traditional-approaches-to-continuous-deployment-dont-work-today-b5a6c33cc754",
+    "html_size": 155809,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "why-we-serve-palantirians-reflect-on-duty-honor-innovation-bae457d939d3",
+    "title": "Why We Serve: Palantirians Reflect on Duty, Honor & Innovation",
+    "date": "",
+    "url": "https://blog.palantir.com/why-we-serve-palantirians-reflect-on-duty-honor-innovation-bae457d939d3",
+    "html_size": 171356,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "wie-palantir-die-digitalisierung-deutscher-polizeien-unterstützt-3791d65bccb6",
+    "title": "Wie Palantir die Digitalisierung deutscher Polizeien unterstützt",
+    "date": "",
+    "url": "https://blog.palantir.com/wie-palantir-die-digitalisierung-deutscher-polizeien-unterstützt-3791d65bccb6",
+    "html_size": 164653,
+    "image_count": 9,
+    "images_downloaded": 2
+  },
+  {
+    "slug": "working-in-the-mile-high-city-palantirian-perspectives-on-denver-319a931afbd5",
+    "title": "Working in the Mile-High City: Palantirian Perspectives on Denver",
+    "date": "",
+    "url": "https://blog.palantir.com/working-in-the-mile-high-city-palantirian-perspectives-on-denver-319a931afbd5",
+    "html_size": 157060,
+    "image_count": 11,
+    "images_downloaded": 4
+  },
+  {
+    "slug": "zero-to-fedramp-in-months-09299d2ccba9",
+    "title": "Zero to FedRAMP in Months",
+    "date": "",
+    "url": "https://blog.palantir.com/zero-to-fedramp-in-months-09299d2ccba9",
+    "html_size": 143356,
+    "image_count": 8,
+    "images_downloaded": 1
+  },
+  {
+    "slug": "à-propos-de-palantir-5db49a75466b",
+    "title": "À propos de Palantir",
+    "date": "",
+    "url": "https://blog.palantir.com/à-propos-de-palantir-5db49a75466b",
+    "html_size": 242850,
+    "image_count": 8,
+    "images_downloaded": 1
+  }
+]

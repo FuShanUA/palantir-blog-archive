@@ -1,0 +1,22 @@
+{
+  "company": {
+    "title": "company",
+    "subpages": [],
+    "tags": []
+  },
+  "culture": {
+    "title": "culture",
+    "subpages": [],
+    "tags": []
+  },
+  "global": {
+    "title": "global",
+    "subpages": [],
+    "tags": []
+  },
+  "tech": {
+    "title": "tech",
+    "subpages": [],
+    "tags": []
+  }
+}

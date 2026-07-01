@@ -1,0 +1,54 @@
+{
+  "Company": [
+    "Partnerships",
+    "Careers",
+    "Palantir Explained",
+    "Roles",
+    "FAQ",
+    "Foundations",
+    "RFX Blog Series"
+  ],
+  "Culture": [
+    "Culture",
+    "Internships"
+  ],
+  "Palantir Global": [
+    "Global",
+    "UK",
+    "Germany",
+    "France",
+    "Japan",
+    "Spanish"
+  ],
+  "Engineering & Tech": [
+    "Foundry",
+    "AIP",
+    "Ontology",
+    "Software Engineering",
+    "Foundry Architecture",
+    "Apollo",
+    "Frontend Engineering",
+    "Information Security",
+    "Production Infrastructure",
+    "Software Supply Chain",
+    "ERP Software",
+    "Edge Computing",
+    "Kubernetes",
+    "Git",
+    "Resilience",
+    "Machine Learning"
+  ],
+  "Privacy & Civil Liberties": [
+    "Privacy & Civil Liberties",
+    "Privacy",
+    "Public Policy",
+    "AI Ethics",
+    "Privacy and Technology",
+    "Responsible AI"
+  ],
+  "General": [
+    "Defense",
+    "Healthcare",
+    "Supply Chain"
+  ]
+}
