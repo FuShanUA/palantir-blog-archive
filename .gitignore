@@ -5,6 +5,7 @@ __pycache__/
 node_modules/
 package-lock.json
 test-results/
+.venv/
 *.pyc
 __shelltest.txt
 *.log
