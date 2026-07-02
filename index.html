@@ -47,6 +47,7 @@ header h1{font-size:1.35em;font-weight:700;color:var(--accent);letter-spacing:-0
 .acc-header:hover{border-color:var(--accent)}
 .acc-arrow{display:inline-block;width:0;height:0;border-left:4px solid var(--muted);border-top:4px solid transparent;border-bottom:4px solid transparent;transition:transform 0.2s;flex-shrink:0}
 .acc-section.open .acc-arrow{transform:rotate(90deg)}
+.acc-header.active{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
 .acc-title{flex:1}.acc-count{font-size:.85em;color:var(--muted);font-weight:400}
 .acc-body{max-height:0;overflow:hidden;transition:max-height 0.3s ease-out}
 .acc-section.open .acc-body{max-height:1000px}
@@ -191,7 +192,7 @@ for(var ci=0;ci<cats.length;ci++){
 var cat=cats[ci],count=BC[cat];
 var isOpen=accOpen[cat]===true;
 h+="<div class='acc-section"+(isOpen?" open":"")+"' data-cat='"+cat+"'>";
-h+="<div class='acc-header' data-cat='"+cat+"'>";
+h+="<div class='acc-header"+(F.bc.has(cat)?" active":"")+"' data-cat='"+cat+"'>";
 h+="<span class='acc-arrow'></span><span class='acc-title'>"+tt(cat)+"</span><span class='acc-count'>"+count+"</span></div>";
 h+="<div class='acc-body'><div class='acc-tags'>";
 // No duplicate bc tag - header already shows the category name
@@ -209,7 +210,22 @@ h+="</div></div></div>";
 }
 sb.innerHTML=h;
 // Bind events
-sb.querySelectorAll(".acc-header").forEach(function(el){el.addEventListener("click",function(){var cat=el.dataset.cat;var willOpen=!accOpen[cat];for(var k in accOpen){accOpen[k]=false}accOpen[cat]=willOpen;sb.querySelectorAll(".acc-section").forEach(function(s){s.classList.remove("open")});if(willOpen){el.parentElement.classList.add("open")}})});
+sb.querySelectorAll(".acc-header").forEach(function(el){el.addEventListener("click",function(){
+var cat=el.dataset.cat;
+var willOpen=!accOpen[cat];
+for(var k in accOpen){accOpen[k]=false}
+accOpen[cat]=willOpen;
+sb.querySelectorAll(".acc-section").forEach(function(s){s.classList.remove("open")});
+sb.querySelectorAll(".acc-header").forEach(function(h){h.classList.remove("active")});
+if(willOpen){
+el.parentElement.classList.add("open");
+el.classList.add("active");
+F.bc.clear();F.bc.add(cat);
+}else{
+F.bc.delete(cat);
+}
+buildTagBar();resetPage();render();
+})});
 sb.querySelectorAll(".tag").forEach(function(el){el.addEventListener("click",function(e){e.stopPropagation();var type=el.dataset.type,val=el.dataset.val;
 if(type==="bc"){if(F.bc.has(val)){F.bc.delete(val)}else{F.bc.add(val)}}else if(type==="sc"){if(F.sc.has(val)){F.sc.delete(val)}else{F.sc.add(val)}}
 el.classList.toggle("active");resetPage();render()})});
@@ -249,7 +265,7 @@ var f=getFiltered();var sb=document.getElementById("sortBy").value;
 if(sb==="date-desc")f.sort(function(a,b){return(b.d||"").localeCompare(a.d||"")});
 else if(sb==="date-asc")f.sort(function(a,b){return(a.d||"").localeCompare(b.d||"")});
 else if(sb==="title-asc")f.sort(function(a,b){var ta=lang==="zh"?(a.tt||a.t):(a.t||""),tb=lang==="zh"?(b.tt||b.t):(b.t||"");return ta.localeCompare(tb)});
-document.getElementById("rc").textContent=t("result_prefix")+f.length+" / "+A.length+t("result_suffix");
+document.getElementById("rc").textContent=f.length>0?t("result_prefix")+f.length+t("result_suffix"):"";
 var afh="";
 F.bc.forEach(function(cat){afh+="<span class='chip bc' data-type='bc' data-val='"+cat+"'>"+tt(cat)+" &times;</span>"});
 F.sc.forEach(function(sk){var parts=sk.split("::");afh+="<span class='chip sc' data-type='sc' data-val='"+sk+"'>"+tt(parts[1])+" &times;</span>"});
@@ -308,7 +324,10 @@ var tb=document.getElementById("tagBar");if(!tb)return;var h="";
 var sorted=Object.keys(tagFreq).sort(function(a,b){return tagFreq[b]-tagFreq[a]});
 for(var i=0;i<sorted.length;i++){
 var tag=sorted[i],count=tagFreq[tag];
-var parts=tag.split("::");var display=tt(parts.length>1?parts[1]:tag);
+var parts=tag.split("::");
+var tagCat=parts[0];
+if(F.bc.size>0&&!F.bc.has(tagCat))continue;
+var display=tt(parts.length>1?parts[1]:tag);
 var active=F.sc.has(tag)?" active":"";
 h+="<span class='tag-pill"+active+"' data-type='sc' data-val='"+tag+"'>"+display+"<span class='pill-count'>"+count+"</span></span>";
 }
