@@ -310,7 +310,7 @@ document.addEventListener("mouseup",function(){if(!dragging)return;dragging=fals
 
 // Article modal
 var modal=document.getElementById("articleModal"),modalFrame=document.getElementById("modalFrame"),modalTitle=document.getElementById("modalTitle"),modalOrig=document.getElementById("modalOrigLink"),modalClose=document.getElementById("modalClose");
-function openArticle(slug,title,url){modalTitle.textContent=title||"";modalOrig.href=url||"#";modalFrame.src="articles/"+slug+"/reader.html";modal.classList.add("show");document.body.style.overflow="hidden"}
+function openArticle(slug,title,url){modalTitle.textContent=title||"";modalOrig.href=url||"#";var rf="reader"+(lang==="zh"?"_zh":"")+".html";modalFrame.src="articles/"+slug+"/"+rf;modal.classList.add("show");document.body.style.overflow="hidden"}
 function closeArticle(){modal.classList.remove("show");modalFrame.src="about:blank";document.body.style.overflow=""}
 modalClose.addEventListener("click",closeArticle);
 modal.addEventListener("click",function(e){if(e.target===modal)closeArticle()});
