@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Frontend Engineering at Palantir: Polar Scaled Tiles in Zodiac</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#fff;color:#1a1a1a;line-height:1.7;max-width:680px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:1.65em;font-weight:700;margin-bottom:8px;line-height:1.25;color:#111}
+.meta{color:#888;font-size:.82em;margin-bottom:32px;padding-bottom:16px;border-bottom:1px solid #eee}
+.meta a{color:#2e86de;text-decoration:none}
+article p{margin-bottom:18px;font-size:1.02em;line-height:1.75}
+article img{max-width:100%;height:auto;margin:20px auto;display:block;border-radius:6px}
+article h2{font-size:1.28em;font-weight:600;margin:28px 0 12px;line-height:1.3;color:#222}
+article h3{font-size:1.12em;font-weight:600;margin:24px 0 10px;color:#333}
+article h4{font-size:1em;font-weight:600;margin:20px 0 8px;color:#333}
+article ul,article ol{margin-bottom:16px;padding-left:24px}
+article li{margin-bottom:8px;line-height:1.7}
+article blockquote{border-left:3px solid #d0d0d0;padding:8px 16px;margin:18px 0;color:#666;background:#fafafa;border-radius:0 4px 4px 0}
+article pre{background:#f6f6f6;padding:14px 16px;border-radius:6px;overflow-x:auto;font-size:.85em;margin:18px 0;border:1px solid #e8e8e8;font-family:'SF Mono',Monaco,Consolas,monospace}
+article code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:.88em;font-family:'SF Mono',Monaco,Consolas,monospace}
+article pre code{background:none;padding:0;border:none}
+article table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.92em}
+article th,article td{border:1px solid #e0e0e0;padding:8px 12px;text-align:left}
+article th{background:#f8f8f8;font-weight:600}
+article figure{margin:20px 0;text-align:center}
+article figcaption{color:#999;font-size:.82em;margin-top:6px;text-align:center}
+article a{color:#2e86de;text-decoration:none}
+article a:hover{text-decoration:underline}
+.nav{margin-bottom:28px}
+.nav a{color:#2e86de;text-decoration:none;font-size:.88em}
+.nav a:hover{text-decoration:underline}
+</style></head><body>
+<div class="nav"><a href="../../index.html">← Back to Archive</a></div>
+<h1>Frontend Engineering at Palantir: Polar Scaled Tiles in Zodiac</h1>
+<div class="meta">2026-04-15 · <a href="https://blog.palantir.com/frontend-engineering-at-palantir-polar-scaled-tiles-in-zodiac-6cebb5948a1a">Original →</a></div>
+<article><figure><img alt="" height="366" loading="eager" src="https://miro.medium.com/v2/resize:fit:700/1*5Tcs5i77Z-cgIGucACKLZw.png" width="700"/></figure>
+<h3 id="f021"><a href="/all?topic=palantir-frontend" rel="noopener ugc nofollow" target="_blank">关于本系列</a></h3>
+<p id="0574"><em>Palantir 的前端工程远不止是构建标准的 Web 应用。我们的工程师致力于为关键任务决策设计交互界面，开发将洞察转化为行动的运营应用，并打造能够处理海量数据集的系统。我们不仅要考虑用户需要什么，还要考虑在网络不稳定、风险极高、容错率为零的情况下，用户究竟需要什么。</em></p>
+<p id="3e8a"><em>本系列将揭开这项工作真实面貌的面纱：我们解决的技术难题、产生的影响力，以及采取的方法。无论你只是感到好奇，还是正在寻找加入我们的机会，这些文章都将为你呈现我们前端团队真实的工作与生活。你可以在</em><a href="/all?topic=palantir-frontend" rel="noopener ugc nofollow" target="_blank"><em>这里</em></a><em>找到所有前端工程博客文章。</em></p>
+<p id="0254"><em>在这篇博文中，常驻加州的前端工程师 Raj 分享了他在地图上精确渲染圆圈的经历，这带领他探索了地图投影、球面三角学，以及在极地区域进行范围可视化的惊人复杂性。敬请期待第 6 部分。</em></p>
+<p id="4d0a">最近，我们探讨了《Three.js 中的绘图线》——即我们在 3D 地球仪之上渲染的线条、连接和轨道。但要想真正绘制内容，我们首先需要地球仪本身具备良好的性能，无论你查看的是世界哪个区域。</p>
+<p id="2fa2">Zodiac 是我们基于 Three.js 自主构建的 3D 地球仪库。在开发过程中，我们总是遇到同样的情况：赤道附近很流畅，中纬度地区也还可以，但一旦平移到北极，一切就变得异常缓慢。极地严重拖累了性能，而且没有明显的修复方案。</p>
+<h2 id="ca10">切片工作原理</h2>
+<p id="e249">要理解这个问题为何会出现，首先得从地图切片的工作原理说起。</p>
+<p id="8215">当你在互联网上平移任何交互式地图时，实际上加载的并不是一张巨大的地球图片。相反，地图被划分为由被称为“切片”的小正方形图像组成的网格。随着你不断放大，每个切片会分裂为四个分辨率更高的子切片。标准做法是在经纬度空间中将世界划分为大小相等的矩形。在缩放级别 0，可能只有 1 个覆盖整个星球的切片。到了缩放级别 1，每个切片分裂为 4 个。在缩放级别 7，就会有数千个切片。</p>
+<figure><img alt="" height="369" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*MF1UJz5Ln940ugRIjbgIWg.png" width="700"/></figure>
+<p id="cf4f">这样做在视觉清晰度和性能方面都有好处。当完全缩小并试图了解地图的宏观背景时，街道级别的数据只是干扰信息。然而，当我们放大时，一旦这些更详细的切片变得相关，我们就可以加载它们。这对性能也极为有利——我们只需根据当前视口加载几十个切片，而不必时刻加载整个地图的数据。</p>
+<h2 id="3706">极地问题</h2>
+<p id="fd83">问题在于，这种切片系统是为平面地图设计的。在二维 <a href="https://en.wikipedia.org/wiki/Web_Mercator_projection" rel="noopener ugc nofollow" target="_blank">Web Mercator</a> 投影中，极地区域在水平方向上被拉伸，这恰好意味着无论你平移到哪里，看到的切片数量大致相同。尽管在这些地图上格陵兰岛看起来和非洲一样大，但切片数量仍然保持在可控范围内。</p>
+<p id="9f69">但在三维球体上呢？就没那么幸运了。极地成为所有经线交汇的收敛点。那些等角切片变成了微小的细长条，全都争夺相同的几个像素，并且需要制作大量几何体来解释它们。</p>
+<figure><img alt="" height="318" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*e3WEZly6WGx6WLgW00Ob5Q.png" width="700"/></figure>
+<p id="c6c0">放大到北极时，我们最初的实现创建了海量的几何体和三角形——这足以让大多数高端机器的帧率暴跌，并在轻量级设备上直接变得完全不可用。</p>
+<h3 id="b1b3">修复方案：以表面积思考</h3>
+<p id="a747">赤道上 5.625° × 5.625° 的切片覆盖约 394,000 平方公里。在北纬 84° 的相同角度切片呢？仅约 24,000 平方公里——大约只有前者的 6%。我们创建的几何体比实际需要的多出 16 倍。Zodiac 不能再从角度范围去思考，而需要从表面积去思考。</p>
+<p id="e9cc">为此，我们决定为 Zodiac 创建一种新的内部切片格式：极地缩放切片。这会将极地切片的宽度不断翻倍，直到它们的面积与赤道切片大致相当。关键计算使用了球体表面积公式：</p>
+<pre>A = R² (sin φ₁ − sin φ₂) (θ₁ − θ₂)</pre>
+<p id="bf4f">其中 R 是地球半径，φ 表示以弧度为单位的纬度边界，θ 表示经度边界。该公式直接考虑了随着接近极地，表面积如何逐渐缩小。</p>
+<p id="1812">随后，这个核心函数会决定合并多少个标准切片：</p>
+<pre>function getSpanForZoomAndY(zoom: number, y: number): number {
+  if (zoom === 0) {
+    return 1;
+  }
+
+  const area = getUnscaledAreaForZoomAndY(zoom, y);
+  const maxArea = maxTileAreaForZoom(zoom);
+  const factor = maxArea / area;
+
+  const log2Factor = Math.log2(factor);
+  const roundedLog2 = Math.floor(nudgeFloat(log2Factor, Math.round(log2Factor)));
+  return Math.pow(2, roundedLog2);
+}</pre>
+<p id="fed2">该函数将给定纬度下的标准切片面积与该缩放级别的最大切片面积（出现在赤道处）进行比较。这个比率本质上告诉我们需要合并多少个切片。通过使用 <code>Math.pow(2, roundedLog2)</code>，我们确保跨度始终是 2 的幂，这能保持数学计算的简洁性，便于将纹理应用到 3D 地球仪上，并在不同细节层次之间平滑过渡。</p>
+<p id="6fbb">在缩放级别 5，这意味着：</p>
+<ul>
+<li id="45c1"><strong>北极行 (y=0)</strong>：整个圆周有 4 个切片（每个跨越 16 个标准切片）</li>
+<li id="2c49"><strong>中纬度 (y=4)</strong>：32 个切片（每个跨越 2 个标准切片）</li>
+<li id="6e20"><strong>近赤道 (y=15)</strong>：64 个切片（跨度为 1——无需合并）</li>
+</ul>
+<p id="56f0">有趣的是，无论缩放级别如何，这都保证了在靠近极地的顶部和底部行恰好有 4 个切片。这是一个在缩放级别 4 下这种切片效果的示例。</p>
+<figure><img alt="" height="192" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*b1hYoUXf-mQwkV1FD-Z97Q.png" width="700"/></figure>
+<figure><img alt="" height="401" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*TZN9auZPkh8DIshM5Y6xTg.png" width="700"/></figure>
+<h3 id="e4aa">打破四叉树</h3>
+<p id="0ee4">这里就到了有趣的地方。标准切片四叉树假设每个切片都精确分裂为 4 个子切片——这几乎已内置于每一个切片实现中。极地缩放切片打破了这个假设。</p>
+<p id="e1a9">由于不同纬度的切片具有不同的宽度，靠近极地的父切片可能会扩展为 5 个子切片，而不是 4 个：</p>
+<figure><img alt="" height="224" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*gqoqC0eMUHqmfFag3CFECg.png" width="700"/></figure>
+<p id="b736">一个子切片在靠近极地的地方保持较窄，而四个子切片出现在更南边的行，那里需要更多的切片。实际的实现会动态计算子切片数量：</p>
+<pre>export function zoomTile(tile: Tile, out: Tile[] = []): Tile[] {
+  const { zoom, x, y } = tile;
+  const topY = y * 2;
+  const bottomY = topY + 1;
+
+  const thisYTiles = getLongitudeTilesForZoomAndY(zoom, y);
+  const nextTopYTiles = getLongitudeTilesForZoomAndY(zoom + 1, topY);
+  const nextBottomYTiles = getLongitudeTilesForZoomAndY(zoom + 1, bottomY);
+
+  const topFactor = Math.log2(nextTopYTiles / thisYTiles);
+  const bottomFactor = Math.log2(nextBottomYTiles / thisYTiles);
+  const topCount = Math.pow(2, topFactor);
+  const bottomCount = Math.pow(2, bottomFactor);
+
+  for (let i = 0; i < topCount; i++) {
+    out.push({ zoom: zoom + 1, x: x * topCount + i, y: topY });
+  }
+  for (let i = 0; i < bottomCount; i++) {
+    out.push({ zoom: zoom + 1, x: x * bottomCount + i, y: bottomY });
+  }
+  return out;
+}</pre>
+<p id="b24f">每个纬度行可以拥有不同数量的子切片。观察北半球，靠近极地的顶部行分裂出的切片可能少于靠近赤道的底部行。这意味着我们需要重新设计切片遍历、父级查找和细节层次选择。</p>
+<h2 id="7d60">纹理拼接</h2>
+<p id="935a">问题在于：切片服务器并不知道我们的极地缩放方案——这是 Zodiac 独有的机制。它们提供标准的测地或 Mercator 切片，我们无法直接要求它们做出改变。因此，我们必须在客户端进行合成。</p>
+<figure><img alt="" height="627" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*Wpxx1pjJuB_y3cp5U9ADCg.png" width="700"/></figure>
+<p id="ef78">对于一个跨越 4 个标准切片的极地切片，纹理加载器会：</p>
+<ol>
+<li id="f372">计算哪些源切片与极地切片的边界相交</li>
+<li id="f101">并行获取它们</li>
+<li id="d149">创建一个 512×512 的画布</li>
+<li id="c47a">将每个源图像绘制到其映射的像素位置</li>
+</ol>
+<p id="cf05">对于测地源切片，坐标映射只是线性插值。但我们也支持 Web Mercator 源切片，这需要更多工作：Mercator 的纬度缩放是非线性的，因此我们将每个源切片划分为水平条带，并分别映射每个条带。这些条带解释了 Mercator 切片顶部附近的像素如何代表比底部附近像素更少的纬度。</p>
+<h2 id="27f5">高度图</h2>
+<p id="8b95">Zodiac 通过“高度图”支持地形高程可视化，高度图是每个切片的高程样本网格，用于更新切片网格中的固定点。对于极地缩放切片，我们面临着与上述相同的拼接问题，但多了一个额外的转折：我们需要将组合数据重新采样回切片几何体可用的正方形网格。</p>
+<p id="4738">当一个极地切片在水平方向上更宽时，我们会加载覆盖我们更宽边界的所有标准高度图切片，将它们在水平方向上组合成一个宽网格，然后使用双线性插值将其重新采样为正方形：</p>
+<pre>private resampleToSquare(
+  sourceData: Float32Array,
+  sourceWidth: number,
+  sourceHeight: number,
+  targetSize: number
+): Float32Array {
+  const targetData = new Float32Array(targetSize * targetSize);
+
+  for (let row = 0; row < targetSize; row++) {
+    for (let col = 0; col < targetSize; col++) {
+      const sourceRow = (row / (targetSize - 1)) * (sourceHeight - 1);
+      const sourceCol = (col / (targetSize - 1)) * (sourceWidth - 1);
+
+      // Bilinear interpolation
+      const floorRow = Math.floor(sourceRow);
+      const floorCol = Math.floor(sourceCol);
+      const rowT = sourceRow - floorRow;
+      const colT = sourceCol - floorCol;
+
+      // ... fetch four neighboring samples and interpolate
+      const interpolated = (1 - rowT) * ((1 - colT) * q11 + colT * q12)
+                         + rowT * ((1 - colT) * q21 + colT * q22);
+
+      targetData[row * targetSize + col] = interpolated;
+    }
+  }
+  return targetData;
+}</pre>
+<p id="c8a4">还有在实际极点处该如何处理的问题。Web Mercator（以及许多高程数据集）仅延伸至约北纬/南纬 85°。在此之外，我们在 5 度的过渡区内平滑混合到固定高度：北极 0 米，南极 2835 米，这大致是南极洲冰盖的平均高程。</p>
+<pre>const NORTH_POLE_HEIGHT = 0;
+const SOUTH_POLE_HEIGHT = 2835;
+const POLAR_BLEND_ZONE = 5.0; // Blend over 5 degrees (80-85°)
+
+private applyPolarBlending(latLng, loadedTiles): number | undefined {
+  const latDegrees = deg(latLng.lat);
+
+  if (Math.abs(latDegrees) >= WEB_MERCATOR_MAX_LAT) {
+    return latDegrees >= WEB_MERCATOR_MAX_LAT ? NORTH_POLE_HEIGHT : SOUTH_POLE_HEIGHT;
+  } else if (Math.abs(latDegrees) >= WEB_MERCATOR_MAX_LAT - POLAR_BLEND_ZONE) {
+    const blendFactor = (Math.abs(latDegrees) - (WEB_MERCATOR_MAX_LAT - POLAR_BLEND_ZONE))
+                      / POLAR_BLEND_ZONE;
+    const polarHeight = latDegrees > 0 ? NORTH_POLE_HEIGHT : SOUTH_POLE_HEIGHT;
+
+    // Get elevation from data, blend toward polar height
+    const elevationHeight = /* ... fetch from loaded tiles ... */;
+    return elevationHeight * (1.0 - blendFactor) + polarHeight * blendFactor;
+  }
+
+  return undefined; // No polar blending needed
+}</pre>
+<h2 id="dd32">结果</h2>
+<p id="033d">采用极地缩放切片后，极地的几何体数量急剧下降——三角形、绘制调用和纹理减少了 90% 以上。更重要的是，整个地球仪的帧时间现在变得更加一致。一旦切片加载完成，北极不再会让你的帧率彻底暴跌。</p>
+<figure><img alt="" height="304" loading="lazy" src="https://miro.medium.com/v2/resize:fit:700/1*9vE_-YfEjYXjiuofOSNFUQ.png" width="700"/></figure>
+<h3 id="b320">下一步计划</h3>
+<p id="f856">这并没有完全解决极地渲染问题，新的瓶颈在于纹理加载。缩放级别 5 的单个极地切片在显示任何内容之前需要获取 16 个源切片。更彻底的解决方案是让切片服务器原生生成极地缩放切片，从而完全消除客户端拼接。这需要 Zodiac 与切片提供商在共享切片方案上进行协调。</p>
+<p id="4de3">尽管如此，客户端方案还是带来了巨大的 GPU 优势。架构重构也使得在未来支持更多切片方案变得更容易，因为我们的纹理加载器现在可以处理任意切片边界，而不是假设采用固定网格。随着我们后续解决其他球体渲染问题，这种灵活性将显得至关重要。</p>
+<p id="8f35"><em>如果这听起来像你感兴趣的项目和影响力，请查看我们今天开放的职位：</em><a href="https://www.palantir.com/careers/open-positions/" rel="noopener ugc nofollow" target="_blank"><em>https://www.palantir.com/careers/open-positions/</em></a><em>。我们最对口的前端职位是“Web 应用程序开发者”岗位。目前我们也在为以下两个特定岗位招聘：</em><a href="https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc" rel="noopener ugc nofollow" target="_blank"><em>软件工程师 — 核心界面</em></a><em>（帕洛阿尔托），以及</em><a href="https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410" rel="noopener ugc nofollow" target="_blank"><em>软件工程师 — 国防应用</em></a><em>（哥伦比亚特区）。</em></p></article>
+</body></html>

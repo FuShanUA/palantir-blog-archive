@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>From Human-Defined to Software-Defined Data Integration — Part IV, Impact</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#fff;color:#1a1a1a;line-height:1.7;max-width:680px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:1.65em;font-weight:700;margin-bottom:8px;line-height:1.25;color:#111}
+.meta{color:#888;font-size:.82em;margin-bottom:32px;padding-bottom:16px;border-bottom:1px solid #eee}
+.meta a{color:#2e86de;text-decoration:none}
+article p{margin-bottom:18px;font-size:1.02em;line-height:1.75}
+article img{max-width:100%;height:auto;margin:20px auto;display:block;border-radius:6px}
+article h2{font-size:1.28em;font-weight:600;margin:28px 0 12px;line-height:1.3;color:#222}
+article h3{font-size:1.12em;font-weight:600;margin:24px 0 10px;color:#333}
+article h4{font-size:1em;font-weight:600;margin:20px 0 8px;color:#333}
+article ul,article ol{margin-bottom:16px;padding-left:24px}
+article li{margin-bottom:8px;line-height:1.7}
+article blockquote{border-left:3px solid #d0d0d0;padding:8px 16px;margin:18px 0;color:#666;background:#fafafa;border-radius:0 4px 4px 0}
+article pre{background:#f6f6f6;padding:14px 16px;border-radius:6px;overflow-x:auto;font-size:.85em;margin:18px 0;border:1px solid #e8e8e8;font-family:'SF Mono',Monaco,Consolas,monospace}
+article code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:.88em;font-family:'SF Mono',Monaco,Consolas,monospace}
+article pre code{background:none;padding:0;border:none}
+article table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.92em}
+article th,article td{border:1px solid #e0e0e0;padding:8px 12px;text-align:left}
+article th{background:#f8f8f8;font-weight:600}
+article figure{margin:20px 0;text-align:center}
+article figcaption{color:#999;font-size:.82em;margin-top:6px;text-align:center}
+article a{color:#2e86de;text-decoration:none}
+article a:hover{text-decoration:underline}
+.nav{margin-bottom:28px}
+.nav a{color:#2e86de;text-decoration:none;font-size:.88em}
+.nav a:hover{text-decoration:underline}
+</style></head><body>
+<div class="nav"><a href="../../index.html">← Back to Archive</a></div>
+<h1>From Human-Defined to Software-Defined Data Integration — Part IV, Impact</h1>
+<div class="meta">2021-12-13 · <a href="https://blog.palantir.com/from-human-defined-to-software-defined-data-integration-part-iv-impact-719ce3b0d4f3">Original →</a></div>
+<article>*编者按：本文是我们探索 Palantir HyperAuto 起源、能力与影响力的四部曲系列的最终篇，该技术由我们的软件定义数据集成技术驱动。欢迎探索本系列的*《第一部分》*、*《第二部分》*和*《第三部分》*。
+
+![图片](https://miro.medium.com/v2/resize:fit:1000/1*OYa2-zexqSpdZx6aahegzw.jpeg)
+
+商业企业、政府机构和 SaaS 提供商普遍存在一个误区：将数据视为*目的本身*，而非*实现目的的手段*。数据固然有价值——有效利用数据是现代机构面临的最大挑战之一。但数据并不具备*内在*价值。
+
+康德在《道德形而上学奠基》中提出了一种区分：*目的本身*是为了其自身而追求的，而不是作为实现其他事物的载体。相反，*实现目的的手段*则因其实现其他事物的效用而受到重视；其价值取决于它能带来的结果。
+
+我们屡见不鲜地看到，各组织投入数百万美元去收集、编目并尽可能多地囤积数据——交易系统数据、流数据、销售数据等。它们的数据湖和数据仓库中充斥着跨业务部门汇聚并流转而来的海量信息。
+
+然而，数据的价值不在于占有，而在于使用。数据是实现业务价值的手段，而非目的本身。如果无法将这一知识财富应用于解决紧迫的业务问题，数据就会从加速器变成绊脚石。
+
+> “只要你还把手段当成目的，你就依然在随波逐流。” ― Idries Shah
+
+Palantir 的软件定义数据集成技术赋能合作伙伴更充分地挖掘数据价值——快速将信息转化为行动，从而支撑更明智的决策。我们将 SDDI 的强大能力与本系列《第二部分》和《第三部分》中探讨的数据发现与集成组件相结合，打造出了 Palantir HyperAuto。
+
+在本系列的最后一篇博文中，我们将分享 HyperAuto 的完整产品演示，并结合几个案例研究，展示我们的合作伙伴如何利用 HyperAuto 在前所未有的时间尺度内创造价值。
+
+首席架构师 Tom Pearson 演示 HyperAuto 的界面与功能。
+
+## 案例研究：
+
+### 跨国油气企业
+- 将**5套遗留 ERP 系统**中的**300多张表**集成为统一的数据资产
+- 数周内即识别出**超过 5000 万美元**的库存节约潜力
+- 数据准备的云成本**最多降低 80%**
+- 报表不再需要通过编写代码来构建，业务团队消费和分析 ERP 数据的速度**提升 10 倍**
+
+### 财富 100 强消费品公司
+- 将**7套以上的遗留 ERP 系统**整合为统一的数字孪生，**在 5 天内**构建起功能完备的供应链工作流
+- 供应链经理、工厂经理和需求规划师无需再查询复杂的 ERP 数据库，如今可以通过无代码方式与真实世界的对象模型交互，审视工厂、SKU、客户及其他核心业务概念
+- 识别出 1-2% 的产能提升空间，有望在**第一年节约 1 亿美元**
+- 原材料采购优化现在只需**几分钟，而非数周**
+
+## 结语
+
+在本系列中，我们追踪了 HyperAuto 从《指导原则》到 SDDI 技术为合作伙伴创造实际影响力的发展历程。
+
+数据是现代企业运营的关键加速器；但前提是，它必须在决策者手中具备可操作性。HyperAuto 以软件定义的方式综合来自组织全局的信息，缩短了从数据到价值的转化周期。
+
+*想进一步了解 HyperAuto？下载全新白皮书。如果您认为 HyperAuto 能为您的业务带来助益，请联系 business@palantir.com*</article>
+</body></html>
