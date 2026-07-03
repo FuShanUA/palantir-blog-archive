@@ -116,8 +116,10 @@ footer{text-align:center;padding:20px;color:var(--muted);border-top:1px solid va
 .article-modal-orig:hover{text-decoration:underline}
 .article-modal iframe{flex:1;border:none;width:100%;background:#fff}
 
-.tag-bar{display:flex;gap:6px;margin-bottom:16px;padding:4px 0;overflow:hidden;white-space:nowrap;position:relative}
-.tag-bar.expanded{flex-wrap:wrap;overflow:visible;white-space:normal}
+.tag-bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;padding:4px 0;position:relative;max-height:64px;overflow:hidden}
+.tag-bar.expanded{max-height:none;overflow:visible}
+.tag-bar.has-overflow::after{content:'';position:absolute;right:0;bottom:0;width:80px;height:32px;background:linear-gradient(to right,transparent,var(--bg) 60%);pointer-events:none}
+.tag-bar.has-overflow.expanded::after{display:none}
 .tag-pill{display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:16px;font-size:.82em;cursor:pointer;background:var(--card);border:1px solid var(--border);color:var(--text);transition:all 0.12s;user-select:none;flex-shrink:0}
 .tag-pill:hover{border-color:var(--accent);color:var(--accent)}
 .tag-pill.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:500}
@@ -358,9 +360,9 @@ document.getElementById("grid").addEventListener("click",function(e){var card=e.
 
 function buildTagBar(){
 var tb=document.getElementById("tagBar");if(!tb)return;
+var isExpanded=tb.classList.contains("expanded");
 var sorted=Object.keys(tagFreq).sort(function(a,b){return tagFreq[b]-tagFreq[a]});
-var visible=[];
-var hidden=[];
+var h="";
 for(var i=0;i<sorted.length;i++){
 var tag=sorted[i],count=tagFreq[tag];
 var parts=tag.split("::");
@@ -368,22 +370,38 @@ var tagCat=parts[0];
 if(F.bc.size>0&&!F.bc.has(tagCat))continue;
 var display=tt(parts.length>1?parts[1]:tag);
 var active=F.sc.has(tag)?" active":"";
-var pill="<span class='tag-pill"+active+"' data-type='sc' data-val='"+tag+"'>"+display+"<span class='pill-count'>"+count+"</span></span>";
-if(F.sc.has(tag)){visible.push(pill)}else if(visible.length<8){visible.push(pill)}else{hidden.push(pill)}
+h+="<span class='tag-pill"+active+"' data-type='sc' data-val='"+tag+"'>"+display+"<span class='pill-count'>"+count+"</span></span>";
 }
-var h=visible.join("");
-if(hidden.length>0){
-h+="<span class='tag-expand' id='tagExpand'>+"+hidden.length+"</span>";
-if(tb.classList.contains("expanded")){h+=hidden.join("")}
-}
+h+="<span class='tag-expand' id='tagExpand' style='display:none'>+</span>";
 tb.innerHTML=h;
 tb.querySelectorAll(".tag-pill").forEach(function(el){el.addEventListener("click",function(){
 var val=el.dataset.val;
 if(F.sc.has(val)){F.sc.delete(val)}else{F.sc.add(val)}
 buildSidebar();buildTagBar();resetPage();render();
 })});
+// Check if overflow (more than 2 rows)
+if(!isExpanded&&tb.scrollHeight>64){
+tb.classList.add("has-overflow");
 var exp=document.getElementById("tagExpand");
-if(exp)exp.addEventListener("click",function(){tb.classList.toggle("expanded");buildTagBar()});
+var hidden=tb.querySelectorAll(".tag-pill").length;
+// Count visible pills (those in first 2 rows)
+var visCount=0;
+tb.querySelectorAll(".tag-pill").forEach(function(pill){
+if(pill.offsetTop<64)visCount++;
+});
+var hiddenCount=tb.querySelectorAll(".tag-pill").length-visCount;
+exp.textContent="+"+hiddenCount;
+exp.style.display="inline-flex";
+exp.addEventListener("click",function(e){e.stopPropagation();tb.classList.add("expanded");buildTagBar()});
+}else if(isExpanded){
+var exp=document.getElementById("tagExpand");
+exp.textContent="∑";
+exp.style.display="inline-flex";
+exp.addEventListener("click",function(e){e.stopPropagation();tb.classList.remove("expanded");buildTagBar()});
+}else{
+tb.classList.remove("has-overflow");
+document.getElementById("tagExpand").style.display="none";
+}
 }
 
 applyTheme("light");applyLang();
