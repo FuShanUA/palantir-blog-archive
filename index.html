@@ -85,6 +85,14 @@ header h1{font-size:1.35em;font-weight:700;color:var(--accent);letter-spacing:-0
 .card .ttl{font-size:.9em;font-weight:600;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4}
 .card .meta{font-size:.76em;color:var(--muted)}
 .load-more{text-align:center;padding:20px}
+
+.source-badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.68em;font-weight:600;margin-bottom:4px}
+.source-badge.blog{background:rgba(14,165,233,0.12);color:#0EA5E9}
+.source-badge.website{background:rgba(139,92,246,0.12);color:#8B5CF6}
+.source-filter{display:flex;gap:6px;align-items:center}
+.source-pill{padding:4px 12px;border-radius:14px;font-size:.78em;cursor:pointer;border:1px solid var(--border);background:var(--card);color:var(--text);transition:all 0.15s;user-select:none}
+.source-pill.active{background:var(--accent-soft);color:var(--accent);font-weight:500;border-color:var(--accent)}
+
 .load-more button{padding:10px 28px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:.88em;font-family:inherit;cursor:pointer;transition:all 0.2s}
 .load-more button:hover{border-color:var(--accent);color:var(--accent)}
 .empty{text-align:center;padding:60px 20px;color:var(--muted)}
@@ -124,7 +132,7 @@ footer{text-align:center;padding:20px;color:var(--muted);border-top:1px solid va
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
 <div class="layout"><div class="sidebar" id="sidebar"></div><div class="sidebar-resizer" id="sidebarResizer"></div>
 <div class="main">
-<div class="toolbar">
+<div class="toolbar"><div class="source-filter" id="sourceFilter"><span class="source-pill active" data-source="blog">Blog</span><span class="source-pill active" data-source="website">Website</span></div>
 <button class="filter-btn" id="filterBtn">&#9776;</button>
 <div class="search-wrap"><span class="icon">&#128269;</span><input type="text" id="search" placeholder="搜索关键词..."></div>
 <select id="yearSelect"></select><select id="monthSelect"></select>
@@ -155,7 +163,7 @@ initApp();
 }).catch(function(e){console.error('Failed to load index.json:',e);document.getElementById('grid').innerHTML='<p style="padding:40px;text-align:center;color:var(--muted)">Failed to load data. If running locally, use a web server.</p>'});
 
 function initApp(){
-var lang="zh";var F={bc:new Set(),sc:new Set()};var dateFilter={year:null,month:null};
+var lang="zh";var F={bc:new Set(),sc:new Set()};var dateFilter={year:null,month:null};var sourceFilter=new Set(["blog","website"]);
 var accOpen={};var pageSize=24;var currentPage=0;
 
 function t(k){return I18N[lang][k]}
@@ -249,6 +257,7 @@ return false;
 }).filter(function(a){
 if(dateFilter.year){var y=(a.d||"").substring(0,4);if(y!==dateFilter.year)return false;
 if(dateFilter.month){var m=(a.d||"").substring(5,7);if(m!==dateFilter.month)return false}}
+if(sourceFilter.size>0){if(!sourceFilter.has(a.source||"blog"))return false}
 if(F.bc.size>0){var has=false;a.bc.forEach(function(c){if(F.bc.has(c))has=true});if(!has)return false}
 if(F.sc.size>0){var hasSc=false;F.sc.forEach(function(sk){var parts=sk.split("::");var cat=parts[0],sub=parts[1];
 var sc=a.sc||{};if(sc[cat]&&sc[cat].indexOf(sub)>=0)hasSc=true});if(!hasSc)return false}
@@ -285,8 +294,7 @@ if(visible.length===0){g.innerHTML="<div class='empty'>"+t("no_result")+"</div>"
 var gh="";
 for(var i=0;i<visible.length;i++){var a=visible[i];
 var title=lang==="zh"?(a.tt||a.t||""):(a.t||"");
-var th=a.th?"<div class='thumb'><img src='"+a.th+"' loading='lazy'></div>":"<div class='thumb'></div>";
-gh+="<div class='card' data-slug='"+a.s+"' data-url='"+a.u+"' style='cursor:pointer'>"+th+"<div class='body'><div class='ttl'>"+esc(title)+"</div><div class='meta'>"+formatDate(a.d)+"</div></div></div>"}
+var src=a.source||"blog";var srcLabel=src==="blog"?"Blog":"Website";var th=a.th?"<div class='thumb'><img src='"+a.th+"' loading='lazy'></div>":"<div class='thumb'></div>";var dateStr=a.d?formatDate(a.d):(src==="website"?"归档":"");gh+="<div class='card' data-slug='"+a.s+"' data-url='"+a.u+"' style='cursor:pointer'>"+th+"<div class='body'><span class='source-badge "+src+"'>"+srcLabel+"</span><div class='ttl'>"+esc(title)+"</div><div class='meta'>"+dateStr+"</div></div></div>"}
 g.innerHTML=gh;
 var lm=document.getElementById("loadMore");
 if(f.length>visible.length){lm.style.display="block"}else{lm.style.display="none"}
@@ -296,6 +304,7 @@ function esc(s){return(s||"").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
 
 document.getElementById("themeBtn").addEventListener("click",function(){var cur=document.documentElement.getAttribute("data-theme");applyTheme(cur==="dark"?"light":"dark")});
 document.querySelectorAll("#langToggle span[data-lang]").forEach(function(el){el.addEventListener("click",function(){lang=el.dataset.lang;applyLang()})});
+document.querySelectorAll("#sourceFilter .source-pill").forEach(function(el){el.addEventListener("click",function(){var src=el.dataset.source;if(sourceFilter.has(src)){sourceFilter.delete(src);el.classList.remove("active")}else{sourceFilter.add(src);el.classList.add("active")}resetPage();render()})});
 document.getElementById("search").addEventListener("input",function(){resetPage();render()});
 document.getElementById("sortBy").addEventListener("change",function(){resetPage();render()});
 document.getElementById("yearSelect").addEventListener("change",function(){dateFilter.year=this.value||null;dateFilter.month=null;buildMonthSelect();resetPage();render()});
