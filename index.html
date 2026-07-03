@@ -252,7 +252,7 @@ bySource[src].cats[cat]=(bySource[src].cats[cat]||0)+1;
 for(var si2=0;si2<SOURCE_ORDER.length;si2++){
 var src2=SOURCE_ORDER[si2];
 var info=bySource[src2];
-if(!info||info.total===0)continue;
+var srcTotal=info?info.total:0;
 var meta=SOURCE_META[src2]||{name:src2,name_zh:src2};
 var srcLabel=lang==="zh"?meta.name_zh:meta.name;
 h+="<div class='source-group"+(sourceCollapsed[src2]?" collapsed":"")+"' data-source='"+src2+"'><div class='source-header' data-source='"+src2+"'><span class='source-arrow'></span>"+srcLabel+"<span class='source-total'>"+info.total+"</span></div><div class='source-body'>";
