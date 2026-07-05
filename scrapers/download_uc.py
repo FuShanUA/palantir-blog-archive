@@ -16,6 +16,36 @@ WEBSITE_JSON = ROOT / "data" / "sources" / "website.json"
 DOC_DIR = ROOT / "content" / "website" / "documents"
 DOC_DIR.mkdir(parents=True, exist_ok=True)
 
+import random
+
+def human_delay(min_s=0.5, max_s=2.0):
+    time.sleep(random.uniform(min_s, max_s))
+
+def human_mouse_move(driver, x=None, y=None):
+    from selenium.webdriver.common.action_chains import ActionChains
+    try:
+        actions = ActionChains(driver)
+        if x is None: x = random.randint(100, 800)
+        if y is None: y = random.randint(100, 600)
+        actions.move_by_offset(x, y)
+        actions.perform()
+        human_delay(0.1, 0.5)
+    except: pass
+
+def human_click(driver, element):
+    from selenium.webdriver.common.action_chains import ActionChains
+    try:
+        actions = ActionChains(driver)
+        actions.move_to_element(element)
+        actions.perform()
+        human_delay(0.3, 1.0)
+        actions = ActionChains(driver)
+        actions.move_to_element_with_offset(element, random.randint(-3, 3), random.randint(-3, 3))
+        actions.click()
+        actions.perform()
+    except:
+        element.click()
+
 FORM_PROFILE = {
     "FirstName": "Research",
     "LastName": "Analyst",
@@ -50,86 +80,89 @@ def solve_recaptcha_audio(driver):
     from pydub import AudioSegment
     from selenium.webdriver.common.by import By
     
-    # Find the audio challenge iframe
     iframes = driver.find_elements(By.CSS_SELECTOR, "iframe[src*='recaptcha/api2/bframe']")
     for iframe in iframes:
         try:
             driver.switch_to.frame(iframe)
-            time.sleep(1)
+            human_delay(1.0, 2.0)
             
-            # Click audio button if present
+            # Click audio button
             try:
                 audio_btn = driver.find_element(By.ID, "recaptcha-audio-button")
                 if audio_btn.is_displayed():
-                    audio_btn.click()
-                    print("  Clicked audio button")
-                    time.sleep(2)
+                    human_delay(0.5, 1.0)
+                    human_click(driver, audio_btn)
+                    print("  Clicked audio (human-like)")
+                    human_delay(3.0, 5.0)
             except:
                 try:
-                    # Try alternative selectors
                     btns = driver.find_elements(By.CSS_SELECTOR, "button[aria-label*='audio'], .rc-button-goog")
                     for btn in btns:
                         if btn.is_displayed():
-                            btn.click()
-                            print("  Clicked audio button (alt)")
-                            time.sleep(2)
+                            human_click(driver, btn)
+                            print("  Clicked audio (alt)")
+                            human_delay(3.0, 5.0)
                             break
                 except:
                     pass
             
-            # Get audio source
-            try:
-                audio_el = driver.find_element(By.CSS_SELECTOR, "audio source, audio")
-                audio_src = audio_el.get_attribute("src")
-                if audio_src:
-                    print(f"  Audio source: {audio_src[:80]}...")
+            # Wait for audio element (up to 10s)
+            audio_src = None
+            for wait_i in range(10):
+                try:
+                    audio_el = driver.find_element(By.CSS_SELECTOR, "audio source, audio")
+                    audio_src = audio_el.get_attribute("src")
+                    if audio_src:
+                        break
+                except:
+                    pass
+                try:
+                    dl = driver.find_element(By.CSS_SELECTOR, "a[href*='.mp3']")
+                    audio_src = dl.get_attribute("href")
+                    if audio_src:
+                        break
+                except:
+                    pass
+                time.sleep(1)
+            
+            if audio_src:
+                print(f"  Audio source: {audio_src[:80]}...")
+                tmp_audio = "/tmp/recaptcha_audio.mp3"
+                subprocess.run(["curl", "-s", "-L", "-o", tmp_audio, audio_src], timeout=15)
+                
+                if os.path.exists(tmp_audio) and os.path.getsize(tmp_audio) > 100:
+                    tmp_wav = "/tmp/recaptcha_audio.wav"
+                    try:
+                        audio = AudioSegment.from_mp3(tmp_audio)
+                        audio.export(tmp_wav, format="wav")
+                    except:
+                        subprocess.run(["ffmpeg", "-y", "-i", tmp_audio, tmp_wav], capture_output=True, timeout=10)
                     
-                    # Download audio file
-                    tmp_audio = "/tmp/recaptcha_audio.mp3"
-                    subprocess.run(["curl", "-s", "-L", "-o", tmp_audio, audio_src], timeout=15)
-                    
-                    if os.path.exists(tmp_audio) and os.path.getsize(tmp_audio) > 100:
-                        # Convert to WAV
-                        tmp_wav = "/tmp/recaptcha_audio.wav"
+                    if os.path.exists(tmp_wav):
+                        r = sr.Recognizer()
+                        with sr.AudioFile(tmp_wav) as source:
+                            audio_data = r.record(source)
                         try:
-                            audio = AudioSegment.from_mp3(tmp_audio)
-                            audio.export(tmp_wav, format="wav")
-                        except:
-                            # Try direct conversion
-                            subprocess.run(["ffmpeg", "-y", "-i", tmp_audio, tmp_wav], 
-                                         capture_output=True, timeout=10)
-                        
-                        # Recognize speech
-                        if os.path.exists(tmp_wav):
-                            r = sr.Recognizer()
-                            with sr.AudioFile(tmp_wav) as source:
-                                audio_data = r.record(source)
-                            try:
-                                text = r.recognize_google(audio_data)
-                                print(f"  Speech recognized: '{text}'")
-                                
-                                # Enter the answer
-                                input_el = driver.find_element(By.ID, "audio-response")
-                                input_el.clear()
-                                input_el.send_keys(text.lower())
-                                time.sleep(0.5)
-                                
-                                # Click verify
-                                verify_btn = driver.find_element(By.ID, "recaptcha-verify-button")
-                                verify_btn.click()
-                                print("  Submitted audio answer")
-                                time.sleep(3)
-                                
-                                driver.switch_to.default_content()
-                                return True
-                            except sr.UnknownValueError:
-                                print("  Could not understand audio")
-                            except Exception as e:
-                                print(f"  Recognition error: {e}")
-                    else:
-                        print("  Audio download failed")
-            except Exception as e:
-                print(f"  Audio element error: {e}")
+                            text = r.recognize_google(audio_data)
+                            print(f"  Recognized: '{text}'")
+                            input_el = driver.find_element(By.ID, "audio-response")
+                            input_el.clear()
+                            input_el.send_keys(text.lower())
+                            human_delay(0.5, 1.0)
+                            verify_btn = driver.find_element(By.ID, "recaptcha-verify-button")
+                            human_click(driver, verify_btn)
+                            print("  Submitted audio answer")
+                            human_delay(2.0, 4.0)
+                            driver.switch_to.default_content()
+                            return True
+                        except sr.UnknownValueError:
+                            print("  Could not understand audio")
+                        except Exception as e:
+                            print(f"  Recognition error: {e}")
+                else:
+                    print("  Audio download failed")
+            else:
+                print("  No audio element found")
             
             driver.switch_to.default_content()
         except:
@@ -245,6 +278,9 @@ def download_one(slug, url):
                 if el.is_displayed():
                     form_found = True
                     print(f"Form found at {i}s!")
+                    print("  Reading page...")
+                    human_delay(3.0, 6.0)
+                    human_mouse_move(driver)
                     break
             except:
                 pass
@@ -265,7 +301,7 @@ def download_one(slug, url):
                 el.clear()
                 el.send_keys(value)
                 print(f"  {field_id} = {value}")
-                time.sleep(0.2)
+                human_delay(0.3, 0.8)
             except Exception as e:
                 print(f"  {field_id} FAILED: {e}")
         
@@ -317,8 +353,9 @@ def download_one(slug, url):
         print("Submitting form...")
         try:
             btn = driver.find_element(By.CSS_SELECTOR, "button[type=submit], .mktoButton")
-            btn.click()
-            print("Clicked submit")
+            human_delay(0.5, 1.5)
+            human_click(driver, btn)
+            print("Clicked submit (human-like)")
         except:
             print("Submit button not found")
         
@@ -437,13 +474,21 @@ def main():
         print(f"Processing: {slug}")
         print(f"{'='*60}\n")
         
-        doc_path = download_one(slug, url)
-        if doc_path:
-            update_website_json(slug, doc_path)
-            subprocess.run(["python3", "build.py"], cwd=str(ROOT))
-            print(f"SUCCESS: {slug}")
-        else:
-            print(f"FAILED: {slug}")
+        try:
+            doc_path = download_one(slug, url)
+            if doc_path:
+                update_website_json(slug, doc_path)
+                subprocess.run(["python3", "build.py"], cwd=str(ROOT))
+                print(f"SUCCESS: {slug}")
+            else:
+                print(f"FAILED: {slug}")
+        except Exception as e:
+            print(f"ERROR: {slug} - {e}")
+            # Continue to next page
+            time.sleep(3)
+        
+        # Wait between pages to avoid reCAPTCHA getting stricter
+        time.sleep(30)  # Wait between pages
     
     print("\nDone!")
 
