@@ -301,15 +301,15 @@ sb.querySelectorAll(".acc-header").forEach(function(h){h.classList.remove("activ
 if(willOpen){
 el.parentElement.classList.add("open");
 el.classList.add("active");
-F.bc.clear();F.bc.add(cat);
+F.bc.clear();F.bc.add(cat);F.sc.clear();
 }else{
-F.bc.delete(cat);
+F.bc.clear();F.sc.clear();
 }
 resetPage();render();
 })});
 sb.querySelectorAll(".tag").forEach(function(el){el.addEventListener("click",function(e){e.stopPropagation();var type=el.dataset.type,val=el.dataset.val;
-if(type==="bc"){if(F.bc.has(val)){F.bc.delete(val)}else{F.bc.add(val)}}else if(type==="sc"){if(F.sc.has(val)){F.sc.delete(val)}else{F.sc.add(val)}}
-el.classList.toggle("active");resetPage();render()})});
+if(type==="bc"){F.bc.clear();F.bc.add(val)}else if(type==="sc"){F.sc.clear();F.sc.add(val)}
+buildSidebar();buildTagBar();resetPage();render()})});
 }
 
 function getFiltered(){
@@ -427,8 +427,8 @@ h+="<span class='tag-expand' id='tagExpand' style='display:none'>+</span>";
 tb.innerHTML=h;
 tb.querySelectorAll(".tag-pill").forEach(function(el){el.addEventListener("click",function(){
 var val=el.dataset.val;
-if(F.sc.has(val)){F.sc.delete(val)}else{F.sc.add(val)}
-resetPage();render();
+if(F.sc.has(val)){F.sc.clear()}else{F.sc.clear();F.sc.add(val)}
+buildSidebar();buildTagBar();resetPage();render();
 })});
 if(!isExpanded&&tb.scrollHeight>64){
 tb.classList.add("has-overflow");
