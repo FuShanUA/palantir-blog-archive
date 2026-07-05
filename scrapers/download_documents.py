@@ -312,81 +312,68 @@ def build_node_script(slug, url, method, ext_path=None):
     } catch {}
   }
 
-  console.log('Form filled. Waiting for CAPTCHA solver...');
+  // Show a visible message to the user
+  await page.evaluate(function() {
+    var banner = document.createElement('div');
+    banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:99999;background:#0ea5e9;color:white;padding:12px 20px;font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif';
+    banner.innerHTML = '&#9993; FORM FILLED! Please click the reCAPTCHA checkbox, then click Submit. Script will auto-detect submission.';
+    document.body.appendChild(banner);
+  });
+  console.log('FORM FILLED! Please solve reCAPTCHA and click Submit in the browser window.');
+  console.log('Waiting up to 180s for you to submit...');
 
-  // Step 4: Wait for CAPTCHA to be solved and form submitted
-  const method = '__METHOD__';
-  let submitted = false;
-
-  for (let i = 0; i < 120; i++) {
+  var submitted = false;
+  var startUrl = page.url();
+  for (var i = 0; i < 180; i++) {
     await page.waitForTimeout(1000);
-
-    // Don't check for submission in first 5 seconds (form just filled)
-    // Check if form is gone (submitted) - wait at least 5s before checking
-    if (i > 5) {
-      try {
-        const target = formFrame || page;
-        const form = target.locator('form.mktoForm, .mktoForm');
-        const formVisible = await form.first().isVisible({ timeout: 300 }).catch(() => false);
-        const firstNameGone = !(await target.locator('#FirstName').first().isVisible({ timeout: 300 }).catch(() => false));
-        if (!formVisible || firstNameGone) {
-          submitted = true;
-          console.log('FORM_SUBMITTED at ' + i + 's');
-          break;
-        }
-      } catch {}
+    var currentUrl = page.url();
+    if (currentUrl !== startUrl) {
+      console.log('URL changed at ' + i + 's: ' + currentUrl);
+      submitted = true; break;
     }
-
-    // Check for thank-you text (only specific phrases, not just "Download")
     try {
-      const bodyText = await page.evaluate(() => document.body.innerText);
-      if (bodyText.includes('Thank you') || bodyText.includes('thank you for') || bodyText.includes('Success!') || bodyText.includes('Your download') || bodyText.includes('Check your email')) {
-        submitted = true;
-        console.log('THANK_YOU at ' + i + 's');
-        break;
+      var bodyText = await page.evaluate(function() { return document.body ? document.body.innerText : ''; });
+      if (bodyText.indexOf('Thank you') >= 0 || bodyText.indexOf('Download your') >= 0 || bodyText.indexOf('Download the') >= 0 || bodyText.indexOf('Success') >= 0) {
+        submitted = true; console.log('THANK_YOU at ' + i + 's'); break;
       }
     } catch {}
-
-    // Try clicking submit every 10s (in case CAPTCHA was auto-solved)
-    if (i > 5 && i % 10 === 0) {
-      try {
-        const target = formFrame || page;
-        const btn = target.locator('button[type=submit], .mktoButton, button:has-text("Submit"), button:has-text("Download")');
-        if (await btn.first().isVisible({ timeout: 500 })) {
-          await btn.first().click();
-          console.log('CLICK_SUBMIT at ' + i + 's');
-        }
-      } catch {}
-    }
-
+    if (savedFile) { submitted = true; console.log('Download at ' + i + 's'); break; }
     if (i % 15 === 0 && i > 0) console.log('  Waiting for CAPTCHA... ' + i + 's');
   }
 
-  // Wait for page to settle after submission
-  console.log('Waiting for page to settle...');
+  if (!submitted) {
+    console.log('TIMEOUT: 180s');
+    await browser.close();
+    return;
+  }
+
+  console.log('Submitted! Waiting for page...');
   await page.waitForTimeout(5000);
 
-  // Debug: what is on the page now?
   var afterUrl = page.url();
-  var afterTitle = await page.title().catch(function() { return '?'; });
-  var afterText = await page.evaluate(function() { return document.body ? document.body.innerText.substring(0, 1000) : ''; }).catch(function() { return ''; });
-  console.log('After submit URL: ' + afterUrl);
-  console.log('After submit title: ' + afterTitle);
-  console.log('After submit body text: ' + afterText.substring(0, 500));
+  var afterText = await page.evaluate(function() { return document.body ? document.body.innerText.substring(0, 800) : ''; }).catch(function() { return ''; });
+  console.log('URL: ' + afterUrl);
+  console.log('Body: ' + afterText.substring(0, 400));
 
-  // Take screenshot
-  try { await page.screenshot({ path: '/tmp/form_after_submit.png', fullPage: false }); console.log('Screenshot: /tmp/form_after_submit.png'); } catch(e) {}
+  try { await page.screenshot({ path: '/tmp/form_after_submit.png' }); console.log('Screenshot: /tmp/form_after_submit.png'); } catch(e) {}
 
-  // Check for download links
+  // Click download links
   try {
     var links = await page.evaluate(function() {
       return Array.from(document.querySelectorAll('a[href]'))
-        .filter(function(a) { var h = a.href.toLowerCase(); return h.indexOf('pdf') >= 0 || h.indexOf('download') >= 0 || h.indexOf('asset') >= 0 || a.textContent.toLowerCase().indexOf('download') >= 0; })
+        .filter(function(a) { var h = a.href.toLowerCase(); var t = a.textContent.toLowerCase(); return h.indexOf('pdf') >= 0 || h.indexOf('download') >= 0 || t.indexOf('download') >= 0; })
         .map(function(a) { return { href: a.href, text: a.textContent.trim().substring(0, 60) }; });
     });
-    if (links.length > 0) console.log('DOWNLOAD_LINKS:' + JSON.stringify(links));
-    else console.log('No download links found');
-  } catch(e) { console.log('Link check error'); }
+    if (links.length > 0) {
+      console.log('LINKS:' + JSON.stringify(links));
+      for (var j = 0; j < links.length; j++) {
+        if (links[j].href.indexOf('png') < 0 && links[j].href.indexOf('jpg') < 0) {
+          console.log('Clicking: ' + links[j].text);
+          try { await page.goto(links[j].href, { waitUntil: 'domcontentloaded', timeout: 15000 }).catch(function(){}); await page.waitForTimeout(3000); } catch(e) {}
+        }
+      }
+    } else { console.log('No download links'); }
+  } catch(e) {}
 
   console.log('Waiting for downloads...');
   await page.waitForTimeout(8000);
