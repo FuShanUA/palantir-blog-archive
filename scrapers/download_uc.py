@@ -348,8 +348,9 @@ def download_one(slug, url):
     })
     
     print(f"Launching Chrome (fresh profile)...")
-    driver = uc.Chrome(options=options, version_main=None)
+    driver = uc.Chrome(options=options, version_main=None, timeout=300)
     driver.implicitly_wait(3)
+    driver.set_page_load_timeout(60)
     
     try:
         # Pre-set cookie consent

@@ -1,0 +1,14 @@
+{
+  "2025-modelops-market-study": {
+    "last_attempt": "2026-07-06T14:02:40.759619",
+    "last_attempt_ts": 1783317760.759638,
+    "last_result": "success",
+    "last_error": null
+  },
+  "2025-wisdom-of-crowds-agentic-ai-market-study": {
+    "last_attempt": "2026-07-06T15:58:42.060591",
+    "last_attempt_ts": 1783324722.0606751,
+    "last_result": "success",
+    "last_error": null
+  }
+}
