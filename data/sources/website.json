@@ -71,11 +71,11 @@
       "s": "2025-ai-ds-ml-market-study",
       "u": "https://www.palantir.com/2025-ai-ds-ml-market-study/",
       "bc": [
-        "Other"
+        "Market Studies"
       ],
       "sc": {
-        "Other": [
-          "2025-ai-ds-ml-market-study"
+        "Market Studies": [
+          "AI/DS/ML"
         ]
       },
       "th": "content/website/images/9ce0b657468c.jpg",
@@ -90,11 +90,11 @@
       "s": "2025-market-studies",
       "u": "https://www.palantir.com/2025-market-studies/",
       "bc": [
-        "Other"
+        "Market Studies"
       ],
       "sc": {
-        "Other": [
-          "2025-market-studies"
+        "Market Studies": [
+          "Overview"
         ]
       },
       "th": "content/website/images/9025ddfacaa9.jpg",
@@ -109,11 +109,11 @@
       "s": "2025-modelops-market-study",
       "u": "https://www.palantir.com/2025-modelops-market-study/",
       "bc": [
-        "Other"
+        "Market Studies"
       ],
       "sc": {
-        "Other": [
-          "2025-modelops-market-study"
+        "Market Studies": [
+          "ModelOps"
         ]
       },
       "th": "content/website/images/9ce0b657468c.jpg",
@@ -128,11 +128,11 @@
       "s": "2025-wisdom-of-crowds-agentic-ai-market-study",
       "u": "https://www.palantir.com/2025-wisdom-of-crowds-agentic-ai-market-study/",
       "bc": [
-        "Other"
+        "Market Studies"
       ],
       "sc": {
-        "Other": [
-          "2025-wisdom-of-crowds-agentic-ai-market-study"
+        "Market Studies": [
+          "Agentic AI"
         ]
       },
       "th": "content/website/images/9ce0b657468c.jpg",
@@ -169,7 +169,11 @@
       "bc": [
         "About"
       ],
-      "sc": {},
+      "sc": {
+        "About": [
+          "Overview"
+        ]
+      },
       "th": "content/website/images/d67f901494eb.jpg",
       "ds": "",
       "sn": "",
@@ -182,11 +186,11 @@
       "s": "aip-for-asset-maintenance-scheduling",
       "u": "https://www.palantir.com/aip-for-asset-maintenance-scheduling/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-asset-maintenance-scheduling"
+        "AIP Use Cases": [
+          "Asset Maintenance"
         ]
       },
       "th": "content/website/images/10cc431683e6.png",
@@ -201,11 +205,11 @@
       "s": "aip-for-ehs-risk-management",
       "u": "https://www.palantir.com/aip-for-ehs-risk-management/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-ehs-risk-management"
+        "AIP Use Cases": [
+          "EHS Risk Management"
         ]
       },
       "th": "content/website/images/3736e58e16aa.png",
@@ -220,11 +224,11 @@
       "s": "aip-for-maintenance-assistance",
       "u": "https://www.palantir.com/aip-for-maintenance-assistance/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-maintenance-assistance"
+        "AIP Use Cases": [
+          "Maintenance Assistance"
         ]
       },
       "th": "content/website/images/3008c87646c3.png",
@@ -239,11 +243,11 @@
       "s": "aip-for-program-knowledge-management",
       "u": "https://www.palantir.com/aip-for-program-knowledge-management/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-program-knowledge-management"
+        "AIP Use Cases": [
+          "Program Knowledge"
         ]
       },
       "th": "content/website/images/529793085820.jpg",
@@ -258,11 +262,11 @@
       "s": "aip-for-public-consultation-analysis",
       "u": "https://www.palantir.com/aip-for-public-consultation-analysis/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-public-consultation-analysis"
+        "AIP Use Cases": [
+          "Public Consultation"
         ]
       },
       "th": "content/website/images/dab5d5bcd272.jpg",
@@ -277,11 +281,11 @@
       "s": "aip-for-sustainable-solutions",
       "u": "https://www.palantir.com/aip-for-sustainable-solutions/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-sustainable-solutions"
+        "AIP Use Cases": [
+          "Sustainable Solutions"
         ]
       },
       "th": "content/website/images/5a68d9d5e8b8.jpg",
@@ -296,11 +300,11 @@
       "s": "aip-for-wastewater-system-optimization",
       "u": "https://www.palantir.com/aip-for-wastewater-system-optimization/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-wastewater-system-optimization"
+        "AIP Use Cases": [
+          "Wastewater"
         ]
       },
       "th": "content/website/images/62519c81be06.jpg",
@@ -315,11 +319,11 @@
       "s": "aip-for-work-breakdown-structure-creator",
       "u": "https://www.palantir.com/aip-for-work-breakdown-structure-creator/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-for-work-breakdown-structure-creator"
+        "AIP Use Cases": [
+          "Work Breakdown"
         ]
       },
       "th": "content/website/images/78d61e5e1312.png",
@@ -334,11 +338,11 @@
       "s": "aip-now-statement",
       "u": "https://www.palantir.com/aip-now-statement/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-now-statement"
+        "AIP Use Cases": [
+          "Privacy Statement"
         ]
       },
       "th": "content/website/images/b961ec6c951b.jpg",
@@ -353,11 +357,11 @@
       "s": "aip-sensor-integration-for-wastewater-management",
       "u": "https://www.palantir.com/aip-sensor-integration-for-wastewater-management/",
       "bc": [
-        "Other"
+        "AIP Use Cases"
       ],
       "sc": {
-        "Other": [
-          "aip-sensor-integration-for-wastewater-management"
+        "AIP Use Cases": [
+          "Sensor Integration"
         ]
       },
       "th": "content/website/images/a09e082758f9.jpg",
@@ -410,11 +414,11 @@
       "s": "aipcon",
       "u": "https://www.palantir.com/aipcon/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "aipcon"
+        "Events": [
+          "AIPCon"
         ]
       },
       "th": "content/website/images/ae723cfc9716.jpg",
@@ -431,7 +435,11 @@
       "bc": [
         "Special Products"
       ],
-      "sc": {},
+      "sc": {
+        "Special Products": [
+          "Alpha"
+        ]
+      },
       "th": "content/website/images/4b25deb1cca3.jpg",
       "ds": "",
       "sn": "",
@@ -444,11 +452,11 @@
       "s": "american-tech-fellowship",
       "u": "https://www.palantir.com/american-tech-fellowship/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "american-tech-fellowship"
+        "Events": [
+          "Fellowship"
         ]
       },
       "th": "content/website/images/e49e5bdce88c.jpg",
@@ -463,11 +471,11 @@
       "s": "army-intelligence-data-platform",
       "u": "https://www.palantir.com/army-intelligence-data-platform/",
       "bc": [
-        "Other"
+        "Defense & Government"
       ],
       "sc": {
-        "Other": [
-          "army-intelligence-data-platform"
+        "Defense & Government": [
+          "Army"
         ]
       },
       "th": "content/website/images/80200bd8b3ad.jpg",
@@ -482,11 +490,11 @@
       "s": "army-vantage",
       "u": "https://www.palantir.com/army-vantage/",
       "bc": [
-        "Other"
+        "Defense & Government"
       ],
       "sc": {
-        "Other": [
-          "army-vantage"
+        "Defense & Government": [
+          "Army"
         ]
       },
       "th": "content/website/images/fa4d152948c3.jpg",
@@ -501,11 +509,11 @@
       "s": "attributes",
       "u": "https://www.palantir.com/attributes/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "attributes"
+        "Security": [
+          "Overview"
         ]
       },
       "th": "content/website/attributes/screenshot.png",
@@ -520,11 +528,11 @@
       "s": "attributes-interoperable",
       "u": "https://www.palantir.com/attributes/interoperable/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "attributes"
+        "Security": [
+          "Interoperable"
         ]
       },
       "th": "content/website/images/a48f193ad2c9.jpg",
@@ -539,11 +547,11 @@
       "s": "attributes-security",
       "u": "https://www.palantir.com/attributes/security/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "attributes"
+        "Security": [
+          "Security Solutions"
         ]
       },
       "th": "content/website/images/cab6e22b1d68.jpg",
@@ -558,11 +566,11 @@
       "s": "attributes-security-wcag",
       "u": "https://www.palantir.com/attributes/security/wcag/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "attributes"
+        "Security": [
+          "Accessibility"
         ]
       },
       "th": "content/website/images/1b78d38dfe9e.jpg",
@@ -577,11 +585,11 @@
       "s": "beyond-anonymization",
       "u": "https://www.palantir.com/beyond-anonymization/",
       "bc": [
-        "Other"
+        "Palantir Explained"
       ],
       "sc": {
-        "Other": [
-          "beyond-anonymization"
+        "Palantir Explained": [
+          "Beyond Anonymization"
         ]
       },
       "th": "content/website/beyond-anonymization/screenshot.png",
@@ -898,7 +906,11 @@
       "bc": [
         "Special Products"
       ],
-      "sc": {},
+      "sc": {
+        "Special Products": [
+          "Chain Reaction"
+        ]
+      },
       "th": "content/website/images/13dd3424e8c9.jpg",
       "ds": "",
       "sn": "",
@@ -911,11 +923,11 @@
       "s": "climate-pledge",
       "u": "https://www.palantir.com/climate-pledge/",
       "bc": [
-        "Other"
+        "About"
       ],
       "sc": {
-        "Other": [
-          "climate-pledge"
+        "About": [
+          "Climate Pledge"
         ]
       },
       "th": "content/website/images/e8d8a52b3374.jpg",
@@ -945,11 +957,11 @@
       "s": "defense-sdk",
       "u": "https://www.palantir.com/defense/sdk/",
       "bc": [
-        "Other"
+        "Defense & Government"
       ],
       "sc": {
-        "Other": [
-          "defense"
+        "Defense & Government": [
+          "Defense SDK"
         ]
       },
       "th": "content/website/images/8b3152bfaaad.jpg",
@@ -964,11 +976,11 @@
       "s": "designing-for-deletion",
       "u": "https://www.palantir.com/designing-for-deletion/",
       "bc": [
-        "Other"
+        "Palantir Explained"
       ],
       "sc": {
-        "Other": [
-          "designing-for-deletion"
+        "Palantir Explained": [
+          "Designing for Deletion"
         ]
       },
       "th": "content/website/designing-for-deletion/screenshot.png",
@@ -983,11 +995,11 @@
       "s": "devcon-on-your-mark",
       "u": "https://www.palantir.com/devcon-on-your-mark/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon-on-your-mark"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/18c3a5b34160.jpg",
@@ -1002,11 +1014,11 @@
       "s": "devcon-submit",
       "u": "https://www.palantir.com/devcon-submit/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon-submit"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/18c3a5b34160.jpg",
@@ -1021,11 +1033,11 @@
       "s": "devcon",
       "u": "https://www.palantir.com/devcon/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/7c0c8b135cbe.jpg",
@@ -1040,11 +1052,11 @@
       "s": "devcon-dc1",
       "u": "https://www.palantir.com/devcon/dc1/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/64e07195273f.jpg",
@@ -1059,11 +1071,11 @@
       "s": "devcon-dc2",
       "u": "https://www.palantir.com/devcon/dc2/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/16223d3e8f96.png",
@@ -1078,11 +1090,11 @@
       "s": "devcon-fellowship",
       "u": "https://www.palantir.com/devcon/fellowship/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/18c3a5b34160.jpg",
@@ -1097,11 +1109,11 @@
       "s": "devcon3",
       "u": "https://www.palantir.com/devcon3/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon3"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/4783a0ce1e0e.jpg",
@@ -1116,11 +1128,11 @@
       "s": "devcon4",
       "u": "https://www.palantir.com/devcon4/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon4"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/0afd8d1cd6b5.svg",
@@ -1135,11 +1147,11 @@
       "s": "devcon5",
       "u": "https://www.palantir.com/devcon5/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "devcon5"
+        "Events": [
+          "DevCon"
         ]
       },
       "th": "content/website/images/612803dcee3d.png",
@@ -1154,11 +1166,11 @@
       "s": "developers",
       "u": "https://www.palantir.com/developers/",
       "bc": [
-        "Other"
+        "Developers"
       ],
       "sc": {
-        "Other": [
-          "developers"
+        "Developers": [
+          "Overview"
         ]
       },
       "th": "content/website/images/bf3e574645b8.png",
@@ -1173,11 +1185,11 @@
       "s": "end-of-year-message-from-alex-karp-2022",
       "u": "https://www.palantir.com/end-of-year-message-from-alex-karp/2022/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "end-of-year-message-from-alex-karp"
+        "Shareholder Letters": [
+          "2022"
         ]
       },
       "th": "content/website/images/4b25deb1cca3.jpg",
@@ -1192,11 +1204,11 @@
       "s": "explore-biomanufacturing",
       "u": "https://www.palantir.com/explore/biomanufacturing/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Biomanufacturing"
         ]
       },
       "th": "content/website/images/a51eb8c78fcf.jpg",
@@ -1211,11 +1223,11 @@
       "s": "explore-create-real-value",
       "u": "https://www.palantir.com/explore/create-real-value/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Create Real Value"
         ]
       },
       "th": "content/website/images/4f57b273b710.jpg",
@@ -1230,11 +1242,11 @@
       "s": "explore-defense-secure-collaboration",
       "u": "https://www.palantir.com/explore/defense/secure-collaboration/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Defense"
         ]
       },
       "th": "content/website/images/42b77c0127e9.jpg",
@@ -1249,11 +1261,11 @@
       "s": "explore-download-secure-collaboration",
       "u": "https://www.palantir.com/explore/download/secure-collaboration/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Defense"
         ]
       },
       "th": "content/website/explore-download-secure-collaboration/screenshot.png",
@@ -1268,11 +1280,11 @@
       "s": "explore-foundry-for-manufacturing",
       "u": "https://www.palantir.com/explore/foundry-for-manufacturing/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Manufacturing"
         ]
       },
       "th": "content/website/images/89088cb17687.jpg",
@@ -1287,11 +1299,11 @@
       "s": "explore-navy-logistics",
       "u": "https://www.palantir.com/explore/navy-logistics/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Navy"
         ]
       },
       "th": "content/website/explore-navy-logistics/screenshot.png",
@@ -1306,11 +1318,11 @@
       "s": "explore-navy",
       "u": "https://www.palantir.com/explore/navy/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Navy"
         ]
       },
       "th": "content/website/images/c63b8caa89cf.jpg",
@@ -1325,11 +1337,11 @@
       "s": "explore-oil-and-gas",
       "u": "https://www.palantir.com/explore/oil-and-gas/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Oil & Gas"
         ]
       },
       "th": "content/website/images/71d98d0b5b83.jpg",
@@ -1344,11 +1356,11 @@
       "s": "explore-platforms-foundry-ontology-energy",
       "u": "https://www.palantir.com/explore/platforms/foundry/ontology-energy/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Foundry Ontology"
         ]
       },
       "th": "content/website/images/b3b3fd4a8ed4.jpg",
@@ -1363,11 +1375,11 @@
       "s": "explore-platforms-foundry-ontology",
       "u": "https://www.palantir.com/explore/platforms/foundry/ontology/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Foundry Ontology"
         ]
       },
       "th": "content/website/images/86dd7659c6d9.jpg",
@@ -1382,11 +1394,11 @@
       "s": "explore-retail",
       "u": "https://www.palantir.com/explore/retail/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Retail"
         ]
       },
       "th": "content/website/images/df59d199c150.jpg",
@@ -1401,11 +1413,11 @@
       "s": "explore-telecommunications",
       "u": "https://www.palantir.com/explore/telecommunications/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "Telecommunications"
         ]
       },
       "th": "content/website/images/d71ce93defa4.png",
@@ -1420,11 +1432,11 @@
       "s": "explore-usg-channel-fy23-partner-program-kickoff-registration",
       "u": "https://www.palantir.com/explore/usg-channel-fy23-partner-program-kickoff-registration/",
       "bc": [
-        "Other"
+        "Explore"
       ],
       "sc": {
-        "Other": [
-          "explore"
+        "Explore": [
+          "USG Channel"
         ]
       },
       "th": "content/website/images/4b25deb1cca3.jpg",
@@ -1459,11 +1471,11 @@
       "s": "first-breakfast",
       "u": "https://www.palantir.com/first-breakfast/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "first-breakfast"
+        "Events": [
+          "First Breakfast"
         ]
       },
       "th": "content/website/images/4a0a119a7f70.jpg",
@@ -1478,11 +1490,11 @@
       "s": "foundation",
       "u": "https://www.palantir.com/foundation/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Overview"
         ]
       },
       "th": "content/website/images/2197e653c9f3.png",
@@ -1517,11 +1529,11 @@
       "s": "foundation-about",
       "u": "https://www.palantir.com/foundation/about/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "About"
         ]
       },
       "th": "content/website/images/15de820700de.jpg",
@@ -1536,11 +1548,11 @@
       "s": "foundation-conference",
       "u": "https://www.palantir.com/foundation/conference/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Conferences"
         ]
       },
       "th": "content/website/foundation-conference/screenshot.png",
@@ -1555,11 +1567,11 @@
       "s": "foundation-home",
       "u": "https://www.palantir.com/foundation/home/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Overview"
         ]
       },
       "th": "content/website/images/2197e653c9f3.png",
@@ -1574,11 +1586,11 @@
       "s": "foundation-journal",
       "u": "https://www.palantir.com/foundation/journal/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Journal"
         ]
       },
       "th": "content/website/images/53becec39030.jpg",
@@ -1593,11 +1605,11 @@
       "s": "foundation-news-and-resources",
       "u": "https://www.palantir.com/foundation/news-and-resources/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "News & Resources"
         ]
       },
       "th": "content/website/foundation-news-and-resources/screenshot.png",
@@ -1612,11 +1624,11 @@
       "s": "foundation-news-and-resources-a-new-foundation",
       "u": "https://www.palantir.com/foundation/news-and-resources/a-new-foundation/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "News & Resources"
         ]
       },
       "th": "content/website/images/ccdc0309fa8a.png",
@@ -1631,11 +1643,11 @@
       "s": "foundation-news-and-resources-in-defense-of-europe",
       "u": "https://www.palantir.com/foundation/news-and-resources/in-defense-of-europe/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "News & Resources"
         ]
       },
       "th": "content/website/images/ccdc0309fa8a.png",
@@ -1650,11 +1662,11 @@
       "s": "foundation-news-and-resources-lessons-from-Ukraine",
       "u": "https://www.palantir.com/foundation/news-and-resources/lessons-from-Ukraine/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "News & Resources"
         ]
       },
       "th": "content/website/images/216017a3c7c8.jpg",
@@ -1669,11 +1681,11 @@
       "s": "foundation-news-and-resources-software-and-war",
       "u": "https://www.palantir.com/foundation/news-and-resources/software-and-war/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "News & Resources"
         ]
       },
       "th": "content/website/images/ccdc0309fa8a.png",
@@ -1688,11 +1700,11 @@
       "s": "foundation-privacy-and-security",
       "u": "https://www.palantir.com/foundation/privacy-and-security/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Privacy & Security"
         ]
       },
       "th": "content/website/foundation-privacy-and-security/screenshot.png",
@@ -1707,11 +1719,11 @@
       "s": "foundation-terms-and-conditions",
       "u": "https://www.palantir.com/foundation/terms-and-conditions/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Terms"
         ]
       },
       "th": "content/website/foundation-terms-and-conditions/screenshot.png",
@@ -1726,11 +1738,11 @@
       "s": "foundation-the-palantir-foundation-or-news-and-resources-or-ai-expo-2024",
       "u": "https://www.palantir.com/foundation/the-palantir-foundation-or-news-and-resources-or-ai-expo-2024/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Conferences"
         ]
       },
       "th": "content/website/images/420dc6d25bcf.jpg",
@@ -1745,11 +1757,11 @@
       "s": "foundation-tpf-2024-conference",
       "u": "https://www.palantir.com/foundation/tpf-2024-conference/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Conferences"
         ]
       },
       "th": "content/website/images/1e85217ec7ae.png",
@@ -1764,11 +1776,11 @@
       "s": "foundation-tpf-2025-conference",
       "u": "https://www.palantir.com/foundation/tpf-2025-conference/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Conferences"
         ]
       },
       "th": "content/website/images/6c0462624ac0.png",
@@ -1783,11 +1795,11 @@
       "s": "foundation-tpf-or-conferences-or-ai-and-the-future-of-defense-2026",
       "u": "https://www.palantir.com/foundation/tpf-or-conferences-or-ai-and-the-future-of-defense-2026/",
       "bc": [
-        "Other"
+        "Foundation"
       ],
       "sc": {
-        "Other": [
-          "foundation"
+        "Foundation": [
+          "Conferences"
         ]
       },
       "th": "content/website/images/54b2a78778ba.jpg",
@@ -1802,11 +1814,11 @@
       "s": "foundry-entity-resolution",
       "u": "https://www.palantir.com/foundry-entity-resolution/",
       "bc": [
-        "Other"
+        "Platforms"
       ],
       "sc": {
-        "Other": [
-          "foundry-entity-resolution"
+        "Platforms": [
+          "Foundry"
         ]
       },
       "th": "content/website/images/3275ae6afa91.png",
@@ -1821,11 +1833,11 @@
       "s": "foundry-explained-get-demo",
       "u": "https://www.palantir.com/foundry-explained-get-demo/",
       "bc": [
-        "Other"
+        "Platforms"
       ],
       "sc": {
-        "Other": [
-          "foundry-explained-get-demo"
+        "Platforms": [
+          "Foundry"
         ]
       },
       "th": "content/website/foundry-explained-get-demo/screenshot.png",
@@ -1840,11 +1852,11 @@
       "s": "hannover",
       "u": "https://www.palantir.com/hannover/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "hannover"
+        "Events": [
+          "Hannover Messe"
         ]
       },
       "th": "content/website/images/10460871238a.jpg",
@@ -2560,11 +2572,11 @@
       "s": "in-defense-of-europe-en",
       "u": "https://www.palantir.com/in-defense-of-europe/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "in-defense-of-europe"
+        "Shareholder Letters": [
+          "Letters"
         ]
       },
       "th": "content/website/images/49667aae5218.png",
@@ -2614,11 +2626,11 @@
       "s": "insights",
       "u": "https://www.palantir.com/insights/",
       "bc": [
-        "Other"
+        "Insights"
       ],
       "sc": {
-        "Other": [
-          "insights"
+        "Insights": [
+          "Overview"
         ]
       },
       "th": "content/website/images/c6d9de6e8111.jpg",
@@ -2633,11 +2645,11 @@
       "s": "insights-moving-beyond-customer-analytics-whitepaper",
       "u": "https://www.palantir.com/insights/moving-beyond-customer-analytics-whitepaper/",
       "bc": [
-        "Other"
+        "Insights"
       ],
       "sc": {
-        "Other": [
-          "insights"
+        "Insights": [
+          "Whitepapers"
         ]
       },
       "th": "content/website/images/42505813388c.jpg",
@@ -2654,7 +2666,11 @@
       "bc": [
         "Special Products"
       ],
-      "sc": {},
+      "sc": {
+        "Special Products": [
+          "Interoperability"
+        ]
+      },
       "th": "content/website/images/3808b4664204.jpg",
       "ds": "",
       "sn": "",
@@ -2687,11 +2703,11 @@
       "s": "japan",
       "u": "https://www.palantir.com/japan/",
       "bc": [
-        "Other"
+        "About"
       ],
       "sc": {
-        "Other": [
-          "japan"
+        "About": [
+          "Japan"
         ]
       },
       "th": "content/website/images/216017a3c7c8.jpg",
@@ -2726,11 +2742,11 @@
       "s": "master-classes",
       "u": "https://www.palantir.com/master-classes/",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "master-classes"
+        "Events": [
+          "Master Classes"
         ]
       },
       "th": "content/website/images/e3c3a09cdf87.png",
@@ -2747,7 +2763,11 @@
       "bc": [
         "Special Products"
       ],
-      "sc": {},
+      "sc": {
+        "Special Products": [
+          "Migration"
+        ]
+      },
       "th": "content/website/images/9ce0b657468c.jpg",
       "ds": "",
       "sn": "",
@@ -2775,11 +2795,11 @@
       "s": "ncmec",
       "u": "https://www.palantir.com/ncmec/",
       "bc": [
-        "Other"
+        "Impact Studies"
       ],
       "sc": {
-        "Other": [
-          "ncmec"
+        "Impact Studies": [
+          "NCMEC"
         ]
       },
       "th": "content/website/images/4b25deb1cca3.jpg",
@@ -2794,11 +2814,11 @@
       "s": "new-homepage",
       "u": "https://www.palantir.com/new-homepage/",
       "bc": [
-        "Other"
+        "About"
       ],
       "sc": {
-        "Other": [
-          "new-homepage"
+        "About": [
+          "Home"
         ]
       },
       "th": "content/website/images/4b25deb1cca3.png",
@@ -7178,11 +7198,11 @@
       "s": "pagenotfound",
       "u": "https://www.palantir.com/pagenotfound/",
       "bc": [
-        "Other"
+        "About"
       ],
       "sc": {
-        "Other": [
-          "pagenotfound"
+        "About": [
+          "Error Page"
         ]
       },
       "th": "content/website/pagenotfound/screenshot.png",
@@ -7212,11 +7232,11 @@
       "s": "palantir-fraud-detection",
       "u": "https://www.palantir.com/palantir-fraud-detection/",
       "bc": [
-        "Other"
+        "Offerings"
       ],
       "sc": {
-        "Other": [
-          "palantir-fraud-detection"
+        "Offerings": [
+          "Fraud Detection"
         ]
       },
       "th": "content/website/images/e83604180eb0.png",
@@ -7231,11 +7251,11 @@
       "s": "palantir-is-not-a-data-company",
       "u": "https://www.palantir.com/palantir-is-not-a-data-company/",
       "bc": [
-        "Other"
+        "Palantir Explained"
       ],
       "sc": {
-        "Other": [
-          "palantir-is-not-a-data-company"
+        "Palantir Explained": [
+          "Not a Data Company"
         ]
       },
       "th": "content/website/palantir-is-not-a-data-company/screenshot.png",
@@ -7250,11 +7270,11 @@
       "s": "palantir-is-still-not-a-data-company",
       "u": "https://www.palantir.com/palantir-is-still-not-a-data-company/",
       "bc": [
-        "Other"
+        "Palantir Explained"
       ],
       "sc": {
-        "Other": [
-          "palantir-is-still-not-a-data-company"
+        "Palantir Explained": [
+          "Still Not a Data Company"
         ]
       },
       "th": "content/website/palantir-is-still-not-a-data-company/screenshot.png",
@@ -7269,11 +7289,11 @@
       "s": "palantir-mourns-the-loss-of-sergio-marchionne",
       "u": "https://www.palantir.com/palantir-mourns-the-loss-of-sergio-marchionne/",
       "bc": [
-        "Other"
+        "About"
       ],
       "sc": {
-        "Other": [
-          "palantir-mourns-the-loss-of-sergio-marchionne"
+        "About": [
+          "Tributes"
         ]
       },
       "th": "content/website/images/367af2ae7f03.jpg",
@@ -7288,11 +7308,11 @@
       "s": "partners-international",
       "u": "https://www.palantir.com/partners/international/",
       "bc": [
-        "Other"
+        "Partnerships"
       ],
       "sc": {
-        "Other": [
-          "partners"
+        "Partnerships": [
+          "International"
         ]
       },
       "th": "content/website/images/e8d9c526d82d.png",
@@ -7307,11 +7327,11 @@
       "s": "partners-technical",
       "u": "https://www.palantir.com/partners/technical/",
       "bc": [
-        "Other"
+        "Partnerships"
       ],
       "sc": {
-        "Other": [
-          "partners"
+        "Partnerships": [
+          "Technical"
         ]
       },
       "th": "content/website/images/22123dc48465.png",
@@ -7326,11 +7346,11 @@
       "s": "partnership-vanguard",
       "u": "https://www.palantir.com/partnership-vanguard",
       "bc": [
-        "Other"
+        "Partnerships"
       ],
       "sc": {
-        "Other": [
-          "partnership-vanguard"
+        "Partnerships": [
+          "Vanguard"
         ]
       },
       "th": "content/website/images/dfdbb428d390.png",
@@ -8568,11 +8588,11 @@
       "s": "privacy-and-civil-liberties-engineering",
       "u": "https://www.palantir.com/privacy-and-civil-liberties-engineering/",
       "bc": [
-        "Other"
+        "Privacy & Civil Liberties"
       ],
       "sc": {
-        "Other": [
-          "privacy-and-civil-liberties-engineering"
+        "Privacy & Civil Liberties": [
+          "Engineering"
         ]
       },
       "th": "content/website/privacy-and-civil-liberties-engineering/screenshot.png",
@@ -8587,11 +8607,11 @@
       "s": "protect-your-sovereignty",
       "u": "https://www.palantir.com/protect-your-sovereignty/",
       "bc": [
-        "Other"
+        "Sovereign AI"
       ],
       "sc": {
-        "Other": [
-          "protect-your-sovereignty"
+        "Sovereign AI": [
+          "Overview"
         ]
       },
       "th": "content/website/images/7844967efcfd.jpg",
@@ -8606,11 +8626,11 @@
       "s": "purpose-based-access-controls",
       "u": "https://www.palantir.com/purpose-based-access-controls/",
       "bc": [
-        "Other"
+        "Privacy & Civil Liberties"
       ],
       "sc": {
-        "Other": [
-          "purpose-based-access-controls"
+        "Privacy & Civil Liberties": [
+          "Access Controls"
         ]
       },
       "th": "content/website/purpose-based-access-controls/screenshot.png",
@@ -8665,11 +8685,11 @@
       "s": "q1-2024-letter-en",
       "u": "https://www.palantir.com/q1-2024-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q1-2024-letter"
+        "Shareholder Letters": [
+          "2024"
         ]
       },
       "th": "content/website/images/10cda5f2b074.png",
@@ -8744,11 +8764,11 @@
       "s": "q1-2025-letter-en",
       "u": "https://www.palantir.com/q1-2025-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q1-2025-letter"
+        "Shareholder Letters": [
+          "2025"
         ]
       },
       "th": "content/website/images/284ea3bd6db2.png",
@@ -8823,11 +8843,11 @@
       "s": "q2-2024-letter-en",
       "u": "https://www.palantir.com/q2-2024-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q2-2024-letter"
+        "Shareholder Letters": [
+          "2024"
         ]
       },
       "th": "content/website/images/284ea3bd6db2.png",
@@ -8902,11 +8922,11 @@
       "s": "q2-2025-letter-en",
       "u": "https://www.palantir.com/q2-2025-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q2-2025-letter"
+        "Shareholder Letters": [
+          "2025"
         ]
       },
       "th": "content/website/images/4a0a119a7f70.png",
@@ -8981,11 +9001,11 @@
       "s": "q3-2023-letter-en",
       "u": "https://www.palantir.com/q3-2023-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q3-2023-letter"
+        "Shareholder Letters": [
+          "2023"
         ]
       },
       "th": "content/website/images/0d95b7b45c00.png",
@@ -9060,11 +9080,11 @@
       "s": "q3-2024-letter-en",
       "u": "https://www.palantir.com/q3-2024-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q3-2024-letter"
+        "Shareholder Letters": [
+          "2024"
         ]
       },
       "th": "content/website/images/284ea3bd6db2.png",
@@ -9139,11 +9159,11 @@
       "s": "q3-2025-letter-en",
       "u": "https://www.palantir.com/q3-2025-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q3-2025-letter"
+        "Shareholder Letters": [
+          "2025"
         ]
       },
       "th": "content/website/images/4a0a119a7f70.png",
@@ -9218,11 +9238,11 @@
       "s": "q4-2024-letter-en",
       "u": "https://www.palantir.com/q4-2024-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q4-2024-letter"
+        "Shareholder Letters": [
+          "2024"
         ]
       },
       "th": "content/website/images/4a0a119a7f70.png",
@@ -9297,11 +9317,11 @@
       "s": "q4-2025-letter-en",
       "u": "https://www.palantir.com/q4-2025-letter/en/",
       "bc": [
-        "Other"
+        "Shareholder Letters"
       ],
       "sc": {
-        "Other": [
-          "q4-2025-letter"
+        "Shareholder Letters": [
+          "2025"
         ]
       },
       "th": "content/website/images/4a0a119a7f70.png",
@@ -9336,11 +9356,11 @@
       "s": "responsible-disclosure",
       "u": "https://www.palantir.com/responsible-disclosure",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "responsible-disclosure"
+        "Security": [
+          "Responsible Disclosure"
         ]
       },
       "th": "content/website/responsible-disclosure/screenshot.png",
@@ -9355,11 +9375,11 @@
       "s": "rubix-specs",
       "u": "https://www.palantir.com/rubix-specs/",
       "bc": [
-        "Other"
+        "Special Products"
       ],
       "sc": {
-        "Other": [
-          "rubix-specs"
+        "Special Products": [
+          "Rubix"
         ]
       },
       "th": "content/website/images/76b80232d586.png",
@@ -9374,11 +9394,11 @@
       "s": "rubix",
       "u": "https://www.palantir.com/rubix/",
       "bc": [
-        "Other"
+        "Special Products"
       ],
       "sc": {
-        "Other": [
-          "rubix"
+        "Special Products": [
+          "Rubix"
         ]
       },
       "th": "content/website/images/4b2ce0795bf5.jpg",
@@ -9413,11 +9433,11 @@
       "s": "security-advisories-log4j-vulnerability",
       "u": "https://www.palantir.com/security-advisories/log4j-vulnerability/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "security-advisories"
+        "Security": [
+          "Advisories"
         ]
       },
       "th": "content/website/images/23b8c43c84bc.png",
@@ -9432,11 +9452,11 @@
       "s": "security-forge",
       "u": "https://www.palantir.com/security-forge/",
       "bc": [
-        "Other"
+        "Security"
       ],
       "sc": {
-        "Other": [
-          "security-forge"
+        "Security": [
+          "Security Forge"
         ]
       },
       "th": "content/website/images/45e00abe5a60.jpg",
@@ -9451,11 +9471,11 @@
       "s": "shipos-atf",
       "u": "https://www.palantir.com/shipos-atf",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "shipos-atf"
+        "Events": [
+          "Fellowship"
         ]
       },
       "th": "content/website/images/7c83ff39e8ac.jpg",
@@ -9485,11 +9505,11 @@
       "s": "sovereignaios-modelengine",
       "u": "https://www.palantir.com/sovereignaios-modelengine/",
       "bc": [
-        "Other"
+        "Sovereign AI"
       ],
       "sc": {
-        "Other": [
-          "sovereignaios-modelengine"
+        "Sovereign AI": [
+          "Model Engine"
         ]
       },
       "th": "content/website/images/c1ff84b04956.jpg",
@@ -9504,11 +9524,11 @@
       "s": "sovereignaios",
       "u": "https://www.palantir.com/sovereignaios/",
       "bc": [
-        "Other"
+        "Sovereign AI"
       ],
       "sc": {
-        "Other": [
-          "sovereignaios"
+        "Sovereign AI": [
+          "Sovereign AI OS"
         ]
       },
       "th": "content/website/images/176fa6e62644.jpg",
@@ -9523,11 +9543,11 @@
       "s": "thank-you-or-moving-beyond-customer-analytics-whitepaper",
       "u": "https://www.palantir.com/thank-you-or-moving-beyond-customer-analytics-whitepaper/",
       "bc": [
-        "Other"
+        "Insights"
       ],
       "sc": {
-        "Other": [
-          "thank-you-or-moving-beyond-customer-analytics-whitepaper"
+        "Insights": [
+          "Whitepapers"
         ]
       },
       "th": "content/website/thank-you-or-moving-beyond-customer-analytics-whitepaper/screenshot.png",
@@ -9557,11 +9577,11 @@
       "s": "titanium",
       "u": "https://www.palantir.com/titanium/",
       "bc": [
-        "Other"
+        "Special Products"
       ],
       "sc": {
-        "Other": [
-          "titanium"
+        "Special Products": [
+          "Titanium"
         ]
       },
       "th": "content/website/images/6e467ef645bb.jpg",
@@ -9576,11 +9596,11 @@
       "s": "trust-in-data",
       "u": "https://www.palantir.com/trust-in-data/",
       "bc": [
-        "Other"
+        "Palantir Explained"
       ],
       "sc": {
-        "Other": [
-          "trust-in-data"
+        "Palantir Explained": [
+          "Trust in Data"
         ]
       },
       "th": "content/website/images/281127b18f2c.jpg",
@@ -9595,11 +9615,11 @@
       "s": "unlock",
       "u": "https://www.palantir.com/unlock/",
       "bc": [
-        "Other"
+        "Special Products"
       ],
       "sc": {
-        "Other": [
-          "unlock"
+        "Special Products": [
+          "HyperAuto"
         ]
       },
       "th": "content/website/images/4d24eda02cd4.jpg",
@@ -9614,11 +9634,11 @@
       "s": "usg-recruitment",
       "u": "https://www.palantir.com/usg-recruitment",
       "bc": [
-        "Other"
+        "Events"
       ],
       "sc": {
-        "Other": [
-          "usg-recruitment"
+        "Events": [
+          "USG Recruitment"
         ]
       },
       "th": "content/website/images/76f56db8aeae.jpg",
@@ -9633,11 +9653,11 @@
       "s": "vertex-for-energy",
       "u": "https://www.palantir.com/vertex-for-energy/",
       "bc": [
-        "Other"
+        "Offerings"
       ],
       "sc": {
-        "Other": [
-          "vertex-for-energy"
+        "Offerings": [
+          "Energy"
         ]
       },
       "th": "content/website/images/a71fd0c2152e.jpg",
@@ -9652,11 +9672,11 @@
       "s": "veterans",
       "u": "https://www.palantir.com/veterans/",
       "bc": [
-        "Other"
+        "Defense & Government"
       ],
       "sc": {
-        "Other": [
-          "veterans"
+        "Defense & Government": [
+          "Veterans"
         ]
       },
       "th": "content/website/images/cc06b2951f59.jpg",
@@ -9686,11 +9706,11 @@
       "s": "ai-sovereignty-is-your-alpha",
       "u": "https://www.palantir.com/ai-sovereignty-is-your-alpha/",
       "bc": [
-        "Other"
+        "Sovereign AI"
       ],
       "sc": {
-        "Other": [
-          "ai-sovereignty-is-your-alpha"
+        "Sovereign AI": [
+          "Overview"
         ]
       },
       "th": "content/website/ai-sovereignty-is-your-alpha/screenshot.png",
@@ -9700,118 +9720,104 @@
     }
   ],
   "bc": {
-    "Other": 152,
-    "About": 1,
-    "Platforms": 32,
-    "Special Products": 8,
+    "Market Studies": 4,
+    "About": 6,
+    "AIP Use Cases": 10,
+    "Platforms": 34,
+    "Events": 16,
+    "Special Products": 12,
+    "Defense & Government": 4,
+    "Security": 7,
+    "Palantir Explained": 6,
     "Careers": 16,
     "Customer Success": 1,
+    "Developers": 1,
+    "Shareholder Letters": 11,
+    "Explore": 13,
+    "Foundation": 16,
     "Impact Studies": 36,
     "Information Security": 1,
-    "Newsroom": 155,
-    "Offerings": 72,
-    "Palantir Explained": 1,
-    "Partnerships": 26,
-    "Privacy & Civil Liberties": 9
+    "Insights": 3,
+    "Newsroom": 115,
+    "Offerings": 74,
+    "Partnerships": 29,
+    "Privacy & Civil Liberties": 11,
+    "Sovereign AI": 4
   },
   "sc": {
-    "Other": {
-      "2022-annual-letter": 1,
-      "2024-ai-ds-ml-market-study": 1,
-      "2024-modelops-market-study": 1,
-      "2025-ai-ds-ml-market-study": 1,
-      "2025-market-studies": 1,
-      "2025-modelops-market-study": 1,
-      "2025-wisdom-of-crowds-agentic-ai-market-study": 1,
-      "500": 1,
-      "aip-for-asset-maintenance-scheduling": 1,
-      "aip-for-ehs-risk-management": 1,
-      "aip-for-maintenance-assistance": 1,
-      "aip-for-program-knowledge-management": 1,
-      "aip-for-public-consultation-analysis": 1,
-      "aip-for-sustainable-solutions": 1,
-      "aip-for-wastewater-system-optimization": 1,
-      "aip-for-work-breakdown-structure-creator": 1,
-      "aip-now-statement": 1,
-      "aip-sensor-integration-for-wastewater-management": 1,
-      "aipcon": 1,
-      "american-tech-fellowship": 1,
-      "army-intelligence-data-platform": 1,
-      "army-vantage": 1,
-      "attributes": 4,
-      "beyond-anonymization": 1,
-      "climate-pledge": 1,
-      "defense": 1,
-      "designing-for-deletion": 1,
-      "devcon-on-your-mark": 1,
-      "devcon-submit": 1,
-      "devcon": 4,
-      "devcon3": 1,
-      "devcon4": 1,
-      "devcon5": 1,
-      "developers": 1,
-      "end-of-year-message-from-alex-karp": 1,
-      "explore": 13,
-      "fabrice-bregier-palantir-veut-etre-un-acteur-majeur-de-la-tech-francaise": 1,
-      "first-breakfast": 1,
-      "foundation": 17,
-      "foundry-entity-resolution": 1,
-      "foundry-explained-get-demo": 1,
-      "hannover": 1,
-      "impact-or-disaster-response-jpn": 1,
-      "in-defense-of-europe": 2,
-      "insights": 2,
-      "interview-with-fabrice-bregier-president-of-palantir-france": 1,
-      "japan": 1,
-      "kelly-explains-his-decision-to-join-palantir": 1,
-      "master-classes": 1,
-      "ncmec": 1,
-      "new-homepage": 1,
-      "nhs-vaccine-rollout-success-built-on-nhs-determination-and-military": 1,
-      "pagenotfound": 1,
-      "palantir-fraud-detection": 1,
-      "palantir-is-not-a-data-company": 1,
-      "palantir-is-still-not-a-data-company": 1,
-      "palantir-mourns-the-loss-of-sergio-marchionne": 1,
-      "partners": 2,
-      "partnership-vanguard": 1,
-      "privacy-and-civil-liberties-engineering": 1,
-      "protect-your-sovereignty": 1,
-      "purpose-based-access-controls": 1,
-      "q1-2024-letter": 4,
-      "q1-2025-letter": 4,
-      "q2-2024-letter": 4,
-      "q2-2025-letter": 4,
-      "q3-2023-letter": 4,
-      "q3-2024-letter": 4,
-      "q3-2025-letter": 4,
-      "q4-2024-letter": 4,
-      "q4-2025-letter": 4,
-      "responsible-disclosure": 1,
-      "rubix-specs": 1,
-      "rubix": 1,
-      "search": 1,
-      "security-advisories": 1,
-      "security-forge": 1,
-      "shipos-atf": 1,
-      "sovereignaios-modelengine": 1,
-      "sovereignaios": 1,
-      "thank-you-or-moving-beyond-customer-analytics-whitepaper": 1,
-      "titanium": 1,
-      "trust-in-data": 1,
-      "unlock": 1,
-      "usg-recruitment": 1,
-      "vertex-for-energy": 1,
-      "veterans": 1,
-      "ai-sovereignty-is-your-alpha": 1
+    "Market Studies": {
+      "AI/DS/ML": 1,
+      "Overview": 1,
+      "ModelOps": 1,
+      "Agentic AI": 1
+    },
+    "About": {
+      "Overview": 1,
+      "Climate Pledge": 1,
+      "Japan": 1,
+      "Home": 1,
+      "Error Page": 1,
+      "Tributes": 1
+    },
+    "AIP Use Cases": {
+      "Asset Maintenance": 1,
+      "EHS Risk Management": 1,
+      "Maintenance Assistance": 1,
+      "Program Knowledge": 1,
+      "Public Consultation": 1,
+      "Sustainable Solutions": 1,
+      "Wastewater": 1,
+      "Work Breakdown": 1,
+      "Privacy Statement": 1,
+      "Sensor Integration": 1
     },
     "Platforms": {
       "AIP": 2,
+      "Foundry": 2,
       "aip": 4,
       "apollo": 5,
       "foundry": 17,
       "gotham": 2,
       "ontology": 1
+    },
+    "Events": {
+      "AIPCon": 1,
+      "Fellowship": 2,
+      "DevCon": 9,
+      "First Breakfast": 1,
+      "Hannover Messe": 1,
+      "Master Classes": 1,
+      "USG Recruitment": 1
+    },
+    "Special Products": {
+      "Alpha": 1,
+      "Chain Reaction": 1,
+      "Interoperability": 1,
+      "Migration": 1,
+      "Rubix": 2,
+      "Titanium": 1,
+      "HyperAuto": 1
+    },
+    "Defense & Government": {
+      "Army": 2,
+      "Defense SDK": 1,
+      "Veterans": 1
+    },
+    "Security": {
+      "Overview": 1,
+      "Interoperable": 1,
+      "Security Solutions": 1,
+      "Accessibility": 1,
+      "Responsible Disclosure": 1,
+      "Advisories": 1,
+      "Security Forge": 1
+    },
+    "Palantir Explained": {
+      "Beyond Anonymization": 1,
+      "Designing for Deletion": 1,
+      "Not a Data Company": 1,
+      "Still Not a Data Company": 1,
+      "Trust in Data": 1
     },
     "Careers": {
       "getting-hired": 7,
@@ -9821,6 +9827,37 @@
       "open-positions": 1,
       "students-and-early-talent": 1,
       "students": 3
+    },
+    "Developers": {
+      "Overview": 1
+    },
+    "Shareholder Letters": {
+      "2022": 1,
+      "Letters": 1,
+      "2024": 4,
+      "2025": 4,
+      "2023": 1
+    },
+    "Explore": {
+      "Biomanufacturing": 1,
+      "Create Real Value": 1,
+      "Defense": 2,
+      "Manufacturing": 1,
+      "Navy": 2,
+      "Oil & Gas": 1,
+      "Foundry Ontology": 2,
+      "Retail": 1,
+      "Telecommunications": 1,
+      "USG Channel": 1
+    },
+    "Foundation": {
+      "Overview": 2,
+      "About": 1,
+      "Conferences": 5,
+      "Journal": 1,
+      "News & Resources": 5,
+      "Privacy & Security": 1,
+      "Terms": 1
     },
     "Impact Studies": {
       "airbus": 1,
@@ -9846,7 +9883,7 @@
       "pricing-optimization": 1,
       "ringier": 1,
       "sales-acceleration": 1,
-      "sompo": 2,
+      "sompo": 1,
       "sonnedix": 1,
       "sosa": 1,
       "supply-chain-emissions": 1,
@@ -9856,11 +9893,16 @@
       "transaction-monitoring": 1,
       "turbine-maintenance": 1,
       "warranty-optimization": 1,
-      "world-food-programme": 1
+      "world-food-programme": 1,
+      "NCMEC": 1
+    },
+    "Insights": {
+      "Overview": 1,
+      "Whitepapers": 2
     },
     "Newsroom": {
-      "letters": 52,
-      "media": 8,
+      "letters": 17,
+      "media": 3,
       "press-releases": 93,
       "thought-leadership": 1
     },
@@ -9901,9 +9943,14 @@
       "supply-chain-risk-management": 1,
       "supply-chain": 2,
       "telecommunications": 1,
-      "utilities": 1
+      "utilities": 1,
+      "Fraud Detection": 1,
+      "Energy": 1
     },
     "Partnerships": {
+      "International": 1,
+      "Technical": 1,
+      "Vanguard": 1,
       "USG": 1,
       "accenture": 1,
       "anaconda": 1,
@@ -9937,36 +9984,43 @@
       "principles": 1,
       "team": 1,
       "technologies": 1,
-      "thought-leadership": 1
+      "thought-leadership": 1,
+      "Engineering": 1,
+      "Access Controls": 1
+    },
+    "Sovereign AI": {
+      "Overview": 2,
+      "Model Engine": 1,
+      "Sovereign AI OS": 1
     }
   },
   "dt": {},
   "tag_freq": {
-    "Other::2022-annual-letter": 1,
-    "Other::2024-ai-ds-ml-market-study": 1,
-    "Other::2024-modelops-market-study": 1,
-    "Other::2025-ai-ds-ml-market-study": 1,
-    "Other::2025-market-studies": 1,
-    "Other::2025-modelops-market-study": 1,
-    "Other::2025-wisdom-of-crowds-agentic-ai-market-study": 1,
-    "Other::500": 1,
-    "Other::aip-for-asset-maintenance-scheduling": 1,
-    "Other::aip-for-ehs-risk-management": 1,
-    "Other::aip-for-maintenance-assistance": 1,
-    "Other::aip-for-program-knowledge-management": 1,
-    "Other::aip-for-public-consultation-analysis": 1,
-    "Other::aip-for-sustainable-solutions": 1,
-    "Other::aip-for-wastewater-system-optimization": 1,
-    "Other::aip-for-work-breakdown-structure-creator": 1,
-    "Other::aip-now-statement": 1,
-    "Other::aip-sensor-integration-for-wastewater-management": 1,
+    "Market Studies::AI/DS/ML": 1,
+    "Market Studies::Overview": 1,
+    "Market Studies::ModelOps": 1,
+    "Market Studies::Agentic AI": 1,
+    "About::Overview": 1,
+    "AIP Use Cases::Asset Maintenance": 1,
+    "AIP Use Cases::EHS Risk Management": 1,
+    "AIP Use Cases::Maintenance Assistance": 1,
+    "AIP Use Cases::Program Knowledge": 1,
+    "AIP Use Cases::Public Consultation": 1,
+    "AIP Use Cases::Sustainable Solutions": 1,
+    "AIP Use Cases::Wastewater": 1,
+    "AIP Use Cases::Work Breakdown": 1,
+    "AIP Use Cases::Privacy Statement": 1,
+    "AIP Use Cases::Sensor Integration": 1,
     "Platforms::AIP": 2,
-    "Other::aipcon": 1,
-    "Other::american-tech-fellowship": 1,
-    "Other::army-intelligence-data-platform": 1,
-    "Other::army-vantage": 1,
-    "Other::attributes": 4,
-    "Other::beyond-anonymization": 1,
+    "Events::AIPCon": 1,
+    "Special Products::Alpha": 1,
+    "Events::Fellowship": 2,
+    "Defense & Government::Army": 2,
+    "Security::Overview": 1,
+    "Security::Interoperable": 1,
+    "Security::Security Solutions": 1,
+    "Security::Accessibility": 1,
+    "Palantir Explained::Beyond Anonymization": 1,
     "Careers::getting-hired": 7,
     "Careers::infrastructure": 1,
     "Careers::life-at-palantir": 1,
@@ -9974,25 +10028,33 @@
     "Careers::open-positions": 1,
     "Careers::students-and-early-talent": 1,
     "Careers::students": 3,
-    "Other::climate-pledge": 1,
-    "Other::defense": 1,
-    "Other::designing-for-deletion": 1,
-    "Other::devcon-on-your-mark": 1,
-    "Other::devcon-submit": 1,
-    "Other::devcon": 4,
-    "Other::devcon3": 1,
-    "Other::devcon4": 1,
-    "Other::devcon5": 1,
-    "Other::developers": 1,
-    "Other::end-of-year-message-from-alex-karp": 1,
-    "Other::explore": 13,
-    "Other::fabrice-bregier-palantir-veut-etre-un-acteur-majeur-de-la-tech-francaise": 1,
-    "Other::first-breakfast": 1,
-    "Other::foundation": 17,
-    "Other::foundry-entity-resolution": 1,
-    "Other::foundry-explained-get-demo": 1,
-    "Other::hannover": 1,
-    "Other::impact-or-disaster-response-jpn": 1,
+    "Special Products::Chain Reaction": 1,
+    "About::Climate Pledge": 1,
+    "Defense & Government::Defense SDK": 1,
+    "Palantir Explained::Designing for Deletion": 1,
+    "Events::DevCon": 9,
+    "Developers::Overview": 1,
+    "Shareholder Letters::2022": 1,
+    "Explore::Biomanufacturing": 1,
+    "Explore::Create Real Value": 1,
+    "Explore::Defense": 2,
+    "Explore::Manufacturing": 1,
+    "Explore::Navy": 2,
+    "Explore::Oil & Gas": 1,
+    "Explore::Foundry Ontology": 2,
+    "Explore::Retail": 1,
+    "Explore::Telecommunications": 1,
+    "Explore::USG Channel": 1,
+    "Events::First Breakfast": 1,
+    "Foundation::Overview": 2,
+    "Foundation::About": 1,
+    "Foundation::Conferences": 5,
+    "Foundation::Journal": 1,
+    "Foundation::News & Resources": 5,
+    "Foundation::Privacy & Security": 1,
+    "Foundation::Terms": 1,
+    "Platforms::Foundry": 2,
+    "Events::Hannover Messe": 1,
     "Impact Studies::airbus": 1,
     "Impact Studies::axel-springer": 1,
     "Impact Studies::bank-digitization": 1,
@@ -10016,7 +10078,7 @@
     "Impact Studies::pricing-optimization": 1,
     "Impact Studies::ringier": 1,
     "Impact Studies::sales-acceleration": 1,
-    "Impact Studies::sompo": 2,
+    "Impact Studies::sompo": 1,
     "Impact Studies::sonnedix": 1,
     "Impact Studies::sosa": 1,
     "Impact Studies::supply-chain-emissions": 1,
@@ -10027,19 +10089,19 @@
     "Impact Studies::turbine-maintenance": 1,
     "Impact Studies::warranty-optimization": 1,
     "Impact Studies::world-food-programme": 1,
-    "Other::in-defense-of-europe": 2,
-    "Other::insights": 2,
-    "Other::interview-with-fabrice-bregier-president-of-palantir-france": 1,
-    "Other::japan": 1,
-    "Other::kelly-explains-his-decision-to-join-palantir": 1,
-    "Other::master-classes": 1,
-    "Other::ncmec": 1,
-    "Other::new-homepage": 1,
-    "Newsroom::letters": 52,
-    "Newsroom::media": 8,
+    "Shareholder Letters::Letters": 1,
+    "Insights::Overview": 1,
+    "Insights::Whitepapers": 2,
+    "Special Products::Interoperability": 1,
+    "About::Japan": 1,
+    "Events::Master Classes": 1,
+    "Special Products::Migration": 1,
+    "Impact Studies::NCMEC": 1,
+    "About::Home": 1,
+    "Newsroom::letters": 17,
+    "Newsroom::media": 3,
     "Newsroom::press-releases": 93,
     "Newsroom::thought-leadership": 1,
-    "Other::nhs-vaccine-rollout-success-built-on-nhs-determination-and-military": 1,
     "Offerings::aml-b": 1,
     "Offerings::anti-money-laundering": 1,
     "Offerings::automotive-mobility": 1,
@@ -10077,13 +10139,14 @@
     "Offerings::supply-chain": 2,
     "Offerings::telecommunications": 1,
     "Offerings::utilities": 1,
-    "Other::pagenotfound": 1,
-    "Other::palantir-fraud-detection": 1,
-    "Other::palantir-is-not-a-data-company": 1,
-    "Other::palantir-is-still-not-a-data-company": 1,
-    "Other::palantir-mourns-the-loss-of-sergio-marchionne": 1,
-    "Other::partners": 2,
-    "Other::partnership-vanguard": 1,
+    "About::Error Page": 1,
+    "Offerings::Fraud Detection": 1,
+    "Palantir Explained::Not a Data Company": 1,
+    "Palantir Explained::Still Not a Data Company": 1,
+    "About::Tributes": 1,
+    "Partnerships::International": 1,
+    "Partnerships::Technical": 1,
+    "Partnerships::Vanguard": 1,
     "Partnerships::USG": 1,
     "Partnerships::accenture": 1,
     "Partnerships::anaconda": 1,
@@ -10121,137 +10184,116 @@
     "Platforms::foundry": 17,
     "Platforms::gotham": 2,
     "Platforms::ontology": 1,
-    "Other::privacy-and-civil-liberties-engineering": 1,
-    "Other::protect-your-sovereignty": 1,
-    "Other::purpose-based-access-controls": 1,
-    "Other::q1-2024-letter": 4,
-    "Other::q1-2025-letter": 4,
-    "Other::q2-2024-letter": 4,
-    "Other::q2-2025-letter": 4,
-    "Other::q3-2023-letter": 4,
-    "Other::q3-2024-letter": 4,
-    "Other::q3-2025-letter": 4,
-    "Other::q4-2024-letter": 4,
-    "Other::q4-2025-letter": 4,
-    "Other::responsible-disclosure": 1,
-    "Other::rubix-specs": 1,
-    "Other::rubix": 1,
-    "Other::search": 1,
-    "Other::security-advisories": 1,
-    "Other::security-forge": 1,
-    "Other::shipos-atf": 1,
-    "Other::sovereignaios-modelengine": 1,
-    "Other::sovereignaios": 1,
-    "Other::thank-you-or-moving-beyond-customer-analytics-whitepaper": 1,
-    "Other::titanium": 1,
-    "Other::trust-in-data": 1,
-    "Other::unlock": 1,
-    "Other::usg-recruitment": 1,
-    "Other::vertex-for-energy": 1,
-    "Other::veterans": 1,
-    "Other::ai-sovereignty-is-your-alpha": 1
+    "Privacy & Civil Liberties::Engineering": 1,
+    "Sovereign AI::Overview": 2,
+    "Privacy & Civil Liberties::Access Controls": 1,
+    "Shareholder Letters::2024": 4,
+    "Shareholder Letters::2025": 4,
+    "Shareholder Letters::2023": 1,
+    "Security::Responsible Disclosure": 1,
+    "Special Products::Rubix": 2,
+    "Security::Advisories": 1,
+    "Security::Security Forge": 1,
+    "Sovereign AI::Model Engine": 1,
+    "Sovereign AI::Sovereign AI OS": 1,
+    "Special Products::Titanium": 1,
+    "Palantir Explained::Trust in Data": 1,
+    "Special Products::HyperAuto": 1,
+    "Events::USG Recruitment": 1,
+    "Offerings::Energy": 1,
+    "Defense & Government::Veterans": 1
   },
   "cat_hierarchy": {
-    "Other": {
+    "Market Studies": {
       "subcats": [
-        "2022-annual-letter",
-        "2024-ai-ds-ml-market-study",
-        "2024-modelops-market-study",
-        "2025-ai-ds-ml-market-study",
-        "2025-market-studies",
-        "2025-modelops-market-study",
-        "2025-wisdom-of-crowds-agentic-ai-market-study",
-        "500",
-        "aip-for-asset-maintenance-scheduling",
-        "aip-for-ehs-risk-management",
-        "aip-for-maintenance-assistance",
-        "aip-for-program-knowledge-management",
-        "aip-for-public-consultation-analysis",
-        "aip-for-sustainable-solutions",
-        "aip-for-wastewater-system-optimization",
-        "aip-for-work-breakdown-structure-creator",
-        "aip-now-statement",
-        "aip-sensor-integration-for-wastewater-management",
-        "aipcon",
-        "american-tech-fellowship",
-        "army-intelligence-data-platform",
-        "army-vantage",
-        "attributes",
-        "beyond-anonymization",
-        "climate-pledge",
-        "defense",
-        "designing-for-deletion",
-        "devcon-on-your-mark",
-        "devcon-submit",
-        "devcon",
-        "devcon3",
-        "devcon4",
-        "devcon5",
-        "developers",
-        "end-of-year-message-from-alex-karp",
-        "explore",
-        "fabrice-bregier-palantir-veut-etre-un-acteur-majeur-de-la-tech-francaise",
-        "first-breakfast",
-        "foundation",
-        "foundry-entity-resolution",
-        "foundry-explained-get-demo",
-        "hannover",
-        "impact-or-disaster-response-jpn",
-        "in-defense-of-europe",
-        "insights",
-        "interview-with-fabrice-bregier-president-of-palantir-france",
-        "japan",
-        "kelly-explains-his-decision-to-join-palantir",
-        "master-classes",
-        "ncmec",
-        "new-homepage",
-        "nhs-vaccine-rollout-success-built-on-nhs-determination-and-military",
-        "pagenotfound",
-        "palantir-fraud-detection",
-        "palantir-is-not-a-data-company",
-        "palantir-is-still-not-a-data-company",
-        "palantir-mourns-the-loss-of-sergio-marchionne",
-        "partners",
-        "partnership-vanguard",
-        "privacy-and-civil-liberties-engineering",
-        "protect-your-sovereignty",
-        "purpose-based-access-controls",
-        "q1-2024-letter",
-        "q1-2025-letter",
-        "q2-2024-letter",
-        "q2-2025-letter",
-        "q3-2023-letter",
-        "q3-2024-letter",
-        "q3-2025-letter",
-        "q4-2024-letter",
-        "q4-2025-letter",
-        "responsible-disclosure",
-        "rubix-specs",
-        "rubix",
-        "search",
-        "security-advisories",
-        "security-forge",
-        "shipos-atf",
-        "sovereignaios-modelengine",
-        "sovereignaios",
-        "thank-you-or-moving-beyond-customer-analytics-whitepaper",
-        "titanium",
-        "trust-in-data",
-        "unlock",
-        "usg-recruitment",
-        "vertex-for-energy",
-        "veterans",
-        "ai-sovereignty-is-your-alpha"
+        "AI/DS/ML",
+        "Overview",
+        "ModelOps",
+        "Agentic AI"
+      ]
+    },
+    "About": {
+      "subcats": [
+        "Overview",
+        "Climate Pledge",
+        "Japan",
+        "Home",
+        "Error Page",
+        "Tributes"
+      ]
+    },
+    "AIP Use Cases": {
+      "subcats": [
+        "Asset Maintenance",
+        "EHS Risk Management",
+        "Maintenance Assistance",
+        "Program Knowledge",
+        "Public Consultation",
+        "Sustainable Solutions",
+        "Wastewater",
+        "Work Breakdown",
+        "Privacy Statement",
+        "Sensor Integration"
       ]
     },
     "Platforms": {
       "subcats": [
         "AIP",
+        "Foundry",
         "aip",
         "apollo",
         "foundry",
         "gotham",
         "ontology"
+      ]
+    },
+    "Events": {
+      "subcats": [
+        "AIPCon",
+        "Fellowship",
+        "DevCon",
+        "First Breakfast",
+        "Hannover Messe",
+        "Master Classes",
+        "USG Recruitment"
+      ]
+    },
+    "Special Products": {
+      "subcats": [
+        "Alpha",
+        "Chain Reaction",
+        "Interoperability",
+        "Migration",
+        "Rubix",
+        "Titanium",
+        "HyperAuto"
+      ]
+    },
+    "Defense & Government": {
+      "subcats": [
+        "Army",
+        "Defense SDK",
+        "Veterans"
+      ]
+    },
+    "Security": {
+      "subcats": [
+        "Overview",
+        "Interoperable",
+        "Security Solutions",
+        "Accessibility",
+        "Responsible Disclosure",
+        "Advisories",
+        "Security Forge"
+      ]
+    },
+    "Palantir Explained": {
+      "subcats": [
+        "Beyond Anonymization",
+        "Designing for Deletion",
+        "Not a Data Company",
+        "Still Not a Data Company",
+        "Trust in Data"
       ]
     },
     "Careers": {
@@ -10263,6 +10305,45 @@
         "open-positions",
         "students-and-early-talent",
         "students"
+      ]
+    },
+    "Developers": {
+      "subcats": [
+        "Overview"
+      ]
+    },
+    "Shareholder Letters": {
+      "subcats": [
+        "2022",
+        "Letters",
+        "2024",
+        "2025",
+        "2023"
+      ]
+    },
+    "Explore": {
+      "subcats": [
+        "Biomanufacturing",
+        "Create Real Value",
+        "Defense",
+        "Manufacturing",
+        "Navy",
+        "Oil & Gas",
+        "Foundry Ontology",
+        "Retail",
+        "Telecommunications",
+        "USG Channel"
+      ]
+    },
+    "Foundation": {
+      "subcats": [
+        "Overview",
+        "About",
+        "Conferences",
+        "Journal",
+        "News & Resources",
+        "Privacy & Security",
+        "Terms"
       ]
     },
     "Impact Studies": {
@@ -10300,7 +10381,14 @@
         "transaction-monitoring",
         "turbine-maintenance",
         "warranty-optimization",
-        "world-food-programme"
+        "world-food-programme",
+        "NCMEC"
+      ]
+    },
+    "Insights": {
+      "subcats": [
+        "Overview",
+        "Whitepapers"
       ]
     },
     "Newsroom": {
@@ -10349,11 +10437,16 @@
         "supply-chain-risk-management",
         "supply-chain",
         "telecommunications",
-        "utilities"
+        "utilities",
+        "Fraud Detection",
+        "Energy"
       ]
     },
     "Partnerships": {
       "subcats": [
+        "International",
+        "Technical",
+        "Vanguard",
         "USG",
         "accenture",
         "anaconda",
@@ -10389,7 +10482,16 @@
         "principles",
         "team",
         "technologies",
-        "thought-leadership"
+        "thought-leadership",
+        "Engineering",
+        "Access Controls"
+      ]
+    },
+    "Sovereign AI": {
+      "subcats": [
+        "Overview",
+        "Model Engine",
+        "Sovereign AI OS"
       ]
     }
   },
